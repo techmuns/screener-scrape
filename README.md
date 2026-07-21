@@ -13,20 +13,21 @@ Scope for v1: the **Nifty 50**.
 
 Data ingestion is a **pipeline**, deliberately decoupled from the dashboard —
 the app never scrapes screener on click; it reads from our own database.
+Screener company pages are **public**, so no login/cookie is needed.
 
 ```
- daily job ─► screener.in "Export to Excel" (×50)
+ daily job ─► screener.in public company page (×50)
                     │
                     ▼
-          parse .xlsx  ─►  Postgres  ◄─  compute: normalize · ranks ·
-                    │                     similarity · red-flags · summary
+          parse HTML  ─►  Postgres  ◄─  compute: normalize · ranks ·
+                    │                    similarity · red-flags · summary
                     ▼
                  FastAPI  ─►  React dashboard
 ```
 
 | Layer      | Tech                         | Status |
 |------------|------------------------------|--------|
-| Pipeline   | Python (requests, openpyxl, SQLAlchemy) | ✅ Milestones 1–2 |
+| Pipeline   | Python (requests, BeautifulSoup, SQLAlchemy) | ✅ Milestones 1–2 |
 | Database   | Postgres                     | ✅ schema defined |
 | Compute    | ranks · similarity · flags   | ⬜ Milestone 4 |
 | Summary    | Claude API                   | ⬜ Milestone 5 |
@@ -42,19 +43,12 @@ nearest neighbour in that same normalized metric space.
 
 ## Getting started
 
-### 1. Configure secrets
+### 1. Configure
 ```bash
 cp .env.example .env
 ```
-This screener account uses **Google sign‑in**, so there's no password to
-automate. Instead paste the browser session cookie into `.env`:
-
-1. Log in to screener.in in your browser.
-2. DevTools → Application → Cookies → `https://www.screener.in`.
-3. Copy the **`sessionid`** value into `SCREENER_SESSION_COOKIE` in `.env`.
-
-The cookie lasts a few weeks. When it expires the pipeline prints a clear
-"cookie expired — refresh it" message. `.env` is gitignored and never committed.
+**No screener login is needed** — company pages are public. `.env` only holds the
+database URL and (later) the Claude API key. It's gitignored and never committed.
 
 ### 2. Start Postgres
 ```bash
@@ -68,12 +62,11 @@ pip install -r requirements.txt
 
 ### 4. Ingest a company
 ```bash
-# Full path (needs the session cookie):
+# Fetch the live public page:
 python -m pipeline.ingest --symbol RELIANCE
 
-# Or parse an already-downloaded export (no cookie / no network needed) —
-# useful to sanity-check the parser against a real file:
-python -m pipeline.ingest --symbol RELIANCE --from-file data/RELIANCE.xlsx
+# Or parse a saved page (no network needed) — useful for testing:
+python -m pipeline.ingest --symbol RELIANCE --from-file data/RELIANCE.html
 ```
 
 ## Tests
@@ -90,10 +83,11 @@ pipeline/
   db.py                SQLAlchemy engine/session
   models.py            schema (raw line items + computed tables)
   nifty50.py           constituents → symbol + sector
-  screener_client.py   cookie auth, company-id discovery, Excel download
-  parser.py            .xlsx "Data Sheet" → tidy line items
-  ingest.py            one company: download → parse → store  (CLI)
-tests/                 parser tests
+  screener_client.py   fetch the public company page (no login)
+  web_parser.py        company page HTML → tidy line items  (primary)
+  parser.py            optional .xlsx export reader + shared data classes
+  ingest.py            one company: fetch → parse → store  (CLI)
+tests/                 parser tests (HTML + xlsx)
 docker-compose.yml     Postgres for local dev
 ```
 

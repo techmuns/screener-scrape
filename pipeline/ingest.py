@@ -1,12 +1,13 @@
-"""Ingest one company end-to-end: download -> parse -> store.
+"""Ingest one company end-to-end: fetch public page -> parse -> store.
+
+No login is required — screener company pages are public.
 
 Usage:
-    # Full path (needs SCREENER_SESSION_COOKIE in .env):
+    # Normal path (fetches the live public page):
     python -m pipeline.ingest --symbol RELIANCE
 
-    # Parse a workbook you already downloaded (no network / no cookie needed) —
-    # handy for testing the parser against a real export:
-    python -m pipeline.ingest --symbol RELIANCE --from-file data/RELIANCE.xlsx
+    # Parse a page you already saved, no network needed (handy for testing):
+    python -m pipeline.ingest --symbol RELIANCE --from-file data/RELIANCE.html
 
 Milestone 3 will add `--all` to loop the whole Nifty 50 on a daily schedule.
 """
@@ -23,6 +24,7 @@ from .db import create_all, session_scope
 from .models import Company, FinancialLine
 from .parser import ParsedCompany, parse_workbook
 from .screener_client import ScreenerClient, ScreenerError
+from .web_parser import parse_company_html
 
 
 def _upsert_company(session, symbol: str, screener_id: int | None, consolidated: bool | None) -> Company:
@@ -59,26 +61,31 @@ def _store_lines(session, company: Company, parsed: ParsedCompany) -> int:
     return len(parsed.lines)
 
 
-def ingest_symbol(symbol: str, from_file: Path | None = None) -> None:
-    screener_id: int | None = None
-    consolidated: bool | None = None
-
+def _parse_source(symbol: str, from_file: Path | None) -> tuple[ParsedCompany, int | None, bool | None]:
+    """Produce parsed line items plus (screener_id, consolidated) metadata."""
     if from_file is not None:
-        xlsx_path = from_file
-        if not xlsx_path.exists():
-            raise SystemExit(f"File not found: {xlsx_path}")
-        print(f"Parsing local file {xlsx_path} (no network) ...")
-    else:
-        client = ScreenerClient()
-        print(f"Downloading export for {symbol} from screener.in ...")
-        xlsx_path, screener_id, consolidated = client.export_for_symbol(symbol)
-        print(f"  saved {xlsx_path} (screener id={screener_id}, consolidated={consolidated})")
+        if not from_file.exists():
+            raise SystemExit(f"File not found: {from_file}")
+        print(f"Parsing local file {from_file} (no network) ...")
+        text = from_file.read_text(encoding="utf-8", errors="ignore") if from_file.suffix != ".xlsx" else None
+        if from_file.suffix == ".xlsx":
+            return parse_workbook(from_file), None, None
+        return parse_company_html(text), ScreenerClient.extract_company_id(text), None
 
-    parsed = parse_workbook(xlsx_path)
+    client = ScreenerClient()
+    print(f"Fetching public screener page for {symbol} ...")
+    html, consolidated, screener_id = client.fetch_company_html(symbol)
+    print(f"  fetched (screener id={screener_id}, consolidated={consolidated})")
+    return parse_company_html(html), screener_id, consolidated
+
+
+def ingest_symbol(symbol: str, from_file: Path | None = None) -> None:
+    parsed, screener_id, consolidated = _parse_source(symbol, from_file)
+
     if not parsed.lines:
         raise SystemExit(
-            "Parsed 0 line items — the export layout may differ from what the "
-            "parser expects. Inspect the file and adjust pipeline/parser.py."
+            "Parsed 0 line items — screener may have changed its page layout. "
+            "Inspect the page and adjust pipeline/web_parser.py."
         )
 
     create_all()
@@ -101,7 +108,7 @@ def main(argv: list[str] | None = None) -> int:
         "--from-file",
         type=Path,
         default=None,
-        help="Parse a pre-downloaded .xlsx instead of hitting the network",
+        help="Parse a saved page (.html) or export (.xlsx) instead of the network",
     )
     args = parser.parse_args(argv)
 

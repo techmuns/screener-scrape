@@ -1,6 +1,8 @@
 # --- Data pipeline ---
 requests>=2.32
-openpyxl>=3.1          # read the .xlsx export
+beautifulsoup4>=4.12   # parse the public company page HTML
+lxml>=5.0              # fast HTML parser backend for BeautifulSoup
+openpyxl>=3.1          # optional: read the login-only .xlsx export
 SQLAlchemy>=2.0
 psycopg[binary]>=3.2   # Postgres driver
 python-dotenv>=1.0

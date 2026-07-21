@@ -23,22 +23,14 @@ def _as_bool(value: str | None, default: bool = False) -> bool:
 
 @dataclass(frozen=True)
 class Settings:
-    screener_session_cookie: str
-    screener_csrf_token: str
     database_url: str
     anthropic_api_key: str
     request_delay: float
     prefer_consolidated: bool
 
-    @property
-    def has_screener_cookie(self) -> bool:
-        return bool(self.screener_session_cookie)
-
 
 def load_settings() -> Settings:
     return Settings(
-        screener_session_cookie=os.getenv("SCREENER_SESSION_COOKIE", "").strip(),
-        screener_csrf_token=os.getenv("SCREENER_CSRF_TOKEN", "").strip(),
         database_url=os.getenv(
             "DATABASE_URL",
             "postgresql+psycopg://screener:screener@localhost:5432/screener",
