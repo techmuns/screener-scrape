@@ -1,0 +1,21 @@
+# Local dev infrastructure. For Milestones 1-2 we only need Postgres;
+# the api/ and web/ services are added in later milestones.
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: screener
+      POSTGRES_PASSWORD: screener
+      POSTGRES_DB: screener
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U screener"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pgdata:

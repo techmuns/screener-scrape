@@ -1,0 +1,17 @@
+# --- Data pipeline ---
+requests>=2.32
+openpyxl>=3.1          # read the .xlsx export
+SQLAlchemy>=2.0
+psycopg[binary]>=3.2   # Postgres driver
+python-dotenv>=1.0
+tenacity>=8.2          # retry/backoff on network calls
+
+# --- API (Milestone 6) ---
+fastapi>=0.111
+uvicorn[standard]>=0.30
+
+# --- Summary (Milestone 5) ---
+anthropic>=0.40
+
+# --- Dev ---
+pytest>=8.0

@@ -1,0 +1,31 @@
+# Secrets — NEVER commit
+.env
+*.env
+!.env.example
+
+# Downloaded screener exports (raw data cache)
+data/
+*.xlsx
+!tests/fixtures/*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Node / React
+web/node_modules/
+web/dist/
+web/.vite/
+
+# Postgres volume (if bind-mounted)
+pgdata/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
