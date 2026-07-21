@@ -15,11 +15,13 @@ from __future__ import annotations
 
 import argparse
 import sys
+import time
 from pathlib import Path
 
 from sqlalchemy import delete, select
 
 from . import nifty50
+from .config import settings
 from .db import create_all, session_scope
 from .models import Company, FinancialLine
 from .parser import ParsedCompany, parse_workbook
@@ -101,9 +103,42 @@ def ingest_symbol(symbol: str, from_file: Path | None = None) -> None:
     )
 
 
+def ingest_all(delay: float | None = None) -> dict[str, str]:
+    """Fetch, parse and store every Nifty 50 company. Returns per-symbol status."""
+    delay = settings.request_delay if delay is None else delay
+    create_all()
+    results: dict[str, str] = {}
+    symbols = [c.symbol for c in nifty50.NIFTY_50]
+    client = ScreenerClient()
+
+    for i, symbol in enumerate(symbols, 1):
+        try:
+            html, consolidated, screener_id = client.fetch_company_html(symbol)
+            parsed = parse_company_html(html)
+            if not parsed.lines:
+                results[symbol] = "no data parsed"
+                print(f"[{i:2}/{len(symbols)}] {symbol:12} ⚠ no data")
+                continue
+            with session_scope() as session:
+                company = _upsert_company(session, symbol, screener_id, consolidated)
+                count = _store_lines(session, company, parsed)
+            results[symbol] = "ok"
+            print(f"[{i:2}/{len(symbols)}] {symbol:12} ✓ {count} rows (consolidated={consolidated})")
+        except Exception as exc:  # keep going; one bad symbol shouldn't stop the run
+            results[symbol] = f"error: {exc}"
+            print(f"[{i:2}/{len(symbols)}] {symbol:12} ✗ {exc}")
+        if i < len(symbols):
+            time.sleep(delay)
+
+    ok = sum(1 for v in results.values() if v == "ok")
+    print(f"\nDone: {ok}/{len(symbols)} companies ingested.")
+    return results
+
+
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Ingest one company from screener.in")
-    parser.add_argument("--symbol", required=True, help="NSE/screener symbol, e.g. RELIANCE")
+    parser = argparse.ArgumentParser(description="Ingest companies from screener.in")
+    parser.add_argument("--symbol", help="NSE/screener symbol, e.g. RELIANCE")
+    parser.add_argument("--all", action="store_true", help="Ingest the whole Nifty 50")
     parser.add_argument(
         "--from-file",
         type=Path,
@@ -113,7 +148,12 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     try:
-        ingest_symbol(args.symbol, args.from_file)
+        if args.all:
+            ingest_all()
+        elif args.symbol:
+            ingest_symbol(args.symbol, args.from_file)
+        else:
+            parser.error("provide --symbol SYMBOL or --all")
     except ScreenerError as exc:
         print(f"\nScreener error: {exc}", file=sys.stderr)
         return 2

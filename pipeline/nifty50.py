@@ -64,7 +64,9 @@ NIFTY_50: list[Constituent] = [
     Constituent("DIVISLAB", "Divi's Laboratories", "Pharma"),
     Constituent("APOLLOHOSP", "Apollo Hospitals", "Healthcare"),
     Constituent("MARUTI", "Maruti Suzuki India", "Auto"),
-    Constituent("TATAMOTORS", "Tata Motors", "Auto"),
+    # Post-demerger, the original Tata Motors listing (with full history) is
+    # Tata Motors Passenger Vehicles on screener.
+    Constituent("TMPV", "Tata Motors Passenger Vehicles", "Auto"),
     Constituent("M&M", "Mahindra & Mahindra", "Auto"),
     Constituent("BAJAJ-AUTO", "Bajaj Auto", "Auto"),
     Constituent("EICHERMOT", "Eicher Motors", "Auto"),
