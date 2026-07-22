@@ -1,0 +1,63 @@
+name: Daily data refresh
+
+# Re-pull screener data, rebuild the dashboard, and commit it. Cloudflare Pages
+# auto-redeploys on every push to main, so the live site refreshes on its own.
+
+on:
+  schedule:
+    # 11:00 UTC daily ≈ 4:30 PM IST, after the NSE close.
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}   # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write         # needed to push the refreshed files back
+
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      # A throwaway SQLite file, rebuilt fresh each run — no external DB needed.
+      DATABASE_URL: "sqlite+pysqlite:///./data/screener.db"
+      SCREENER_REQUEST_DELAY: "2"
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements-pipeline.txt
+
+      - name: Run pipeline (ingest → compute → summarize → export → build)
+        run: python -m pipeline.pipeline_run
+
+      - name: Safety check — did enough companies load?
+        # If screener rate-limits the runner and most fetches fail, do NOT
+        # overwrite the good live site with a half-empty one. Fail instead.
+        run: |
+          python - <<'PY'
+          import json, sys
+          n = json.load(open("web/dashboard_data.json"))["companyCount"]
+          print(f"companyCount = {n}")
+          sys.exit(0 if n >= 45 else 1)
+          PY
+
+      - name: Commit refreshed dashboard
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/index.html web/dashboard.html web/dashboard_data.json
+          if git diff --cached --quiet; then
+            echo "No data changes today — nothing to commit."
+          else
+            git commit -m "chore: daily data refresh ($(date -u +%F))"
+            git push
+          fi
