@@ -537,7 +537,7 @@
         {
           "type": "Promoter holding trend",
           "severity": "green",
-          "value": -0.05,
+          "value": -0.04,
           "detail": "Promoters hold 49.0% (-0.0 pp vs a year ago)"
         },
         {
@@ -903,7 +903,7 @@
         {
           "type": "Promoter holding trend",
           "severity": "green",
-          "value": 0.0,
+          "value": 0.01,
           "detail": "Promoters hold 18.4% (+0.0 pp vs a year ago)"
         },
         {
@@ -2114,9 +2114,9 @@
       "redFlags": [
         {
           "type": "Promoter holding trend",
-          "severity": "green",
-          "value": 0.47,
-          "detail": "Promoters hold 45.3% (+0.5 pp vs a year ago)"
+          "severity": "amber",
+          "value": -1.02,
+          "detail": "Promoters hold 44.3% (-1.0 pp vs a year ago)"
         },
         {
           "type": "Cash conversion (3y)",
@@ -2137,7 +2137,7 @@
           "detail": "Other (non-core) income is 63% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years JSW Steel's revenue grew slowly (~4% a year) and net profit rapidly (~83% a year). Profitability looks strong \u2014 a 25% return on equity and a 16% operating margin. On these fundamentals it ranks 18th of 50 overall, and 1st among its Materials peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Bharat Petroleum.",
+      "summary": "Over the last three years JSW Steel's revenue grew slowly (~4% a year) and net profit rapidly (~83% a year). Profitability looks strong \u2014 a 25% return on equity and a 16% operating margin. On these fundamentals it ranks 18th of 50 overall, and 1st among its Materials peers. Worth a closer look: promoter holding trend, other income reliance. Its closest financial look-alike in the Nifty 50 is Bharat Petroleum.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -2725,8 +2725,8 @@
         {
           "type": "Promoter holding trend",
           "severity": "green",
-          "value": -0.02,
-          "detail": "Promoters hold 42.6% (-0.0 pp vs a year ago)"
+          "value": -0.06,
+          "detail": "Promoters hold 42.5% (-0.1 pp vs a year ago)"
         },
         {
           "type": "Cash conversion (3y)",
@@ -4130,7 +4130,7 @@
         {
           "type": "Promoter holding trend",
           "severity": "green",
-          "value": 0.02,
+          "value": 0.03,
           "detail": "Promoters hold 29.2% (+0.0 pp vs a year ago)"
         },
         {
@@ -5026,8 +5026,8 @@
         {
           "type": "Promoter holding trend",
           "severity": "green",
-          "value": -0.11,
-          "detail": "Promoters hold 50.2% (-0.1 pp vs a year ago)"
+          "value": 0.26,
+          "detail": "Promoters hold 50.5% (+0.3 pp vs a year ago)"
         }
       ],
       "summary": "Over the last three years HDFC Life Insurance's revenue grew steadily (~12% a year) and net profit steadily (~12% a year). Profitability looks moderate \u2014 a 11% return on equity and a 2% operating margin. On these fundamentals it ranks 42nd of 50 overall, and 2nd among its Insurance peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Hindalco Industries.",
