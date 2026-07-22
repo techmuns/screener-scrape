@@ -9,9 +9,13 @@ import json
 from pathlib import Path
 
 WEB = Path(__file__).resolve().parent.parent / "web"
-TEMPLATE = WEB / "index.html"
+TEMPLATE = WEB / "template.html"
 DATA = WEB / "dashboard_data.json"
-OUT = WEB / "dashboard.html"
+# index.html is what a static host (Cloudflare Pages) serves at the site root,
+# and it is fully self-contained (data embedded), so no build step is needed on
+# the host. dashboard.html is kept as an identical copy for the published link.
+OUT = WEB / "index.html"
+ALIAS = WEB / "dashboard.html"
 PLACEHOLDER = "__DASHBOARD_DATA__"
 
 
@@ -22,6 +26,7 @@ def build() -> Path:
     blob = json.dumps(data, separators=(",", ":")).replace("</", "<\\/")
     html = template.replace(PLACEHOLDER, blob)
     OUT.write_text(html, encoding="utf-8")
+    ALIAS.write_text(html, encoding="utf-8")
     return OUT
 
 
