@@ -11,6 +11,7 @@ from pathlib import Path
 WEB = Path(__file__).resolve().parent.parent / "web"
 TEMPLATE = WEB / "template.html"
 DATA = WEB / "dashboard_data.json"
+TEXTURE = WEB / "_texture.b64"   # darkened brushed-metal background, data URI
 # index.html is what a static host (Cloudflare Pages) serves at the site root,
 # and it is fully self-contained (data embedded), so no build step is needed on
 # the host. dashboard.html is kept as an identical copy for the published link.
@@ -25,6 +26,8 @@ def build() -> Path:
     # Compact JSON; neutralise any "</script>" sequences just in case.
     blob = json.dumps(data, separators=(",", ":")).replace("</", "<\\/")
     html = template.replace(PLACEHOLDER, blob)
+    if TEXTURE.exists():
+        html = html.replace("__TEXTURE_URI__", TEXTURE.read_text(encoding="utf-8").strip())
     OUT.write_text(html, encoding="utf-8")
     ALIAS.write_text(html, encoding="utf-8")
     return OUT
