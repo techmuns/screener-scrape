@@ -1728,6 +1728,134 @@
       }
     },
     {
+      "symbol": "INFY",
+      "name": "Infosys",
+      "sector": "IT",
+      "consolidated": true,
+      "metrics": {
+        "roe": 31.74298884245897,
+        "salesGrowth": 6.772202424210705,
+        "operatingMargin": 24.0,
+        "profitGrowth": 6.9282925849348365
+      },
+      "composite": 57.8,
+      "overallRank": 14,
+      "sectorRank": 1,
+      "bestCompetitor": {
+        "symbol": "TCS",
+        "name": "Tata Consultancy Services"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "green",
+          "value": -0.79,
+          "detail": "Promoters hold 13.8% (-0.8 pp vs a year ago)"
+        },
+        {
+          "type": "Cash conversion (3y)",
+          "severity": "green",
+          "value": 1.15,
+          "detail": "Operating cash flow is 115% of net profit over 3 years"
+        },
+        {
+          "type": "Interest coverage",
+          "severity": "green",
+          "value": 101.6,
+          "detail": "Operating profit covers interest 101.6x"
+        },
+        {
+          "type": "Other income reliance",
+          "severity": "green",
+          "value": 0.08,
+          "detail": "Other (non-core) income is 8% of pre-tax profit"
+        }
+      ],
+      "summary": "Over the last three years Infosys' revenue grew slowly (~7% a year) and net profit slowly (~7% a year). Profitability looks strong \u2014 a 32% return on equity and a 24% operating margin. On these fundamentals it ranks 14th of 50 overall, and 1st among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Consultancy Services.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          68484.0,
+          70522.0,
+          82675.0,
+          90791.0,
+          100472.0,
+          121641.0,
+          146767.0,
+          153670.0,
+          162990.0,
+          178650.0
+        ],
+        "netProfit": [
+          14353.0,
+          16029.0,
+          15410.0,
+          16639.0,
+          19423.0,
+          22146.0,
+          24108.0,
+          26248.0,
+          26750.0,
+          29474.0
+        ],
+        "opm": [
+          27.0,
+          27.0,
+          24.0,
+          25.0,
+          28.0,
+          26.0,
+          24.0,
+          24.0,
+          24.0,
+          24.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Sep 2024",
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026"
+        ],
+        "revenue": [
+          40986.0,
+          41764.0,
+          40925.0,
+          42279.0,
+          44490.0,
+          45479.0,
+          46402.0,
+          48211.0
+        ],
+        "netProfit": [
+          6516.0,
+          6822.0,
+          7038.0,
+          6924.0,
+          7375.0,
+          6666.0,
+          8509.0,
+          7775.0
+        ]
+      }
+    },
+    {
       "symbol": "AXISBANK",
       "name": "Axis Bank",
       "sector": "Bank",
@@ -1966,50 +2094,50 @@
       }
     },
     {
-      "symbol": "INFY",
-      "name": "Infosys",
-      "sector": "IT",
+      "symbol": "HINDUNILVR",
+      "name": "Hindustan Unilever",
+      "sector": "FMCG",
       "consolidated": true,
       "metrics": {
-        "roe": 31.74298884245897,
-        "salesGrowth": 6.772202424210705,
-        "operatingMargin": 24.0,
-        "profitGrowth": 6.9282925849348365
+        "roe": 30.89722809249266,
+        "salesGrowth": 2.0951181546343456,
+        "operatingMargin": 23.0,
+        "profitGrowth": 14.080102469635403
       },
-      "composite": 57.5,
-      "overallRank": 14,
+      "composite": 56.9,
+      "overallRank": 18,
       "sectorRank": 1,
       "bestCompetitor": {
-        "symbol": "TCS",
-        "name": "Tata Consultancy Services"
+        "symbol": "INFY",
+        "name": "Infosys"
       },
       "redFlags": [
         {
           "type": "Promoter holding trend",
           "severity": "green",
-          "value": -0.79,
-          "detail": "Promoters hold 13.8% (-0.8 pp vs a year ago)"
+          "value": 0.0,
+          "detail": "Promoters hold 61.9% (+0.0 pp vs a year ago)"
         },
         {
           "type": "Cash conversion (3y)",
           "severity": "green",
-          "value": 1.15,
-          "detail": "Operating cash flow is 115% of net profit over 3 years"
+          "value": 1.07,
+          "detail": "Operating cash flow is 107% of net profit over 3 years"
         },
         {
           "type": "Interest coverage",
           "severity": "green",
-          "value": 101.6,
-          "detail": "Operating profit covers interest 101.6x"
+          "value": 36.7,
+          "detail": "Operating profit covers interest 36.7x"
         },
         {
           "type": "Other income reliance",
-          "severity": "green",
-          "value": 0.08,
-          "detail": "Other (non-core) income is 8% of pre-tax profit"
+          "severity": "amber",
+          "value": 0.27,
+          "detail": "Other (non-core) income is 27% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Infosys' revenue grew slowly (~7% a year) and net profit slowly (~7% a year). Profitability looks strong \u2014 a 32% return on equity and a 24% operating margin. On these fundamentals it ranks 14th of 50 overall, and 1st among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Consultancy Services.",
+      "summary": "Over the last three years Hindustan Unilever's revenue grew slowly (~2% a year) and net profit steadily (~14% a year). Profitability looks strong \u2014 a 31% return on equity and a 23% operating margin. On these fundamentals it ranks 18th of 50 overall, and 1st among its FMCG peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Infosys.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -2024,40 +2152,40 @@
           "Mar 2026"
         ],
         "revenue": [
-          68484.0,
-          70522.0,
-          82675.0,
-          90791.0,
-          100472.0,
-          121641.0,
-          146767.0,
-          153670.0,
-          162990.0,
-          178650.0
+          33162.0,
+          35545.0,
+          39310.0,
+          39783.0,
+          47028.0,
+          52446.0,
+          60580.0,
+          61896.0,
+          61328.0,
+          64468.0
         ],
         "netProfit": [
-          14353.0,
-          16029.0,
-          15410.0,
-          16639.0,
-          19423.0,
-          22146.0,
-          24108.0,
-          26248.0,
-          26750.0,
-          29474.0
+          4490.0,
+          5227.0,
+          6060.0,
+          6756.0,
+          7999.0,
+          8892.0,
+          10143.0,
+          10282.0,
+          10671.0,
+          15059.0
         ],
         "opm": [
-          27.0,
-          27.0,
-          24.0,
+          19.0,
+          21.0,
+          23.0,
           25.0,
-          28.0,
-          26.0,
+          25.0,
+          25.0,
+          23.0,
           24.0,
           24.0,
-          24.0,
-          24.0
+          23.0
         ]
       },
       "quarters": {
@@ -2072,24 +2200,24 @@
           "Jun 2026"
         ],
         "revenue": [
-          40986.0,
-          41764.0,
-          40925.0,
-          42279.0,
-          44490.0,
-          45479.0,
-          46402.0,
-          48211.0
+          15926.0,
+          15556.0,
+          15190.0,
+          15757.0,
+          15919.0,
+          16441.0,
+          16351.0,
+          17341.0
         ],
         "netProfit": [
-          6516.0,
-          6822.0,
-          7038.0,
-          6924.0,
-          7375.0,
-          6666.0,
-          8509.0,
-          7775.0
+          2595.0,
+          2989.0,
+          2475.0,
+          2768.0,
+          2694.0,
+          6603.0,
+          2994.0,
+          2680.0
         ]
       }
     },
@@ -2222,134 +2350,6 @@
       }
     },
     {
-      "symbol": "HINDUNILVR",
-      "name": "Hindustan Unilever",
-      "sector": "FMCG",
-      "consolidated": true,
-      "metrics": {
-        "roe": 30.89722809249266,
-        "salesGrowth": 2.0951181546343456,
-        "operatingMargin": 23.0,
-        "profitGrowth": 14.080102469635403
-      },
-      "composite": 56.3,
-      "overallRank": 19,
-      "sectorRank": 1,
-      "bestCompetitor": {
-        "symbol": "INFY",
-        "name": "Infosys"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "green",
-          "value": 0.0,
-          "detail": "Promoters hold 61.9% (+0.0 pp vs a year ago)"
-        },
-        {
-          "type": "Cash conversion (3y)",
-          "severity": "green",
-          "value": 1.07,
-          "detail": "Operating cash flow is 107% of net profit over 3 years"
-        },
-        {
-          "type": "Interest coverage",
-          "severity": "green",
-          "value": 36.7,
-          "detail": "Operating profit covers interest 36.7x"
-        },
-        {
-          "type": "Other income reliance",
-          "severity": "amber",
-          "value": 0.27,
-          "detail": "Other (non-core) income is 27% of pre-tax profit"
-        }
-      ],
-      "summary": "Over the last three years Hindustan Unilever's revenue grew slowly (~2% a year) and net profit steadily (~14% a year). Profitability looks strong \u2014 a 31% return on equity and a 23% operating margin. On these fundamentals it ranks 19th of 50 overall, and 1st among its FMCG peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Infosys.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          33162.0,
-          35545.0,
-          39310.0,
-          39783.0,
-          47028.0,
-          52446.0,
-          60580.0,
-          61896.0,
-          61328.0,
-          64468.0
-        ],
-        "netProfit": [
-          4490.0,
-          5227.0,
-          6060.0,
-          6756.0,
-          7999.0,
-          8892.0,
-          10143.0,
-          10282.0,
-          10671.0,
-          15059.0
-        ],
-        "opm": [
-          19.0,
-          21.0,
-          23.0,
-          25.0,
-          25.0,
-          25.0,
-          23.0,
-          24.0,
-          24.0,
-          23.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Sep 2024",
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026"
-        ],
-        "revenue": [
-          15926.0,
-          15556.0,
-          15190.0,
-          15757.0,
-          15919.0,
-          16441.0,
-          16351.0,
-          17341.0
-        ],
-        "netProfit": [
-          2595.0,
-          2989.0,
-          2475.0,
-          2768.0,
-          2694.0,
-          6603.0,
-          2994.0,
-          2680.0
-        ]
-      }
-    },
-    {
       "symbol": "NESTLEIND",
       "name": "Nestle India",
       "sector": "FMCG",
@@ -2360,12 +2360,12 @@
         "operatingMargin": 23.0,
         "profitGrowth": 5.274331486185413
       },
-      "composite": 55.8,
-      "overallRank": 19,
-      "sectorRank": 1,
+      "composite": 56.4,
+      "overallRank": 20,
+      "sectorRank": 2,
       "bestCompetitor": {
-        "symbol": "INFY",
-        "name": "Infosys"
+        "symbol": "TCS",
+        "name": "Tata Consultancy Services"
       },
       "redFlags": [
         {
@@ -2393,7 +2393,7 @@
           "detail": "Other (non-core) income is 4% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Nestle India's revenue grew slowly (~7% a year) and net profit slowly (~5% a year). Profitability looks strong \u2014 a 68% return on equity and a 23% operating margin. On these fundamentals it ranks 19th of 50 overall, and 1st among its FMCG peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Infosys.",
+      "summary": "Over the last three years Nestle India's revenue grew slowly (~7% a year) and net profit slowly (~5% a year). Profitability looks strong \u2014 a 68% return on equity and a 23% operating margin. On these fundamentals it ranks 20th of 50 overall, and 2nd among its FMCG peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Consultancy Services.",
       "annual": {
         "labels": [
           "Dec 2023",
@@ -3109,134 +3109,6 @@
       }
     },
     {
-      "symbol": "COALINDIA",
-      "name": "Coal India",
-      "sector": "Energy",
-      "consolidated": true,
-      "metrics": {
-        "roe": 26.087723128075098,
-        "salesGrowth": 6.796467589689215,
-        "operatingMargin": 24.0,
-        "profitGrowth": -0.6898449556087871
-      },
-      "composite": 49.8,
-      "overallRank": 25,
-      "sectorRank": 1,
-      "bestCompetitor": {
-        "symbol": "HCLTECH",
-        "name": "HCL Technologies"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "amber",
-          "value": -2.0,
-          "detail": "Promoters hold 61.1% (-2.0 pp vs a year ago)"
-        },
-        {
-          "type": "Cash conversion (3y)",
-          "severity": "green",
-          "value": 0.87,
-          "detail": "Operating cash flow is 87% of net profit over 3 years"
-        },
-        {
-          "type": "Interest coverage",
-          "severity": "green",
-          "value": 33.9,
-          "detail": "Operating profit covers interest 33.9x"
-        },
-        {
-          "type": "Other income reliance",
-          "severity": "amber",
-          "value": 0.29,
-          "detail": "Other (non-core) income is 29% of pre-tax profit"
-        }
-      ],
-      "summary": "Over the last three years Coal India's revenue grew slowly (~7% a year) and net profit in decline, (~-1% a year). Profitability looks strong \u2014 a 26% return on equity and a 24% operating margin. On these fundamentals it ranks 25th of 50 overall, and 1st among its Energy peers. Worth a closer look: promoter holding trend, other income reliance. Its closest financial look-alike in the Nifty 50 is HCL Technologies.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          78164.0,
-          85244.0,
-          99586.0,
-          96080.0,
-          90026.0,
-          109715.0,
-          138252.0,
-          144762.0,
-          143369.0,
-          168400.0
-        ],
-        "netProfit": [
-          9280.0,
-          7038.0,
-          17464.0,
-          16700.0,
-          12702.0,
-          17378.0,
-          31723.0,
-          37369.0,
-          35302.0,
-          31071.0
-        ],
-        "opm": [
-          16.0,
-          11.0,
-          25.0,
-          22.0,
-          21.0,
-          23.0,
-          32.0,
-          33.0,
-          33.0,
-          24.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Sep 2024",
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026"
-        ],
-        "revenue": [
-          31182.0,
-          36859.0,
-          37825.0,
-          42919.0,
-          30187.0,
-          34924.0,
-          46490.0,
-          46255.0
-        ],
-        "netProfit": [
-          6275.0,
-          8491.0,
-          9593.0,
-          8788.0,
-          4263.0,
-          7166.0,
-          10908.0,
-          8850.0
-        ]
-      }
-    },
-    {
       "symbol": "LT",
       "name": "Larsen & Toubro",
       "sector": "Infrastructure",
@@ -3370,7 +3242,7 @@
         "profitGrowth": 17.17720606708715
       },
       "composite": 49.1,
-      "overallRank": 29,
+      "overallRank": 28,
       "sectorRank": 1,
       "bestCompetitor": {
         "symbol": "TATAPOWER",
@@ -3402,7 +3274,7 @@
           "detail": "Other (non-core) income is 21% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years NTPC's revenue grew slowly (~2% a year) and net profit rapidly (~17% a year). Profitability looks moderate \u2014 a 14% return on equity and a 28% operating margin. On these fundamentals it ranks 29th of 50 overall, and 1st among its Power peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Power.",
+      "summary": "Over the last three years NTPC's revenue grew slowly (~2% a year) and net profit rapidly (~17% a year). Profitability looks moderate \u2014 a 14% return on equity and a 28% operating margin. On these fundamentals it ranks 28th of 50 overall, and 1st among its Power peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Power.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -3498,7 +3370,7 @@
         "profitGrowth": 3.903154616942639
       },
       "composite": 48.6,
-      "overallRank": 29,
+      "overallRank": 28,
       "sectorRank": 3,
       "bestCompetitor": {
         "symbol": "COALINDIA",
@@ -3530,7 +3402,7 @@
           "detail": "Other (non-core) income is 3% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years HCL Technologies' revenue grew steadily (~9% a year) and net profit slowly (~4% a year). Profitability looks strong \u2014 a 22% return on equity and a 21% operating margin. On these fundamentals it ranks 29th of 50 overall, and 3rd among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Coal India.",
+      "summary": "Over the last three years HCL Technologies' revenue grew steadily (~9% a year) and net profit slowly (~4% a year). Profitability looks strong \u2014 a 22% return on equity and a 21% operating margin. On these fundamentals it ranks 28th of 50 overall, and 3rd among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Coal India.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -3611,6 +3483,134 @@
           4082.0,
           4490.0,
           4626.0
+        ]
+      }
+    },
+    {
+      "symbol": "COALINDIA",
+      "name": "Coal India",
+      "sector": "Energy",
+      "consolidated": true,
+      "metrics": {
+        "roe": 26.087723128075098,
+        "salesGrowth": 6.796467589689215,
+        "operatingMargin": 22.0,
+        "profitGrowth": -0.6898449556087871
+      },
+      "composite": 48.4,
+      "overallRank": 30,
+      "sectorRank": 1,
+      "bestCompetitor": {
+        "symbol": "HCLTECH",
+        "name": "HCL Technologies"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "amber",
+          "value": -2.0,
+          "detail": "Promoters hold 61.1% (-2.0 pp vs a year ago)"
+        },
+        {
+          "type": "Cash conversion (3y)",
+          "severity": "green",
+          "value": 0.88,
+          "detail": "Operating cash flow is 88% of net profit over 3 years"
+        },
+        {
+          "type": "Interest coverage",
+          "severity": "green",
+          "value": 30.6,
+          "detail": "Operating profit covers interest 30.6x"
+        },
+        {
+          "type": "Other income reliance",
+          "severity": "amber",
+          "value": 0.38,
+          "detail": "Other (non-core) income is 38% of pre-tax profit"
+        }
+      ],
+      "summary": "Over the last three years Coal India's revenue grew slowly (~7% a year) and net profit in decline, (~-1% a year). Profitability looks strong \u2014 a 26% return on equity and a 22% operating margin. On these fundamentals it ranks 30th of 50 overall, and 1st among its Energy peers. Worth a closer look: promoter holding trend, other income reliance. Its closest financial look-alike in the Nifty 50 is HCL Technologies.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          78164.0,
+          85244.0,
+          99586.0,
+          96080.0,
+          90026.0,
+          109715.0,
+          138252.0,
+          144762.0,
+          169177.0,
+          168400.0
+        ],
+        "netProfit": [
+          9280.0,
+          7038.0,
+          17464.0,
+          16700.0,
+          12702.0,
+          17378.0,
+          31723.0,
+          37369.0,
+          35450.0,
+          31071.0
+        ],
+        "opm": [
+          16.0,
+          11.0,
+          25.0,
+          22.0,
+          21.0,
+          23.0,
+          32.0,
+          33.0,
+          25.0,
+          22.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Sep 2024",
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026"
+        ],
+        "revenue": [
+          31182.0,
+          36859.0,
+          37825.0,
+          42919.0,
+          30187.0,
+          34924.0,
+          46490.0,
+          46255.0
+        ],
+        "netProfit": [
+          6275.0,
+          8491.0,
+          9593.0,
+          8788.0,
+          4263.0,
+          7166.0,
+          10908.0,
+          8850.0
         ]
       }
     },
