@@ -1440,34 +1440,34 @@
       },
       "quarters": {
         "labels": [
-          "Jun 2024",
           "Sep 2024",
           "Dec 2024",
           "Mar 2025",
           "Jun 2025",
           "Sep 2025",
           "Dec 2025",
-          "Mar 2026"
+          "Mar 2026",
+          "Jun 2026"
         ],
         "revenue": [
-          5086.0,
           5589.0,
           5527.0,
           5592.0,
           5842.0,
           6304.0,
           6477.0,
-          6606.0
+          6606.0,
+          7044.0
         ],
         "netProfit": [
-          316.0,
           396.0,
           379.0,
           414.0,
           441.0,
           494.0,
           516.0,
-          551.0
+          551.0,
+          610.0
         ]
       }
     },
@@ -2975,8 +2975,8 @@
         {
           "type": "Interest coverage",
           "severity": "green",
-          "value": 89.8,
-          "detail": "Operating profit covers interest 89.8x"
+          "value": 90.1,
+          "detail": "Operating profit covers interest 90.1x"
         },
         {
           "type": "Other income reliance",
