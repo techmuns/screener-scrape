@@ -2464,7 +2464,7 @@
         "operatingMargin": 28.0,
         "profitGrowth": 10.573651648766202
       },
-      "composite": 53.7,
+      "composite": 53.4,
       "overallRank": 21,
       "sectorRank": 2,
       "bestCompetitor": {
@@ -2593,7 +2593,7 @@
         "profitGrowth": 2.570650029244659
       },
       "composite": 53.2,
-      "overallRank": 22,
+      "overallRank": 21,
       "sectorRank": 3,
       "bestCompetitor": {
         "symbol": "TCS",
@@ -2619,7 +2619,7 @@
           "detail": "Other (non-core) income is 9% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years ITC's revenue grew slowly (~4% a year) and net profit slowly (~3% a year). Profitability looks strong \u2014 a 29% return on equity and a 35% operating margin. On these fundamentals it ranks 22nd of 50 overall, and 3rd among its FMCG peers. Worth a closer look: cash conversion (3y). Its closest financial look-alike in the Nifty 50 is Tata Consultancy Services.",
+      "summary": "Over the last three years ITC's revenue grew slowly (~4% a year) and net profit slowly (~3% a year). Profitability looks strong \u2014 a 29% return on equity and a 35% operating margin. On these fundamentals it ranks 21st of 50 overall, and 3rd among its FMCG peers. Worth a closer look: cash conversion (3y). Its closest financial look-alike in the Nifty 50 is Tata Consultancy Services.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -2715,7 +2715,7 @@
         "profitGrowth": 213.19977014990178
       },
       "composite": 52.7,
-      "overallRank": 22,
+      "overallRank": 21,
       "sectorRank": 5,
       "bestCompetitor": {
         "symbol": "BPCL",
@@ -2747,7 +2747,7 @@
           "detail": "Other (non-core) income is 105% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Tata Motors Passenger Vehicles' revenue grew in decline, (~-1% a year) and net profit rapidly (~213% a year). Profitability looks strong \u2014 a 74% return on equity and a 6% operating margin. On these fundamentals it ranks 22nd of 50 overall, and 5th among its Auto peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Bharat Petroleum.",
+      "summary": "Over the last three years Tata Motors Passenger Vehicles' revenue grew in decline, (~-1% a year) and net profit rapidly (~213% a year). Profitability looks strong \u2014 a 74% return on equity and a 6% operating margin. On these fundamentals it ranks 21st of 50 overall, and 5th among its Auto peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Bharat Petroleum.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -3237,11 +3237,11 @@
       "consolidated": true,
       "metrics": {
         "roe": 13.5577036657873,
-        "salesGrowth": 2.0702675660617897,
-        "operatingMargin": 28.0,
+        "salesGrowth": 2.0713570070144183,
+        "operatingMargin": 30.0,
         "profitGrowth": 17.17720606708715
       },
-      "composite": 49.1,
+      "composite": 49.4,
       "overallRank": 28,
       "sectorRank": 1,
       "bestCompetitor": {
@@ -3264,17 +3264,17 @@
         {
           "type": "Interest coverage",
           "severity": "green",
-          "value": 3.8,
-          "detail": "Operating profit covers interest 3.8x"
+          "value": 4.0,
+          "detail": "Operating profit covers interest 4.0x"
         },
         {
           "type": "Other income reliance",
           "severity": "green",
-          "value": 0.21,
-          "detail": "Other (non-core) income is 21% of pre-tax profit"
+          "value": 0.11,
+          "detail": "Other (non-core) income is 11% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years NTPC's revenue grew slowly (~2% a year) and net profit rapidly (~17% a year). Profitability looks moderate \u2014 a 14% return on equity and a 28% operating margin. On these fundamentals it ranks 28th of 50 overall, and 1st among its Power peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Power.",
+      "summary": "Over the last three years NTPC's revenue grew slowly (~2% a year) and net profit rapidly (~17% a year). Profitability looks moderate \u2014 a 14% return on equity and a 30% operating margin. On these fundamentals it ranks 28th of 50 overall, and 1st among its Power peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Power.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -3298,7 +3298,7 @@
           176207.0,
           178525.0,
           188138.0,
-          187379.0
+          187385.0
         ],
         "netProfit": [
           10714.0,
@@ -3322,7 +3322,7 @@
           27.0,
           29.0,
           29.0,
-          28.0
+          30.0
         ]
       },
       "quarters": {
