@@ -240,7 +240,7 @@
         "revenue": [
           33704.0,
           32042.0,
-          36595.0,
+          36433.0,
           35288.0,
           37403.0,
           39708.0,
@@ -2942,6 +2942,167 @@
       }
     },
     {
+      "symbol": "LT",
+      "name": "Larsen & Toubro",
+      "sector": "Infrastructure",
+      "consolidated": true,
+      "metrics": {
+        "roe": 17.34284930002745,
+        "salesGrowth": 15.959149368587134,
+        "operatingMargin": 13.0,
+        "profitGrowth": 14.790262433079882
+      },
+      "composite": 50.2,
+      "overallRank": 25,
+      "sectorRank": 2,
+      "bestCompetitor": {
+        "symbol": "MARUTI",
+        "name": "Maruti Suzuki India"
+      },
+      "redFlags": [
+        {
+          "type": "Cash conversion (3y)",
+          "severity": "green",
+          "value": 0.85,
+          "detail": "Operating cash flow is 85% of net profit over 3 years"
+        },
+        {
+          "type": "Interest coverage",
+          "severity": "green",
+          "value": 3.6,
+          "detail": "Operating profit covers interest 3.6x"
+        },
+        {
+          "type": "Other income reliance",
+          "severity": "green",
+          "value": 0.16,
+          "detail": "Other (non-core) income is 16% of pre-tax profit"
+        }
+      ],
+      "summary": "Over the last three years Larsen & Toubro's revenue grew rapidly (~16% a year) and net profit steadily (~15% a year). Profitability looks healthy \u2014 a 17% return on equity and a 13% operating margin. On these fundamentals it ranks 25th of 50 overall, and 2nd among its Infrastructure peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Maruti Suzuki India.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          109312.0,
+          119683.0,
+          135220.0,
+          145452.0,
+          135979.0,
+          156521.0,
+          183341.0,
+          221113.0,
+          255734.0,
+          285874.0
+        ],
+        "netProfit": [
+          6486.0,
+          8004.0,
+          10217.0,
+          10894.0,
+          12921.0,
+          10419.0,
+          12531.0,
+          15547.0,
+          17673.0,
+          18954.0
+        ],
+        "opm": [
+          15.0,
+          17.0,
+          17.0,
+          17.0,
+          17.0,
+          16.0,
+          15.0,
+          13.0,
+          14.0,
+          13.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Sep 2024",
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026"
+        ],
+        "revenue": [
+          61555.0,
+          64668.0,
+          74392.0,
+          63679.0,
+          67984.0,
+          71450.0,
+          82762.0,
+          67942.0
+        ],
+        "netProfit": [
+          4099.0,
+          3974.0,
+          6156.0,
+          4318.0,
+          4678.0,
+          3825.0,
+          6133.0,
+          4988.0
+        ]
+      }
+    },
+    {
+      "symbol": "SBILIFE",
+      "name": "SBI Life Insurance",
+      "sector": "Insurance",
+      "consolidated": false,
+      "metrics": {
+        "roe": null,
+        "salesGrowth": null,
+        "operatingMargin": null,
+        "profitGrowth": null
+      },
+      "composite": 50.0,
+      "overallRank": 25,
+      "sectorRank": 1,
+      "bestCompetitor": {
+        "symbol": "SBIN",
+        "name": "State Bank of India"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "green",
+          "value": -0.05,
+          "detail": "Promoters hold 55.3% (-0.0 pp vs a year ago)"
+        }
+      ],
+      "summary": "On these fundamentals it ranks 25th of 50 overall, and 1st among its Insurance peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is State Bank of India.",
+      "annual": {
+        "labels": [],
+        "revenue": [],
+        "netProfit": [],
+        "opm": []
+      },
+      "quarters": {
+        "labels": [],
+        "revenue": [],
+        "netProfit": []
+      }
+    },
+    {
       "symbol": "MARUTI",
       "name": "Maruti Suzuki India",
       "sector": "Auto",
@@ -2952,12 +3113,12 @@
         "operatingMargin": 12.0,
         "profitGrowth": 21.109603516157893
       },
-      "composite": 50.2,
+      "composite": 49.9,
       "overallRank": 25,
       "sectorRank": 6,
       "bestCompetitor": {
-        "symbol": "APOLLOHOSP",
-        "name": "Apollo Hospitals"
+        "symbol": "LT",
+        "name": "Larsen & Toubro"
       },
       "redFlags": [
         {
@@ -2985,7 +3146,7 @@
           "detail": "Other (non-core) income is 24% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Maruti Suzuki India's revenue grew rapidly (~16% a year) and net profit rapidly (~21% a year). Profitability looks moderate \u2014 a 14% return on equity and a 12% operating margin. On these fundamentals it ranks 25th of 50 overall, and 6th among its Auto peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Apollo Hospitals.",
+      "summary": "Over the last three years Maruti Suzuki India's revenue grew rapidly (~16% a year) and net profit rapidly (~21% a year). Profitability looks moderate \u2014 a 14% return on equity and a 12% operating margin. On these fundamentals it ranks 25th of 50 overall, and 6th among its Auto peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Larsen & Toubro.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -3066,167 +3227,6 @@
           3879.0,
           3659.0,
           3447.0
-        ]
-      }
-    },
-    {
-      "symbol": "SBILIFE",
-      "name": "SBI Life Insurance",
-      "sector": "Insurance",
-      "consolidated": false,
-      "metrics": {
-        "roe": null,
-        "salesGrowth": null,
-        "operatingMargin": null,
-        "profitGrowth": null
-      },
-      "composite": 50.0,
-      "overallRank": 25,
-      "sectorRank": 1,
-      "bestCompetitor": {
-        "symbol": "SBIN",
-        "name": "State Bank of India"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "green",
-          "value": -0.05,
-          "detail": "Promoters hold 55.3% (-0.0 pp vs a year ago)"
-        }
-      ],
-      "summary": "On these fundamentals it ranks 25th of 50 overall, and 1st among its Insurance peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is State Bank of India.",
-      "annual": {
-        "labels": [],
-        "revenue": [],
-        "netProfit": [],
-        "opm": []
-      },
-      "quarters": {
-        "labels": [],
-        "revenue": [],
-        "netProfit": []
-      }
-    },
-    {
-      "symbol": "LT",
-      "name": "Larsen & Toubro",
-      "sector": "Infrastructure",
-      "consolidated": true,
-      "metrics": {
-        "roe": 17.34284930002745,
-        "salesGrowth": 15.959149368587134,
-        "operatingMargin": 12.0,
-        "profitGrowth": 14.790262433079882
-      },
-      "composite": 49.6,
-      "overallRank": 25,
-      "sectorRank": 2,
-      "bestCompetitor": {
-        "symbol": "MARUTI",
-        "name": "Maruti Suzuki India"
-      },
-      "redFlags": [
-        {
-          "type": "Cash conversion (3y)",
-          "severity": "green",
-          "value": 0.85,
-          "detail": "Operating cash flow is 85% of net profit over 3 years"
-        },
-        {
-          "type": "Interest coverage",
-          "severity": "green",
-          "value": 3.5,
-          "detail": "Operating profit covers interest 3.5x"
-        },
-        {
-          "type": "Other income reliance",
-          "severity": "green",
-          "value": 0.19,
-          "detail": "Other (non-core) income is 19% of pre-tax profit"
-        }
-      ],
-      "summary": "Over the last three years Larsen & Toubro's revenue grew rapidly (~16% a year) and net profit steadily (~15% a year). Profitability looks healthy \u2014 a 17% return on equity and a 12% operating margin. On these fundamentals it ranks 25th of 50 overall, and 2nd among its Infrastructure peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Maruti Suzuki India.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          109312.0,
-          119683.0,
-          135220.0,
-          145452.0,
-          135979.0,
-          156521.0,
-          183341.0,
-          221113.0,
-          255734.0,
-          285874.0
-        ],
-        "netProfit": [
-          6486.0,
-          8004.0,
-          10217.0,
-          10894.0,
-          12921.0,
-          10419.0,
-          12531.0,
-          15547.0,
-          17673.0,
-          18954.0
-        ],
-        "opm": [
-          15.0,
-          17.0,
-          17.0,
-          17.0,
-          17.0,
-          16.0,
-          15.0,
-          13.0,
-          13.0,
-          12.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Sep 2024",
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026"
-        ],
-        "revenue": [
-          61555.0,
-          64668.0,
-          74392.0,
-          63679.0,
-          67984.0,
-          71450.0,
-          82762.0,
-          67942.0
-        ],
-        "netProfit": [
-          4099.0,
-          3974.0,
-          6156.0,
-          4318.0,
-          4678.0,
-          3825.0,
-          6133.0,
-          4988.0
         ]
       }
     },
@@ -5755,6 +5755,116 @@
       }
     },
     {
+      "symbol": "INDUSINDBK",
+      "name": "IndusInd Bank",
+      "sector": "Bank",
+      "consolidated": true,
+      "metrics": {
+        "roe": 1.3522969272893215,
+        "salesGrowth": 8.342928307666032,
+        "operatingMargin": null,
+        "profitGrowth": -50.754660916622775
+      },
+      "composite": 24.5,
+      "overallRank": 48,
+      "sectorRank": 6,
+      "bestCompetitor": {
+        "symbol": "DRREDDY",
+        "name": "Dr. Reddy's Laboratories"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "green",
+          "value": 0.0,
+          "detail": "Promoters hold 15.8% (+0.0 pp vs a year ago)"
+        }
+      ],
+      "summary": "Over the last three years IndusInd Bank's revenue grew steadily (~8% a year) and net profit in decline, (~-51% a year). Profitability looks modest \u2014 a 1% return on equity. On these fundamentals it ranks 48th of 50 overall, and 6th among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Dr. Reddy's Laboratories.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          14406.0,
+          17281.0,
+          22261.0,
+          28783.0,
+          29000.0,
+          30822.0,
+          36368.0,
+          45748.0,
+          48668.0,
+          46251.0
+        ],
+        "netProfit": [
+          2868.0,
+          3606.0,
+          3301.0,
+          4458.0,
+          2930.0,
+          4805.0,
+          7444.0,
+          8977.0,
+          2576.0,
+          889.0
+        ],
+        "opm": [
+          3.0,
+          5.0,
+          -2.0,
+          -2.0,
+          -8.0,
+          -2.0,
+          6.0,
+          7.0,
+          -7.0,
+          -12.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Sep 2024",
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026"
+        ],
+        "revenue": [
+          12686.0,
+          12801.0,
+          10634.0,
+          12264.0,
+          11609.0,
+          11373.0,
+          11005.0,
+          11310.0
+        ],
+        "netProfit": [
+          1331.0,
+          1402.0,
+          -2329.0,
+          604.0,
+          -437.0,
+          128.0,
+          594.0,
+          1037.0
+        ]
+      }
+    },
+    {
       "symbol": "HINDALCO",
       "name": "Hindalco Industries",
       "sector": "Materials",
@@ -5765,7 +5875,7 @@
         "operatingMargin": 13.0,
         "profitGrowth": 9.86859005895193
       },
-      "composite": 24.5,
+      "composite": 24.2,
       "overallRank": 48,
       "sectorRank": 4,
       "bestCompetitor": {
@@ -5879,116 +5989,6 @@
           2049.0,
           2597.0,
           7013.0
-        ]
-      }
-    },
-    {
-      "symbol": "INDUSINDBK",
-      "name": "IndusInd Bank",
-      "sector": "Bank",
-      "consolidated": true,
-      "metrics": {
-        "roe": 1.3522969272893215,
-        "salesGrowth": 8.342928307666032,
-        "operatingMargin": null,
-        "profitGrowth": -50.754660916622775
-      },
-      "composite": 24.5,
-      "overallRank": 48,
-      "sectorRank": 6,
-      "bestCompetitor": {
-        "symbol": "DRREDDY",
-        "name": "Dr. Reddy's Laboratories"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "green",
-          "value": 0.0,
-          "detail": "Promoters hold 15.8% (+0.0 pp vs a year ago)"
-        }
-      ],
-      "summary": "Over the last three years IndusInd Bank's revenue grew steadily (~8% a year) and net profit in decline, (~-51% a year). Profitability looks modest \u2014 a 1% return on equity. On these fundamentals it ranks 48th of 50 overall, and 6th among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Dr. Reddy's Laboratories.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          14406.0,
-          17281.0,
-          22261.0,
-          28783.0,
-          29000.0,
-          30822.0,
-          36368.0,
-          45748.0,
-          48668.0,
-          46251.0
-        ],
-        "netProfit": [
-          2868.0,
-          3606.0,
-          3301.0,
-          4458.0,
-          2930.0,
-          4805.0,
-          7444.0,
-          8977.0,
-          2576.0,
-          889.0
-        ],
-        "opm": [
-          3.0,
-          5.0,
-          -2.0,
-          -2.0,
-          -8.0,
-          -2.0,
-          6.0,
-          7.0,
-          -7.0,
-          -12.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Sep 2024",
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026"
-        ],
-        "revenue": [
-          12686.0,
-          12801.0,
-          10634.0,
-          12264.0,
-          11609.0,
-          11373.0,
-          11005.0,
-          11310.0
-        ],
-        "netProfit": [
-          1331.0,
-          1402.0,
-          -2329.0,
-          604.0,
-          -437.0,
-          128.0,
-          594.0,
-          1037.0
         ]
       }
     },
