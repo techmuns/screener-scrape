@@ -25,7 +25,7 @@
       "symbol": "BHARTIARTL",
       "name": "Bharti Airtel",
       "sector": "Telecom",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 22.69131942813823,
         "salesGrowth": 14.882291893724497,
@@ -153,7 +153,7 @@
       "symbol": "BAJAJFINSV",
       "name": "Bajaj Finserv",
       "sector": "NBFC",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 25.2441763460181,
         "salesGrowth": 22.407872075250012,
@@ -263,7 +263,7 @@
       "symbol": "TRENT",
       "name": "Trent",
       "sector": "Retail",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 24.63851109520401,
         "salesGrowth": 34.544857548858786,
@@ -391,7 +391,7 @@
       "symbol": "BAJAJ-AUTO",
       "name": "Bajaj Auto",
       "sector": "Auto",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 27.230119489081172,
         "salesGrowth": 19.94330772245916,
@@ -519,7 +519,7 @@
       "symbol": "EICHERMOT",
       "name": "Eicher Motors",
       "sector": "Auto",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 21.97211155378486,
         "salesGrowth": 17.466038536149764,
@@ -647,7 +647,7 @@
       "symbol": "ADANIPORTS",
       "name": "Adani Ports & SEZ",
       "sector": "Infrastructure",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 13.32027219958524,
         "salesGrowth": 22.92937831245141,
@@ -775,7 +775,7 @@
       "symbol": "BAJFINANCE",
       "name": "Bajaj Finance",
       "sector": "NBFC",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 16.958043491609576,
         "salesGrowth": 25.566241312572767,
@@ -885,7 +885,7 @@
       "symbol": "M&M",
       "name": "Mahindra & Mahindra",
       "sector": "Auto",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 20.002792786018883,
         "salesGrowth": 17.84936997453506,
@@ -1013,7 +1013,7 @@
       "symbol": "TITAN",
       "name": "Titan Company",
       "sector": "Consumer Durables",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 32.30592880341336,
         "salesGrowth": 29.237559737181407,
@@ -1141,7 +1141,7 @@
       "symbol": "HDFCBANK",
       "name": "HDFC Bank",
       "sector": "Bank",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 13.517239731835872,
         "salesGrowth": 26.86010345560268,
@@ -1244,7 +1244,7 @@
       "symbol": "ICICIBANK",
       "name": "ICICI Bank",
       "sector": "Bank",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 15.957692943315156,
         "salesGrowth": 17.263996868932672,
@@ -1347,7 +1347,7 @@
       "symbol": "APOLLOHOSP",
       "name": "Apollo Hospitals",
       "sector": "Healthcare",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 21.128691983122362,
         "salesGrowth": 14.944174763984087,
@@ -1475,7 +1475,7 @@
       "symbol": "HEROMOTOCO",
       "name": "Hero MotoCorp",
       "sector": "Auto",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 26.727129702466335,
         "salesGrowth": 11.54811279148773,
@@ -1603,7 +1603,7 @@
       "symbol": "DIVISLAB",
       "name": "Divi's Laboratories",
       "sector": "Pharma",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 15.32128154644711,
         "salesGrowth": 10.777501844579929,
@@ -1731,7 +1731,7 @@
       "symbol": "INFY",
       "name": "Infosys",
       "sector": "IT",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 31.74298884245897,
         "salesGrowth": 6.772202424210705,
@@ -1859,7 +1859,7 @@
       "symbol": "AXISBANK",
       "name": "Axis Bank",
       "sector": "Bank",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 12.345839766364703,
         "salesGrowth": 14.867413970862774,
@@ -1969,7 +1969,7 @@
       "symbol": "TCS",
       "name": "Tata Consultancy Services",
       "sector": "IT",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 46.115255501678476,
         "salesGrowth": 5.801848619364591,
@@ -2097,7 +2097,7 @@
       "symbol": "HINDUNILVR",
       "name": "Hindustan Unilever",
       "sector": "FMCG",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 30.89722809249266,
         "salesGrowth": 2.0951181546343456,
@@ -2225,7 +2225,7 @@
       "symbol": "JSWSTEEL",
       "name": "JSW Steel",
       "sector": "Materials",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 25.49448792140166,
         "salesGrowth": 3.7743643656640735,
@@ -2353,7 +2353,7 @@
       "symbol": "NESTLEIND",
       "name": "Nestle India",
       "sector": "FMCG",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 67.84952491758774,
         "salesGrowth": 6.579467149780771,
@@ -2457,7 +2457,7 @@
       "symbol": "SUNPHARMA",
       "name": "Sun Pharmaceutical",
       "sector": "Pharma",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 13.77168840493,
         "salesGrowth": 10.031210271725621,
@@ -2585,7 +2585,7 @@
       "symbol": "ITC",
       "name": "ITC",
       "sector": "FMCG",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 28.98754603003848,
         "salesGrowth": 3.6046882367709587,
@@ -2707,7 +2707,7 @@
       "symbol": "TMPV",
       "name": "Tata Motors Passenger Vehicles",
       "sector": "Auto",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 73.74540457579327,
         "salesGrowth": -1.0107590439286773,
@@ -2835,7 +2835,7 @@
       "symbol": "SBIN",
       "name": "State Bank of India",
       "sector": "Bank",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 14.538079717377556,
         "salesGrowth": 13.64364228199979,
@@ -2945,7 +2945,7 @@
       "symbol": "LT",
       "name": "Larsen & Toubro",
       "sector": "Infrastructure",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 17.34284930002745,
         "salesGrowth": 15.959149368587134,
@@ -3106,7 +3106,7 @@
       "symbol": "MARUTI",
       "name": "Maruti Suzuki India",
       "sector": "Auto",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 13.699652842584642,
         "salesGrowth": 15.68329862460265,
@@ -3234,7 +3234,7 @@
       "symbol": "NTPC",
       "name": "NTPC",
       "sector": "Power",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 13.5577036657873,
         "salesGrowth": 2.0713570070144183,
@@ -3362,7 +3362,7 @@
       "symbol": "HCLTECH",
       "name": "HCL Technologies",
       "sector": "IT",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 22.15392802501164,
         "salesGrowth": 8.654772035396308,
@@ -3490,7 +3490,7 @@
       "symbol": "COALINDIA",
       "name": "Coal India",
       "sector": "Energy",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 26.087723128075098,
         "salesGrowth": 6.796467589689215,
@@ -3618,7 +3618,7 @@
       "symbol": "ULTRACEMCO",
       "name": "UltraTech Cement",
       "sector": "Materials",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 10.68594696178743,
         "salesGrowth": 11.85878496407522,
@@ -3746,7 +3746,7 @@
       "symbol": "BPCL",
       "name": "Bharat Petroleum",
       "sector": "Energy",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 25.798883908516434,
         "salesGrowth": -1.2814606951461194,
@@ -3874,7 +3874,7 @@
       "symbol": "BRITANNIA",
       "name": "Britannia Industries",
       "sector": "FMCG",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 49.686643164904034,
         "salesGrowth": 5.5196386272794,
@@ -4002,7 +4002,7 @@
       "symbol": "KOTAKBANK",
       "name": "Kotak Mahindra Bank",
       "sector": "Bank",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 10.643064460949311,
         "salesGrowth": 18.29773664540928,
@@ -4112,7 +4112,7 @@
       "symbol": "POWERGRID",
       "name": "Power Grid Corporation",
       "sector": "Power",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 15.849702469799192,
         "salesGrowth": 0.835456965229131,
@@ -4240,7 +4240,7 @@
       "symbol": "CIPLA",
       "name": "Cipla",
       "sector": "Pharma",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 11.216310408921933,
         "salesGrowth": 7.369290376032311,
@@ -4368,7 +4368,7 @@
       "symbol": "TATAPOWER",
       "name": "Tata Power",
       "sector": "Power",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 12.967467315293401,
         "salesGrowth": 4.244851731472532,
@@ -4496,7 +4496,7 @@
       "symbol": "GRASIM",
       "name": "Grasim Industries",
       "sector": "Materials",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 9.954576205663477,
         "salesGrowth": 14.252691415005359,
@@ -4624,7 +4624,7 @@
       "symbol": "ASIANPAINT",
       "name": "Asian Paints",
       "sector": "Consumer Durables",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 20.564289724873667,
         "salesGrowth": 1.047301745919893,
@@ -4752,7 +4752,7 @@
       "symbol": "ADANIENT",
       "name": "Adani Enterprises",
       "sector": "Diversified",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 12.296418950646268,
         "salesGrowth": -7.6446860482450525,
@@ -4880,7 +4880,7 @@
       "symbol": "ONGC",
       "name": "Oil & Natural Gas Corporation",
       "sector": "Energy",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 13.393568031675668,
         "salesGrowth": -1.261475275466073,
@@ -5008,7 +5008,7 @@
       "symbol": "WIPRO",
       "name": "Wipro",
       "sector": "IT",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 15.071745873050139,
         "salesGrowth": 0.7807333556995699,
@@ -5136,7 +5136,7 @@
       "symbol": "HDFCLIFE",
       "name": "HDFC Life Insurance",
       "sector": "Insurance",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 10.771830985915493,
         "salesGrowth": 12.30055944308539,
@@ -5246,7 +5246,7 @@
       "symbol": "DRREDDY",
       "name": "Dr. Reddy's Laboratories",
       "sector": "Pharma",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 10.97329251557057,
         "salesGrowth": 10.956713293700382,
@@ -5374,7 +5374,7 @@
       "symbol": "TATACONSUM",
       "name": "Tata Consumer Products",
       "sector": "FMCG",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 7.100238663484487,
         "salesGrowth": 13.757340509039718,
@@ -5502,7 +5502,7 @@
       "symbol": "TECHM",
       "name": "Tech Mahindra",
       "sector": "IT",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 16.227714748784443,
         "salesGrowth": 2.1580113677795554,
@@ -5630,7 +5630,7 @@
       "symbol": "RELIANCE",
       "name": "Reliance Industries",
       "sector": "Energy",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 10.591905135891508,
         "salesGrowth": 6.403933073685808,
@@ -5758,7 +5758,7 @@
       "symbol": "INDUSINDBK",
       "name": "IndusInd Bank",
       "sector": "Bank",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 1.3522969272893215,
         "salesGrowth": 8.342928307666032,
@@ -5868,7 +5868,7 @@
       "symbol": "HINDALCO",
       "name": "Hindalco Industries",
       "sector": "Materials",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 9.804294824392494,
         "salesGrowth": 7.19685771317724,
@@ -5996,7 +5996,7 @@
       "symbol": "TATASTEEL",
       "name": "Tata Steel",
       "sector": "Materials",
-      "consolidated": true,
+      "consolidated": false,
       "metrics": {
         "roe": 10.65510389851909,
         "salesGrowth": -1.560116316308291,
