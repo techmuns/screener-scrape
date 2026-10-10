@@ -793,8 +793,8 @@
         {
           "type": "Promoter holding trend",
           "severity": "green",
-          "value": -0.05,
-          "detail": "Promoters hold 54.7% (-0.0 pp vs a year ago)"
+          "value": 0.0,
+          "detail": "Promoters hold 54.7% (+0.0 pp vs a year ago)"
         }
       ],
       "summary": "Over the last three years Bajaj Finance's revenue grew rapidly (~26% a year) and net profit rapidly (~19% a year). Profitability looks healthy \u2014 a 17% return on equity. On these fundamentals it ranks 7th of 50 overall, and 2nd among its NBFC peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Mahindra & Mahindra.",
@@ -5026,7 +5026,7 @@
         {
           "type": "Promoter holding trend",
           "severity": "green",
-          "value": -0.08,
+          "value": -0.09,
           "detail": "Promoters hold 72.6% (-0.1 pp vs a year ago)"
         },
         {
