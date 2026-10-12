@@ -526,9 +526,9 @@
         "operatingMargin": 25.0,
         "profitGrowth": 23.694955810702155
       },
-      "composite": 75.2,
-      "overallRank": 5,
-      "sectorRank": 2,
+      "composite": 75.7,
+      "overallRank": 4,
+      "sectorRank": 1,
       "bestCompetitor": {
         "symbol": "BHARTIARTL",
         "name": "Bharti Airtel"
@@ -559,7 +559,7 @@
           "detail": "Other (non-core) income is 31% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Eicher Motors' revenue grew rapidly (~17% a year) and net profit rapidly (~24% a year). Profitability looks strong \u2014 a 22% return on equity and a 25% operating margin. On these fundamentals it ranks 5th of 50 overall, and 2nd among its Auto peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Bharti Airtel.",
+      "summary": "Over the last three years Eicher Motors' revenue grew rapidly (~17% a year) and net profit rapidly (~24% a year). Profitability looks strong \u2014 a 22% return on equity and a 25% operating margin. On these fundamentals it ranks 4th of 50 overall, and 1st among its Auto peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Bharti Airtel.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -655,7 +655,7 @@
         "profitGrowth": 33.3449257218295
       },
       "composite": 74.9,
-      "overallRank": 5,
+      "overallRank": 6,
       "sectorRank": 1,
       "bestCompetitor": {
         "symbol": "EICHERMOT",
@@ -687,7 +687,7 @@
           "detail": "Other (non-core) income is 14% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Adani Ports & SEZ's revenue grew rapidly (~23% a year) and net profit rapidly (~33% a year). Profitability looks moderate \u2014 a 13% return on equity and a 59% operating margin. On these fundamentals it ranks 5th of 50 overall, and 1st among its Infrastructure peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Eicher Motors.",
+      "summary": "Over the last three years Adani Ports & SEZ's revenue grew rapidly (~23% a year) and net profit rapidly (~33% a year). Profitability looks moderate \u2014 a 13% return on equity and a 59% operating margin. On these fundamentals it ranks 6th of 50 overall, and 1st among its Infrastructure peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Eicher Motors.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -3359,134 +3359,6 @@
       }
     },
     {
-      "symbol": "HCLTECH",
-      "name": "HCL Technologies",
-      "sector": "IT",
-      "consolidated": false,
-      "metrics": {
-        "roe": 22.15392802501164,
-        "salesGrowth": 8.654772035396308,
-        "operatingMargin": 21.0,
-        "profitGrowth": 3.903154616942639
-      },
-      "composite": 48.6,
-      "overallRank": 28,
-      "sectorRank": 3,
-      "bestCompetitor": {
-        "symbol": "COALINDIA",
-        "name": "Coal India"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "green",
-          "value": 0.06,
-          "detail": "Promoters hold 60.9% (+0.1 pp vs a year ago)"
-        },
-        {
-          "type": "Cash conversion (3y)",
-          "severity": "green",
-          "value": 1.3,
-          "detail": "Operating cash flow is 130% of net profit over 3 years"
-        },
-        {
-          "type": "Interest coverage",
-          "severity": "green",
-          "value": 30.8,
-          "detail": "Operating profit covers interest 30.8x"
-        },
-        {
-          "type": "Other income reliance",
-          "severity": "green",
-          "value": 0.03,
-          "detail": "Other (non-core) income is 3% of pre-tax profit"
-        }
-      ],
-      "summary": "Over the last three years HCL Technologies' revenue grew steadily (~9% a year) and net profit slowly (~4% a year). Profitability looks strong \u2014 a 22% return on equity and a 21% operating margin. On these fundamentals it ranks 28th of 50 overall, and 3rd among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Coal India.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          47568.0,
-          50569.0,
-          60427.0,
-          70676.0,
-          75379.0,
-          85651.0,
-          101456.0,
-          109913.0,
-          117055.0,
-          130144.0
-        ],
-        "netProfit": [
-          8606.0,
-          8722.0,
-          10120.0,
-          11057.0,
-          11169.0,
-          13523.0,
-          14845.0,
-          15710.0,
-          17399.0,
-          16652.0
-        ],
-        "opm": [
-          22.0,
-          22.0,
-          23.0,
-          24.0,
-          27.0,
-          24.0,
-          22.0,
-          22.0,
-          22.0,
-          21.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Sep 2024",
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026"
-        ],
-        "revenue": [
-          28862.0,
-          29890.0,
-          30246.0,
-          30349.0,
-          31942.0,
-          33872.0,
-          33981.0,
-          34579.0
-        ],
-        "netProfit": [
-          4237.0,
-          4594.0,
-          4309.0,
-          3844.0,
-          4236.0,
-          4082.0,
-          4490.0,
-          4626.0
-        ]
-      }
-    },
-    {
       "symbol": "COALINDIA",
       "name": "Coal India",
       "sector": "Energy",
@@ -3498,7 +3370,7 @@
         "profitGrowth": -0.6898449556087871
       },
       "composite": 48.4,
-      "overallRank": 30,
+      "overallRank": 29,
       "sectorRank": 1,
       "bestCompetitor": {
         "symbol": "HCLTECH",
@@ -3530,7 +3402,7 @@
           "detail": "Other (non-core) income is 38% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Coal India's revenue grew slowly (~7% a year) and net profit in decline, (~-1% a year). Profitability looks strong \u2014 a 26% return on equity and a 22% operating margin. On these fundamentals it ranks 30th of 50 overall, and 1st among its Energy peers. Worth a closer look: promoter holding trend, other income reliance. Its closest financial look-alike in the Nifty 50 is HCL Technologies.",
+      "summary": "Over the last three years Coal India's revenue grew slowly (~7% a year) and net profit in decline, (~-1% a year). Profitability looks strong \u2014 a 26% return on equity and a 22% operating margin. On these fundamentals it ranks 29th of 50 overall, and 1st among its Energy peers. Worth a closer look: promoter holding trend, other income reliance. Its closest financial look-alike in the Nifty 50 is HCL Technologies.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -3611,6 +3483,134 @@
           7166.0,
           10908.0,
           8850.0
+        ]
+      }
+    },
+    {
+      "symbol": "HCLTECH",
+      "name": "HCL Technologies",
+      "sector": "IT",
+      "consolidated": false,
+      "metrics": {
+        "roe": 21.884035115386638,
+        "salesGrowth": 8.654772035396308,
+        "operatingMargin": 21.0,
+        "profitGrowth": 3.903154616942639
+      },
+      "composite": 48.1,
+      "overallRank": 29,
+      "sectorRank": 3,
+      "bestCompetitor": {
+        "symbol": "COALINDIA",
+        "name": "Coal India"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "green",
+          "value": 0.06,
+          "detail": "Promoters hold 60.9% (+0.1 pp vs a year ago)"
+        },
+        {
+          "type": "Cash conversion (3y)",
+          "severity": "green",
+          "value": 1.3,
+          "detail": "Operating cash flow is 130% of net profit over 3 years"
+        },
+        {
+          "type": "Interest coverage",
+          "severity": "green",
+          "value": 30.8,
+          "detail": "Operating profit covers interest 30.8x"
+        },
+        {
+          "type": "Other income reliance",
+          "severity": "green",
+          "value": 0.03,
+          "detail": "Other (non-core) income is 3% of pre-tax profit"
+        }
+      ],
+      "summary": "Over the last three years HCL Technologies' revenue grew steadily (~9% a year) and net profit slowly (~4% a year). Profitability looks strong \u2014 a 22% return on equity and a 21% operating margin. On these fundamentals it ranks 29th of 50 overall, and 3rd among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Coal India.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          47568.0,
+          50569.0,
+          60427.0,
+          70676.0,
+          75379.0,
+          85651.0,
+          101456.0,
+          109913.0,
+          117055.0,
+          130144.0
+        ],
+        "netProfit": [
+          8606.0,
+          8722.0,
+          10120.0,
+          11057.0,
+          11169.0,
+          13523.0,
+          14845.0,
+          15710.0,
+          17399.0,
+          16652.0
+        ],
+        "opm": [
+          22.0,
+          22.0,
+          23.0,
+          24.0,
+          27.0,
+          24.0,
+          22.0,
+          22.0,
+          22.0,
+          21.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026",
+          "Sep 2026"
+        ],
+        "revenue": [
+          29890.0,
+          30246.0,
+          30349.0,
+          31942.0,
+          33872.0,
+          33981.0,
+          34579.0,
+          35620.0
+        ],
+        "netProfit": [
+          4594.0,
+          4309.0,
+          3844.0,
+          4236.0,
+          4082.0,
+          4490.0,
+          4626.0,
+          5132.0
         ]
       }
     },
