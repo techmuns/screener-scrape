@@ -3636,8 +3636,8 @@
         {
           "type": "Promoter holding trend",
           "severity": "green",
-          "value": 0.1,
-          "detail": "Promoters hold 59.3% (+0.1 pp vs a year ago)"
+          "value": -0.75,
+          "detail": "Promoters hold 58.5% (-0.8 pp vs a year ago)"
         },
         {
           "type": "Cash conversion (3y)",
