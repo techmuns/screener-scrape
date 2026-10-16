@@ -409,8 +409,8 @@
         {
           "type": "Promoter holding trend",
           "severity": "green",
-          "value": -0.03,
-          "detail": "Promoters hold 55.0% (-0.0 pp vs a year ago)"
+          "value": 0.91,
+          "detail": "Promoters hold 56.0% (+0.9 pp vs a year ago)"
         },
         {
           "type": "Cash conversion (3y)",
@@ -2474,9 +2474,9 @@
       "redFlags": [
         {
           "type": "Promoter holding trend",
-          "severity": "green",
-          "value": 0.0,
-          "detail": "Promoters hold 54.5% (+0.0 pp vs a year ago)"
+          "severity": "amber",
+          "value": -1.8,
+          "detail": "Promoters hold 52.7% (-1.8 pp vs a year ago)"
         },
         {
           "type": "Cash conversion (3y)",
@@ -2497,7 +2497,7 @@
           "detail": "Other (non-core) income is 13% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Sun Pharmaceutical's revenue grew steadily (~10% a year) and net profit steadily (~11% a year). Profitability looks moderate \u2014 a 14% return on equity and a 28% operating margin. On these fundamentals it ranks 21st of 50 overall, and 2nd among its Pharma peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Divi's Laboratories.",
+      "summary": "Over the last three years Sun Pharmaceutical's revenue grew steadily (~10% a year) and net profit steadily (~11% a year). Profitability looks moderate \u2014 a 14% return on equity and a 28% operating margin. On these fundamentals it ranks 21st of 50 overall, and 2nd among its Pharma peers. Worth a closer look: promoter holding trend. Its closest financial look-alike in the Nifty 50 is Divi's Laboratories.",
       "annual": {
         "labels": [
           "Mar 2017",
