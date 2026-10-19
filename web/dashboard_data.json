@@ -777,12 +777,12 @@
       "sector": "NBFC",
       "consolidated": false,
       "metrics": {
-        "roe": 16.958043491609576,
+        "roe": 15.694233595012136,
         "salesGrowth": 25.566241312572767,
         "operatingMargin": null,
         "profitGrowth": 18.875487533572688
       },
-      "composite": 66.8,
+      "composite": 65.3,
       "overallRank": 7,
       "sectorRank": 2,
       "bestCompetitor": {
@@ -797,7 +797,7 @@
           "detail": "Promoters hold 54.7% (+0.0 pp vs a year ago)"
         }
       ],
-      "summary": "Over the last three years Bajaj Finance's revenue grew rapidly (~26% a year) and net profit rapidly (~19% a year). Profitability looks healthy \u2014 a 17% return on equity. On these fundamentals it ranks 7th of 50 overall, and 2nd among its NBFC peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Mahindra & Mahindra.",
+      "summary": "Over the last three years Bajaj Finance's revenue grew rapidly (~26% a year) and net profit rapidly (~19% a year). Profitability looks healthy \u2014 a 16% return on equity. On these fundamentals it ranks 7th of 50 overall, and 2nd among its NBFC peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Mahindra & Mahindra.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -850,34 +850,34 @@
       },
       "quarters": {
         "labels": [
-          "Sep 2024",
           "Dec 2024",
           "Mar 2025",
           "Jun 2025",
           "Sep 2025",
           "Dec 2025",
           "Mar 2026",
-          "Jun 2026"
+          "Jun 2026",
+          "Sep 2026"
         ],
         "revenue": [
-          17091.0,
           18035.0,
           18294.0,
           19524.0,
-          20179.0,
+          19990.0,
           21013.0,
           21606.0,
-          23165.0
+          23165.0,
+          24546.0
         ],
         "netProfit": [
-          4014.0,
           4308.0,
           4546.0,
           4765.0,
           4948.0,
           4066.0,
           5553.0,
-          6081.0
+          6081.0,
+          6367.0
         ]
       }
     },
@@ -1152,11 +1152,11 @@
       "overallRank": 10,
       "sectorRank": 1,
       "bestCompetitor": {
-        "symbol": "ICICIBANK",
-        "name": "ICICI Bank"
+        "symbol": "BAJFINANCE",
+        "name": "Bajaj Finance"
       },
       "redFlags": [],
-      "summary": "Over the last three years HDFC Bank's revenue grew rapidly (~27% a year) and net profit rapidly (~20% a year). Profitability looks moderate \u2014 a 13% return on equity. On these fundamentals it ranks 10th of 50 overall, and 1st among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is ICICI Bank.",
+      "summary": "Over the last three years HDFC Bank's revenue grew rapidly (~27% a year) and net profit rapidly (~20% a year). Profitability looks moderate \u2014 a 13% return on equity. On these fundamentals it ranks 10th of 50 overall, and 1st among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Bajaj Finance.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -3711,34 +3711,34 @@
       },
       "quarters": {
         "labels": [
-          "Sep 2024",
           "Dec 2024",
           "Mar 2025",
           "Jun 2025",
           "Sep 2025",
           "Dec 2025",
           "Mar 2026",
-          "Jun 2026"
+          "Jun 2026",
+          "Sep 2026"
         ],
         "revenue": [
-          16294.0,
           17779.0,
           23063.0,
           21275.0,
           19607.0,
           21830.0,
           25799.0,
-          24648.0
+          24648.0,
+          23295.0
         ],
         "netProfit": [
-          708.0,
           1363.0,
           2475.0,
           2221.0,
           1238.0,
           1729.0,
           3000.0,
-          2604.0
+          2604.0,
+          1501.0
         ]
       }
     },
@@ -4119,7 +4119,7 @@
         "operatingMargin": 70.0,
         "profitGrowth": 1.0928541664935176
       },
-      "composite": 42.8,
+      "composite": 43.3,
       "overallRank": 35,
       "sectorRank": 2,
       "bestCompetitor": {
@@ -4749,6 +4749,134 @@
       }
     },
     {
+      "symbol": "WIPRO",
+      "name": "Wipro",
+      "sector": "IT",
+      "consolidated": false,
+      "metrics": {
+        "roe": 16.80112463430388,
+        "salesGrowth": 0.7807333556995699,
+        "operatingMargin": 19.0,
+        "profitGrowth": 5.2876535537977
+      },
+      "composite": 34.1,
+      "overallRank": 39,
+      "sectorRank": 4,
+      "bestCompetitor": {
+        "symbol": "ASIANPAINT",
+        "name": "Asian Paints"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "green",
+          "value": -0.09,
+          "detail": "Promoters hold 72.6% (-0.1 pp vs a year ago)"
+        },
+        {
+          "type": "Cash conversion (3y)",
+          "severity": "green",
+          "value": 1.32,
+          "detail": "Operating cash flow is 132% of net profit over 3 years"
+        },
+        {
+          "type": "Interest coverage",
+          "severity": "green",
+          "value": 12.2,
+          "detail": "Operating profit covers interest 12.2x"
+        },
+        {
+          "type": "Other income reliance",
+          "severity": "green",
+          "value": 0.22,
+          "detail": "Other (non-core) income is 22% of pre-tax profit"
+        }
+      ],
+      "summary": "Over the last three years Wipro's revenue grew slowly (~1% a year) and net profit slowly (~5% a year). Profitability looks healthy \u2014 a 17% return on equity and a 19% operating margin. On these fundamentals it ranks 39th of 50 overall, and 4th among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Asian Paints.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          55448.0,
+          54487.0,
+          59019.0,
+          61138.0,
+          61935.0,
+          79312.0,
+          90488.0,
+          89760.0,
+          89088.0,
+          92624.0
+        ],
+        "netProfit": [
+          8518.0,
+          8003.0,
+          9018.0,
+          9772.0,
+          10868.0,
+          12243.0,
+          11366.0,
+          11112.0,
+          13218.0,
+          13266.0
+        ],
+        "opm": [
+          20.0,
+          19.0,
+          20.0,
+          20.0,
+          24.0,
+          21.0,
+          19.0,
+          19.0,
+          20.0,
+          19.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026",
+          "Sep 2026"
+        ],
+        "revenue": [
+          22319.0,
+          22504.0,
+          22135.0,
+          22697.0,
+          23556.0,
+          24236.0,
+          24479.0,
+          24753.0
+        ],
+        "netProfit": [
+          3367.0,
+          3588.0,
+          3336.0,
+          3262.0,
+          3145.0,
+          3522.0,
+          3356.0,
+          3200.0
+        ]
+      }
+    },
+    {
       "symbol": "ASIANPAINT",
       "name": "Asian Paints",
       "sector": "Consumer Durables",
@@ -4873,134 +5001,6 @@
           1074.0,
           1185.0,
           1559.0
-        ]
-      }
-    },
-    {
-      "symbol": "WIPRO",
-      "name": "Wipro",
-      "sector": "IT",
-      "consolidated": false,
-      "metrics": {
-        "roe": 16.80112463430388,
-        "salesGrowth": 0.7807333556995699,
-        "operatingMargin": 19.0,
-        "profitGrowth": 5.2876535537977
-      },
-      "composite": 33.6,
-      "overallRank": 39,
-      "sectorRank": 4,
-      "bestCompetitor": {
-        "symbol": "ASIANPAINT",
-        "name": "Asian Paints"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "green",
-          "value": -0.09,
-          "detail": "Promoters hold 72.6% (-0.1 pp vs a year ago)"
-        },
-        {
-          "type": "Cash conversion (3y)",
-          "severity": "green",
-          "value": 1.32,
-          "detail": "Operating cash flow is 132% of net profit over 3 years"
-        },
-        {
-          "type": "Interest coverage",
-          "severity": "green",
-          "value": 12.2,
-          "detail": "Operating profit covers interest 12.2x"
-        },
-        {
-          "type": "Other income reliance",
-          "severity": "green",
-          "value": 0.22,
-          "detail": "Other (non-core) income is 22% of pre-tax profit"
-        }
-      ],
-      "summary": "Over the last three years Wipro's revenue grew slowly (~1% a year) and net profit slowly (~5% a year). Profitability looks healthy \u2014 a 17% return on equity and a 19% operating margin. On these fundamentals it ranks 39th of 50 overall, and 4th among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Asian Paints.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          55448.0,
-          54487.0,
-          59019.0,
-          61138.0,
-          61935.0,
-          79312.0,
-          90488.0,
-          89760.0,
-          89088.0,
-          92624.0
-        ],
-        "netProfit": [
-          8518.0,
-          8003.0,
-          9018.0,
-          9772.0,
-          10868.0,
-          12243.0,
-          11366.0,
-          11112.0,
-          13218.0,
-          13266.0
-        ],
-        "opm": [
-          20.0,
-          19.0,
-          20.0,
-          20.0,
-          24.0,
-          21.0,
-          19.0,
-          19.0,
-          20.0,
-          19.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026",
-          "Sep 2026"
-        ],
-        "revenue": [
-          22319.0,
-          22504.0,
-          22135.0,
-          22697.0,
-          23556.0,
-          24236.0,
-          24479.0,
-          24753.0
-        ],
-        "netProfit": [
-          3367.0,
-          3588.0,
-          3336.0,
-          3262.0,
-          3145.0,
-          3522.0,
-          3356.0,
-          3200.0
         ]
       }
     },
@@ -5637,7 +5637,7 @@
         "operatingMargin": 16.0,
         "profitGrowth": -0.35124256336142023
       },
-      "composite": 27.9,
+      "composite": 28.4,
       "overallRank": 46,
       "sectorRank": 5,
       "bestCompetitor": {
