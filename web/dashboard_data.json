@@ -42,9 +42,9 @@
       "redFlags": [
         {
           "type": "Promoter holding trend",
-          "severity": "amber",
-          "value": -1.19,
-          "detail": "Promoters hold 50.1% (-1.2 pp vs a year ago)"
+          "severity": "green",
+          "value": -0.2,
+          "detail": "Promoters hold 50.1% (-0.2 pp vs a year ago)"
         },
         {
           "type": "Cash conversion (3y)",
@@ -65,7 +65,7 @@
           "detail": "Other (non-core) income is 6% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Bharti Airtel's revenue grew steadily (~15% a year) and net profit rapidly (~40% a year). Profitability looks strong \u2014 a 23% return on equity and a 55% operating margin. On these fundamentals it ranks 1st of 50 overall, and 1st among its Telecom peers. Worth a closer look: promoter holding trend. Its closest financial look-alike in the Nifty 50 is Eicher Motors.",
+      "summary": "Over the last three years Bharti Airtel's revenue grew steadily (~15% a year) and net profit rapidly (~40% a year). Profitability looks strong \u2014 a 23% return on equity and a 55% operating margin. On these fundamentals it ranks 1st of 50 overall, and 1st among its Telecom peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Eicher Motors.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -4898,7 +4898,7 @@
         {
           "type": "Promoter holding trend",
           "severity": "green",
-          "value": 0.0,
+          "value": 0.02,
           "detail": "Promoters hold 52.6% (+0.0 pp vs a year ago)"
         },
         {
@@ -5410,7 +5410,7 @@
         {
           "type": "Promoter holding trend",
           "severity": "green",
-          "value": 0.26,
+          "value": 0.28,
           "detail": "Promoters hold 50.5% (+0.3 pp vs a year ago)"
         }
       ],
