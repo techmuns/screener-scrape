@@ -1749,8 +1749,8 @@
         {
           "type": "Promoter holding trend",
           "severity": "green",
-          "value": -0.79,
-          "detail": "Promoters hold 13.8% (-0.8 pp vs a year ago)"
+          "value": -0.4,
+          "detail": "Promoters hold 13.9% (-0.4 pp vs a year ago)"
         },
         {
           "type": "Cash conversion (3y)",
@@ -3467,17 +3467,17 @@
         "revenue": [
           31182.0,
           36859.0,
-          37825.0,
+          43962.0,
           42919.0,
           30187.0,
-          34924.0,
+          42437.0,
           46490.0,
           46255.0
         ],
         "netProfit": [
           6275.0,
           8491.0,
-          9593.0,
+          9740.0,
           8788.0,
           4263.0,
           7166.0,
