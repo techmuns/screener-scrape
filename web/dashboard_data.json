@@ -2725,7 +2725,7 @@
         {
           "type": "Promoter holding trend",
           "severity": "green",
-          "value": -0.06,
+          "value": -0.07,
           "detail": "Promoters hold 42.5% (-0.1 pp vs a year ago)"
         },
         {
@@ -3124,8 +3124,8 @@
         {
           "type": "Promoter holding trend",
           "severity": "green",
-          "value": 0.37,
-          "detail": "Promoters hold 58.6% (+0.4 pp vs a year ago)"
+          "value": 0.44,
+          "detail": "Promoters hold 58.7% (+0.4 pp vs a year ago)"
         },
         {
           "type": "Cash conversion (3y)",
@@ -3620,12 +3620,12 @@
       "sector": "Materials",
       "consolidated": false,
       "metrics": {
-        "roe": 10.68594696178743,
+        "roe": 11.126814154481709,
         "salesGrowth": 11.85878496407522,
         "operatingMargin": 19.0,
         "profitGrowth": 17.301704780226657
       },
-      "composite": 46.8,
+      "composite": 47.4,
       "overallRank": 31,
       "sectorRank": 2,
       "bestCompetitor": {
@@ -4258,8 +4258,8 @@
         {
           "type": "Promoter holding trend",
           "severity": "green",
-          "value": 0.03,
-          "detail": "Promoters hold 29.2% (+0.0 pp vs a year ago)"
+          "value": -0.02,
+          "detail": "Promoters hold 29.2% (-0.0 pp vs a year ago)"
         },
         {
           "type": "Cash conversion (3y)",
@@ -5143,7 +5143,7 @@
         "operatingMargin": 19.0,
         "profitGrowth": -2.650817469278466
       },
-      "composite": 31.0,
+      "composite": 30.5,
       "overallRank": 43,
       "sectorRank": 4,
       "bestCompetitor": {
@@ -5282,8 +5282,8 @@
         {
           "type": "Promoter holding trend",
           "severity": "green",
-          "value": 0.41,
-          "detail": "Promoters hold 50.5% (+0.4 pp vs a year ago)"
+          "value": 0.43,
+          "detail": "Promoters hold 50.4% (+0.4 pp vs a year ago)"
         },
         {
           "type": "Cash conversion (3y)",
@@ -5648,7 +5648,7 @@
         {
           "type": "Promoter holding trend",
           "severity": "green",
-          "value": -0.03,
+          "value": -0.02,
           "detail": "Promoters hold 35.0% (-0.0 pp vs a year ago)"
         },
         {
