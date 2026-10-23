@@ -1728,134 +1728,6 @@
       }
     },
     {
-      "symbol": "INFY",
-      "name": "Infosys",
-      "sector": "IT",
-      "consolidated": false,
-      "metrics": {
-        "roe": 31.74298884245897,
-        "salesGrowth": 6.772202424210705,
-        "operatingMargin": 24.0,
-        "profitGrowth": 6.9282925849348365
-      },
-      "composite": 57.8,
-      "overallRank": 14,
-      "sectorRank": 1,
-      "bestCompetitor": {
-        "symbol": "TCS",
-        "name": "Tata Consultancy Services"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "green",
-          "value": -0.4,
-          "detail": "Promoters hold 13.9% (-0.4 pp vs a year ago)"
-        },
-        {
-          "type": "Cash conversion (3y)",
-          "severity": "green",
-          "value": 1.15,
-          "detail": "Operating cash flow is 115% of net profit over 3 years"
-        },
-        {
-          "type": "Interest coverage",
-          "severity": "green",
-          "value": 101.6,
-          "detail": "Operating profit covers interest 101.6x"
-        },
-        {
-          "type": "Other income reliance",
-          "severity": "green",
-          "value": 0.08,
-          "detail": "Other (non-core) income is 8% of pre-tax profit"
-        }
-      ],
-      "summary": "Over the last three years Infosys' revenue grew slowly (~7% a year) and net profit slowly (~7% a year). Profitability looks strong \u2014 a 32% return on equity and a 24% operating margin. On these fundamentals it ranks 14th of 50 overall, and 1st among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Consultancy Services.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          68484.0,
-          70522.0,
-          82675.0,
-          90791.0,
-          100472.0,
-          121641.0,
-          146767.0,
-          153670.0,
-          162990.0,
-          178650.0
-        ],
-        "netProfit": [
-          14353.0,
-          16029.0,
-          15410.0,
-          16639.0,
-          19423.0,
-          22146.0,
-          24108.0,
-          26248.0,
-          26750.0,
-          29474.0
-        ],
-        "opm": [
-          27.0,
-          27.0,
-          24.0,
-          25.0,
-          28.0,
-          26.0,
-          24.0,
-          24.0,
-          24.0,
-          24.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Sep 2024",
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026"
-        ],
-        "revenue": [
-          40986.0,
-          41764.0,
-          40925.0,
-          42279.0,
-          44490.0,
-          45479.0,
-          46402.0,
-          48211.0
-        ],
-        "netProfit": [
-          6516.0,
-          6822.0,
-          7038.0,
-          6924.0,
-          7375.0,
-          6666.0,
-          8509.0,
-          7775.0
-        ]
-      }
-    },
-    {
       "symbol": "TCS",
       "name": "Tata Consultancy Services",
       "sector": "IT",
@@ -1984,116 +1856,6 @@
       }
     },
     {
-      "symbol": "AXISBANK",
-      "name": "Axis Bank",
-      "sector": "Bank",
-      "consolidated": false,
-      "metrics": {
-        "roe": 11.559445278993316,
-        "salesGrowth": 14.867413970862774,
-        "operatingMargin": null,
-        "profitGrowth": 34.4671853351838
-      },
-      "composite": 57.2,
-      "overallRank": 17,
-      "sectorRank": 3,
-      "bestCompetitor": {
-        "symbol": "ULTRACEMCO",
-        "name": "UltraTech Cement"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "green",
-          "value": -0.3,
-          "detail": "Promoters hold 7.9% (-0.3 pp vs a year ago)"
-        }
-      ],
-      "summary": "Over the last three years Axis Bank's revenue grew steadily (~15% a year) and net profit rapidly (~34% a year). Profitability looks moderate \u2014 a 12% return on equity. On these fundamentals it ranks 17th of 50 overall, and 3rd among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is UltraTech Cement.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          45175.0,
-          46614.0,
-          56044.0,
-          63716.0,
-          64397.0,
-          68846.0,
-          87448.0,
-          112759.0,
-          127374.0,
-          132538.0
-        ],
-        "netProfit": [
-          3967.0,
-          464.0,
-          5047.0,
-          1879.0,
-          7252.0,
-          14207.0,
-          10919.0,
-          26492.0,
-          28191.0,
-          26548.0
-        ],
-        "opm": [
-          -13.0,
-          -23.0,
-          -10.0,
-          -16.0,
-          -4.0,
-          4.0,
-          15.0,
-          10.0,
-          8.0,
-          3.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026",
-          "Sep 2026"
-        ],
-        "revenue": [
-          32162.0,
-          32452.0,
-          32348.0,
-          32310.0,
-          33709.0,
-          34171.0,
-          35542.0,
-          38087.0
-        ],
-        "netProfit": [
-          6779.0,
-          7509.0,
-          6279.0,
-          5567.0,
-          7060.0,
-          7642.0,
-          7670.0,
-          7666.0
-        ]
-      }
-    },
-    {
       "symbol": "HINDUNILVR",
       "name": "Hindustan Unilever",
       "sector": "FMCG",
@@ -2104,8 +1866,8 @@
         "operatingMargin": 23.0,
         "profitGrowth": 14.080102469635403
       },
-      "composite": 56.9,
-      "overallRank": 17,
+      "composite": 57.4,
+      "overallRank": 16,
       "sectorRank": 1,
       "bestCompetitor": {
         "symbol": "INFY",
@@ -2137,7 +1899,7 @@
           "detail": "Other (non-core) income is 27% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Hindustan Unilever's revenue grew slowly (~2% a year) and net profit steadily (~14% a year). Profitability looks strong \u2014 a 31% return on equity and a 23% operating margin. On these fundamentals it ranks 17th of 50 overall, and 1st among its FMCG peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Infosys.",
+      "summary": "Over the last three years Hindustan Unilever's revenue grew slowly (~2% a year) and net profit steadily (~14% a year). Profitability looks strong \u2014 a 31% return on equity and a 23% operating margin. On these fundamentals it ranks 16th of 50 overall, and 1st among its FMCG peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Infosys.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -2218,6 +1980,244 @@
           6603.0,
           2994.0,
           2680.0
+        ]
+      }
+    },
+    {
+      "symbol": "INFY",
+      "name": "Infosys",
+      "sector": "IT",
+      "consolidated": false,
+      "metrics": {
+        "roe": 29.748579387748926,
+        "salesGrowth": 6.772202424210705,
+        "operatingMargin": 24.0,
+        "profitGrowth": 6.9282925849348365
+      },
+      "composite": 57.3,
+      "overallRank": 16,
+      "sectorRank": 2,
+      "bestCompetitor": {
+        "symbol": "TCS",
+        "name": "Tata Consultancy Services"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "green",
+          "value": -0.4,
+          "detail": "Promoters hold 13.9% (-0.4 pp vs a year ago)"
+        },
+        {
+          "type": "Cash conversion (3y)",
+          "severity": "green",
+          "value": 1.15,
+          "detail": "Operating cash flow is 115% of net profit over 3 years"
+        },
+        {
+          "type": "Interest coverage",
+          "severity": "green",
+          "value": 101.6,
+          "detail": "Operating profit covers interest 101.6x"
+        },
+        {
+          "type": "Other income reliance",
+          "severity": "green",
+          "value": 0.08,
+          "detail": "Other (non-core) income is 8% of pre-tax profit"
+        }
+      ],
+      "summary": "Over the last three years Infosys' revenue grew slowly (~7% a year) and net profit slowly (~7% a year). Profitability looks strong \u2014 a 30% return on equity and a 24% operating margin. On these fundamentals it ranks 16th of 50 overall, and 2nd among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Consultancy Services.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          68484.0,
+          70522.0,
+          82675.0,
+          90791.0,
+          100472.0,
+          121641.0,
+          146767.0,
+          153670.0,
+          162990.0,
+          178650.0
+        ],
+        "netProfit": [
+          14353.0,
+          16029.0,
+          15410.0,
+          16639.0,
+          19423.0,
+          22146.0,
+          24108.0,
+          26248.0,
+          26750.0,
+          29474.0
+        ],
+        "opm": [
+          27.0,
+          27.0,
+          24.0,
+          25.0,
+          28.0,
+          26.0,
+          24.0,
+          24.0,
+          24.0,
+          24.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026",
+          "Sep 2026"
+        ],
+        "revenue": [
+          41764.0,
+          40925.0,
+          42279.0,
+          44490.0,
+          45479.0,
+          46402.0,
+          48211.0,
+          49244.0
+        ],
+        "netProfit": [
+          6822.0,
+          7038.0,
+          6924.0,
+          7375.0,
+          6666.0,
+          8509.0,
+          7775.0,
+          7838.0
+        ]
+      }
+    },
+    {
+      "symbol": "AXISBANK",
+      "name": "Axis Bank",
+      "sector": "Bank",
+      "consolidated": false,
+      "metrics": {
+        "roe": 11.559445278993316,
+        "salesGrowth": 14.867413970862774,
+        "operatingMargin": null,
+        "profitGrowth": 34.4671853351838
+      },
+      "composite": 57.2,
+      "overallRank": 16,
+      "sectorRank": 3,
+      "bestCompetitor": {
+        "symbol": "ULTRACEMCO",
+        "name": "UltraTech Cement"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "green",
+          "value": -0.3,
+          "detail": "Promoters hold 7.9% (-0.3 pp vs a year ago)"
+        }
+      ],
+      "summary": "Over the last three years Axis Bank's revenue grew steadily (~15% a year) and net profit rapidly (~34% a year). Profitability looks moderate \u2014 a 12% return on equity. On these fundamentals it ranks 16th of 50 overall, and 3rd among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is UltraTech Cement.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          45175.0,
+          46614.0,
+          56044.0,
+          63716.0,
+          64397.0,
+          68846.0,
+          87448.0,
+          112759.0,
+          127374.0,
+          132538.0
+        ],
+        "netProfit": [
+          3967.0,
+          464.0,
+          5047.0,
+          1879.0,
+          7252.0,
+          14207.0,
+          10919.0,
+          26492.0,
+          28191.0,
+          26548.0
+        ],
+        "opm": [
+          -13.0,
+          -23.0,
+          -10.0,
+          -16.0,
+          -4.0,
+          4.0,
+          15.0,
+          10.0,
+          8.0,
+          3.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026",
+          "Sep 2026"
+        ],
+        "revenue": [
+          32162.0,
+          32452.0,
+          32348.0,
+          32310.0,
+          33709.0,
+          34171.0,
+          35542.0,
+          38087.0
+        ],
+        "netProfit": [
+          6779.0,
+          7509.0,
+          6279.0,
+          5567.0,
+          7060.0,
+          7642.0,
+          7670.0,
+          7666.0
         ]
       }
     },
@@ -2318,34 +2318,34 @@
       },
       "quarters": {
         "labels": [
-          "Sep 2024",
           "Dec 2024",
           "Mar 2025",
           "Jun 2025",
           "Sep 2025",
           "Dec 2025",
           "Mar 2026",
-          "Jun 2026"
+          "Jun 2026",
+          "Sep 2026"
         ],
         "revenue": [
-          39684.0,
           41378.0,
           44819.0,
           43147.0,
           45152.0,
           45991.0,
           51180.0,
-          47364.0
+          47364.0,
+          54486.0
         ],
         "netProfit": [
-          404.0,
           719.0,
           1501.0,
           2209.0,
           1646.0,
           2410.0,
           19243.0,
-          4696.0
+          4696.0,
+          5359.0
         ]
       }
     },
@@ -3467,17 +3467,17 @@
         "revenue": [
           31182.0,
           36859.0,
-          43962.0,
+          37825.0,
           42919.0,
           30187.0,
-          42437.0,
+          34924.0,
           46490.0,
           46255.0
         ],
         "netProfit": [
           6275.0,
           8491.0,
-          9740.0,
+          9593.0,
           8788.0,
           4263.0,
           7166.0,
@@ -5138,7 +5138,7 @@
       "sector": "Pharma",
       "consolidated": false,
       "metrics": {
-        "roe": 10.97329251557057,
+        "roe": 10.714285714285714,
         "salesGrowth": 10.956713293700382,
         "operatingMargin": 19.0,
         "profitGrowth": -2.650817469278466
@@ -5229,34 +5229,34 @@
       },
       "quarters": {
         "labels": [
-          "Sep 2024",
           "Dec 2024",
           "Mar 2025",
           "Jun 2025",
           "Sep 2025",
           "Dec 2025",
           "Mar 2026",
-          "Jun 2026"
+          "Jun 2026",
+          "Sep 2026"
         ],
         "revenue": [
-          8038.0,
           8381.0,
           8528.0,
           8572.0,
           8828.0,
           8753.0,
           7546.0,
-          8100.0
+          8100.0,
+          8698.0
         ],
         "netProfit": [
-          1342.0,
           1404.0,
           1587.0,
           1410.0,
           1337.0,
           1190.0,
           221.0,
-          436.0
+          436.0,
+          913.0
         ]
       }
     },
@@ -5760,7 +5760,7 @@
       "sector": "Bank",
       "consolidated": false,
       "metrics": {
-        "roe": 1.3522969272893215,
+        "roe": 1.3114995943055248,
         "salesGrowth": 8.342928307666032,
         "operatingMargin": null,
         "profitGrowth": -50.754660916622775
@@ -5833,34 +5833,34 @@
       },
       "quarters": {
         "labels": [
-          "Sep 2024",
           "Dec 2024",
           "Mar 2025",
           "Jun 2025",
           "Sep 2025",
           "Dec 2025",
           "Mar 2026",
-          "Jun 2026"
+          "Jun 2026",
+          "Sep 2026"
         ],
         "revenue": [
-          12686.0,
           12801.0,
           10634.0,
           12264.0,
           11609.0,
           11373.0,
           11005.0,
-          11310.0
+          11310.0,
+          11796.0
         ],
         "netProfit": [
-          1331.0,
           1402.0,
           -2329.0,
           604.0,
           -437.0,
           128.0,
           594.0,
-          1037.0
+          1037.0,
+          1242.0
         ]
       }
     },
