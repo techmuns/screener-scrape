@@ -32,7 +32,7 @@
         "operatingMargin": 55.0,
         "profitGrowth": 40.148597418107656
       },
-      "composite": 80.4,
+      "composite": 80.9,
       "overallRank": 1,
       "sectorRank": 1,
       "bestCompetitor": {
@@ -160,7 +160,7 @@
         "operatingMargin": 38.0,
         "profitGrowth": 17.225530138853618
       },
-      "composite": 78.8,
+      "composite": 79.3,
       "overallRank": 2,
       "sectorRank": 1,
       "bestCompetitor": {
@@ -270,7 +270,7 @@
         "operatingMargin": 19.0,
         "profitGrowth": 63.46629380050819
       },
-      "composite": 77.5,
+      "composite": 78.0,
       "overallRank": 3,
       "sectorRank": 1,
       "bestCompetitor": {
@@ -2222,134 +2222,6 @@
       }
     },
     {
-      "symbol": "JSWSTEEL",
-      "name": "JSW Steel",
-      "sector": "Materials",
-      "consolidated": false,
-      "metrics": {
-        "roe": 25.49448792140166,
-        "salesGrowth": 3.7743643656640735,
-        "operatingMargin": 16.0,
-        "profitGrowth": 83.34130881086264
-      },
-      "composite": 56.5,
-      "overallRank": 19,
-      "sectorRank": 1,
-      "bestCompetitor": {
-        "symbol": "BPCL",
-        "name": "Bharat Petroleum"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "amber",
-          "value": -1.02,
-          "detail": "Promoters hold 44.3% (-1.0 pp vs a year ago)"
-        },
-        {
-          "type": "Cash conversion (3y)",
-          "severity": "green",
-          "value": 1.53,
-          "detail": "Operating cash flow is 153% of net profit over 3 years"
-        },
-        {
-          "type": "Interest coverage",
-          "severity": "green",
-          "value": 3.2,
-          "detail": "Operating profit covers interest 3.2x"
-        },
-        {
-          "type": "Other income reliance",
-          "severity": "red",
-          "value": 0.63,
-          "detail": "Other (non-core) income is 63% of pre-tax profit"
-        }
-      ],
-      "summary": "Over the last three years JSW Steel's revenue grew slowly (~4% a year) and net profit rapidly (~83% a year). Profitability looks strong \u2014 a 25% return on equity and a 16% operating margin. On these fundamentals it ranks 19th of 50 overall, and 1st among its Materials peers. Worth a closer look: promoter holding trend, other income reliance. Its closest financial look-alike in the Nifty 50 is Bharat Petroleum.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          55604.0,
-          71933.0,
-          84757.0,
-          73326.0,
-          79839.0,
-          146371.0,
-          165960.0,
-          175006.0,
-          168824.0,
-          185470.0
-        ],
-        "netProfit": [
-          3467.0,
-          6113.0,
-          7524.0,
-          3919.0,
-          7873.0,
-          20938.0,
-          4139.0,
-          8973.0,
-          3491.0,
-          25508.0
-        ],
-        "opm": [
-          22.0,
-          21.0,
-          22.0,
-          16.0,
-          25.0,
-          27.0,
-          11.0,
-          16.0,
-          13.0,
-          16.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026",
-          "Sep 2026"
-        ],
-        "revenue": [
-          41378.0,
-          44819.0,
-          43147.0,
-          45152.0,
-          45991.0,
-          51180.0,
-          47364.0,
-          54486.0
-        ],
-        "netProfit": [
-          719.0,
-          1501.0,
-          2209.0,
-          1646.0,
-          2410.0,
-          19243.0,
-          4696.0,
-          5359.0
-        ]
-      }
-    },
-    {
       "symbol": "NESTLEIND",
       "name": "Nestle India",
       "sector": "FMCG",
@@ -2450,6 +2322,134 @@
           1111.0,
           959.0,
           1010.0
+        ]
+      }
+    },
+    {
+      "symbol": "JSWSTEEL",
+      "name": "JSW Steel",
+      "sector": "Materials",
+      "consolidated": false,
+      "metrics": {
+        "roe": 22.512488306003213,
+        "salesGrowth": 3.7743643656640735,
+        "operatingMargin": 16.0,
+        "profitGrowth": 83.34130881086264
+      },
+      "composite": 55.0,
+      "overallRank": 20,
+      "sectorRank": 1,
+      "bestCompetitor": {
+        "symbol": "BPCL",
+        "name": "Bharat Petroleum"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "amber",
+          "value": -1.02,
+          "detail": "Promoters hold 44.3% (-1.0 pp vs a year ago)"
+        },
+        {
+          "type": "Cash conversion (3y)",
+          "severity": "green",
+          "value": 1.53,
+          "detail": "Operating cash flow is 153% of net profit over 3 years"
+        },
+        {
+          "type": "Interest coverage",
+          "severity": "green",
+          "value": 3.2,
+          "detail": "Operating profit covers interest 3.2x"
+        },
+        {
+          "type": "Other income reliance",
+          "severity": "red",
+          "value": 0.63,
+          "detail": "Other (non-core) income is 63% of pre-tax profit"
+        }
+      ],
+      "summary": "Over the last three years JSW Steel's revenue grew slowly (~4% a year) and net profit rapidly (~83% a year). Profitability looks strong \u2014 a 23% return on equity and a 16% operating margin. On these fundamentals it ranks 20th of 50 overall, and 1st among its Materials peers. Worth a closer look: promoter holding trend, other income reliance. Its closest financial look-alike in the Nifty 50 is Bharat Petroleum.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          55604.0,
+          71933.0,
+          84757.0,
+          73326.0,
+          79839.0,
+          146371.0,
+          165960.0,
+          175006.0,
+          168824.0,
+          185470.0
+        ],
+        "netProfit": [
+          3467.0,
+          6113.0,
+          7524.0,
+          3919.0,
+          7873.0,
+          20938.0,
+          4139.0,
+          8973.0,
+          3491.0,
+          25508.0
+        ],
+        "opm": [
+          22.0,
+          21.0,
+          22.0,
+          16.0,
+          25.0,
+          27.0,
+          11.0,
+          16.0,
+          13.0,
+          16.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026",
+          "Sep 2026"
+        ],
+        "revenue": [
+          41378.0,
+          44819.0,
+          43147.0,
+          45152.0,
+          45991.0,
+          51180.0,
+          47364.0,
+          54486.0
+        ],
+        "netProfit": [
+          719.0,
+          1501.0,
+          2209.0,
+          1646.0,
+          2410.0,
+          19243.0,
+          4696.0,
+          5359.0
         ]
       }
     },
@@ -3748,7 +3748,7 @@
       "sector": "Energy",
       "consolidated": false,
       "metrics": {
-        "roe": 25.798883908516434,
+        "roe": 25.47011748009146,
         "salesGrowth": -1.2814606951461194,
         "operatingMargin": 9.0,
         "profitGrowth": 129.74875111203502
@@ -3786,7 +3786,7 @@
           "detail": "Other (non-core) income is 13% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Bharat Petroleum's revenue grew in decline, (~-1% a year) and net profit rapidly (~130% a year). Profitability looks strong \u2014 a 26% return on equity and a 9% operating margin. On these fundamentals it ranks 32nd of 50 overall, and 2nd among its Energy peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Motors Passenger Vehicles.",
+      "summary": "Over the last three years Bharat Petroleum's revenue grew in decline, (~-1% a year) and net profit rapidly (~130% a year). Profitability looks strong \u2014 a 25% return on equity and a 9% operating margin. On these fundamentals it ranks 32nd of 50 overall, and 2nd among its Energy peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Motors Passenger Vehicles.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -3839,34 +3839,34 @@
       },
       "quarters": {
         "labels": [
-          "Sep 2024",
           "Dec 2024",
           "Mar 2025",
           "Jun 2025",
           "Sep 2025",
           "Dec 2025",
           "Mar 2026",
-          "Jun 2026"
+          "Jun 2026",
+          "Sep 2026"
         ],
         "revenue": [
-          102785.0,
           113166.0,
           111230.0,
           112551.0,
           104946.0,
           119029.0,
           118701.0,
-          151277.0
+          151277.0,
+          149080.0
         ],
         "netProfit": [
-          2297.0,
           3806.0,
           4392.0,
           6839.0,
           6191.0,
           7188.0,
           5625.0,
-          -1873.0
+          -1873.0,
+          4863.0
         ]
       }
     },
@@ -4004,13 +4004,13 @@
       "sector": "Bank",
       "consolidated": false,
       "metrics": {
-        "roe": 10.643064460949311,
+        "roe": 9.906217579324725,
         "salesGrowth": 18.29773664540928,
         "operatingMargin": null,
         "profitGrowth": 8.924176659150152
       },
-      "composite": 44.9,
-      "overallRank": 33,
+      "composite": 43.9,
+      "overallRank": 34,
       "sectorRank": 5,
       "bestCompetitor": {
         "symbol": "GRASIM",
@@ -4024,7 +4024,7 @@
           "detail": "Promoters hold 25.9% (-0.0 pp vs a year ago)"
         }
       ],
-      "summary": "Over the last three years Kotak Mahindra Bank's revenue grew rapidly (~18% a year) and net profit steadily (~9% a year). Profitability looks moderate \u2014 a 11% return on equity. On these fundamentals it ranks 33rd of 50 overall, and 5th among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Grasim Industries.",
+      "summary": "Over the last three years Kotak Mahindra Bank's revenue grew rapidly (~18% a year) and net profit steadily (~9% a year). Profitability looks modest \u2014 a 10% return on equity. On these fundamentals it ranks 34th of 50 overall, and 5th among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Grasim Industries.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -4077,34 +4077,34 @@
       },
       "quarters": {
         "labels": [
-          "Sep 2024",
           "Dec 2024",
           "Mar 2025",
           "Jun 2025",
           "Sep 2025",
           "Dec 2025",
           "Mar 2026",
-          "Jun 2026"
+          "Jun 2026",
+          "Sep 2026"
         ],
         "revenue": [
-          16427.0,
           16633.0,
           16772.0,
           17248.0,
           17199.0,
           17507.0,
           17827.0,
-          18355.0
+          18355.0,
+          19856.0
         ],
         "netProfit": [
-          5044.0,
           4701.0,
           4933.0,
           4472.0,
           4468.0,
           4924.0,
           5423.0,
-          5480.0
+          5480.0,
+          5645.0
         ]
       }
     },
@@ -4503,7 +4503,7 @@
         "operatingMargin": 21.0,
         "profitGrowth": -2.3980215195521293
       },
-      "composite": 35.3,
+      "composite": 35.8,
       "overallRank": 38,
       "sectorRank": 3,
       "bestCompetitor": {
@@ -5271,7 +5271,7 @@
         "operatingMargin": 17.0,
         "profitGrowth": 8.927202802777634
       },
-      "composite": 28.6,
+      "composite": 29.1,
       "overallRank": 44,
       "sectorRank": 4,
       "bestCompetitor": {
