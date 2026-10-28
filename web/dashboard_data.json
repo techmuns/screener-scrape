@@ -160,7 +160,7 @@
         "operatingMargin": 38.0,
         "profitGrowth": 17.225530138853618
       },
-      "composite": 79.3,
+      "composite": 79.8,
       "overallRank": 2,
       "sectorRank": 1,
       "bestCompetitor": {
@@ -649,12 +649,12 @@
       "sector": "Infrastructure",
       "consolidated": false,
       "metrics": {
-        "roe": 13.32027219958524,
+        "roe": 12.501956181533647,
         "salesGrowth": 22.92937831245141,
         "operatingMargin": 59.0,
         "profitGrowth": 33.3449257218295
       },
-      "composite": 75.4,
+      "composite": 74.4,
       "overallRank": 6,
       "sectorRank": 1,
       "bestCompetitor": {
@@ -740,34 +740,34 @@
       },
       "quarters": {
         "labels": [
-          "Sep 2024",
           "Dec 2024",
           "Mar 2025",
           "Jun 2025",
           "Sep 2025",
           "Dec 2025",
           "Mar 2026",
-          "Jun 2026"
+          "Jun 2026",
+          "Sep 2026"
         ],
         "revenue": [
-          7067.0,
           7964.0,
           8488.0,
           9126.0,
           9167.0,
           9705.0,
           10738.0,
-          10821.0
+          10821.0,
+          11340.0
         ],
         "netProfit": [
-          2413.0,
           2518.0,
           3023.0,
           3311.0,
           3120.0,
           3043.0,
           3308.0,
-          3650.0
+          3650.0,
+          3682.0
         ]
       }
     },
@@ -1148,7 +1148,7 @@
         "operatingMargin": null,
         "profitGrowth": 19.735340539078106
       },
-      "composite": 61.7,
+      "composite": 62.2,
       "overallRank": 10,
       "sectorRank": 1,
       "bestCompetitor": {
@@ -1369,134 +1369,6 @@
       }
     },
     {
-      "symbol": "HEROMOTOCO",
-      "name": "Hero MotoCorp",
-      "sector": "Auto",
-      "consolidated": false,
-      "metrics": {
-        "roe": 26.727129702466335,
-        "salesGrowth": 11.54811279148773,
-        "operatingMargin": 15.0,
-        "profitGrowth": 27.298431066174047
-      },
-      "composite": 60.6,
-      "overallRank": 11,
-      "sectorRank": 4,
-      "bestCompetitor": {
-        "symbol": "APOLLOHOSP",
-        "name": "Apollo Hospitals"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "green",
-          "value": -0.01,
-          "detail": "Promoters hold 34.7% (-0.0 pp vs a year ago)"
-        },
-        {
-          "type": "Cash conversion (3y)",
-          "severity": "green",
-          "value": 1.26,
-          "detail": "Operating cash flow is 126% of net profit over 3 years"
-        },
-        {
-          "type": "Interest coverage",
-          "severity": "green",
-          "value": 90.5,
-          "detail": "Operating profit covers interest 90.5x"
-        },
-        {
-          "type": "Other income reliance",
-          "severity": "green",
-          "value": 0.18,
-          "detail": "Other (non-core) income is 18% of pre-tax profit"
-        }
-      ],
-      "summary": "Over the last three years Hero MotoCorp's revenue grew steadily (~12% a year) and net profit rapidly (~27% a year). Profitability looks strong \u2014 a 27% return on equity and a 15% operating margin. On these fundamentals it ranks 11th of 50 overall, and 4th among its Auto peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Apollo Hospitals.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          28610.0,
-          32458.0,
-          33971.0,
-          29254.0,
-          30959.0,
-          29551.0,
-          34158.0,
-          37789.0,
-          40923.0,
-          47411.0
-        ],
-        "netProfit": [
-          3546.0,
-          3722.0,
-          3466.0,
-          3659.0,
-          2936.0,
-          2329.0,
-          2800.0,
-          3742.0,
-          4376.0,
-          5776.0
-        ],
-        "opm": [
-          16.0,
-          16.0,
-          15.0,
-          14.0,
-          13.0,
-          11.0,
-          12.0,
-          14.0,
-          14.0,
-          15.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Sep 2024",
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026"
-        ],
-        "revenue": [
-          10483.0,
-          10260.0,
-          9970.0,
-          9728.0,
-          12218.0,
-          12487.0,
-          12978.0,
-          13126.0
-        ],
-        "netProfit": [
-          1066.0,
-          1108.0,
-          1169.0,
-          1706.0,
-          1321.0,
-          1275.0,
-          1474.0,
-          1418.0
-        ]
-      }
-    },
-    {
       "symbol": "ICICIBANK",
       "name": "ICICI Bank",
       "sector": "Bank",
@@ -1508,14 +1380,14 @@
         "profitGrowth": 17.778452278902492
       },
       "composite": 59.7,
-      "overallRank": 13,
+      "overallRank": 12,
       "sectorRank": 2,
       "bestCompetitor": {
         "symbol": "M&M",
         "name": "Mahindra & Mahindra"
       },
       "redFlags": [],
-      "summary": "Over the last three years ICICI Bank's revenue grew rapidly (~17% a year) and net profit rapidly (~18% a year). Profitability looks moderate \u2014 a 15% return on equity. On these fundamentals it ranks 13th of 50 overall, and 2nd among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Mahindra & Mahindra.",
+      "summary": "Over the last three years ICICI Bank's revenue grew rapidly (~17% a year) and net profit rapidly (~18% a year). Profitability looks moderate \u2014 a 15% return on equity. On these fundamentals it ranks 12th of 50 overall, and 2nd among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Mahindra & Mahindra.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -1596,6 +1468,134 @@
           15681.0,
           16276.0,
           17389.0
+        ]
+      }
+    },
+    {
+      "symbol": "HEROMOTOCO",
+      "name": "Hero MotoCorp",
+      "sector": "Auto",
+      "consolidated": false,
+      "metrics": {
+        "roe": 24.67427057969157,
+        "salesGrowth": 11.54811279148773,
+        "operatingMargin": 15.0,
+        "profitGrowth": 27.298431066174047
+      },
+      "composite": 59.0,
+      "overallRank": 13,
+      "sectorRank": 4,
+      "bestCompetitor": {
+        "symbol": "APOLLOHOSP",
+        "name": "Apollo Hospitals"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "green",
+          "value": -0.01,
+          "detail": "Promoters hold 34.7% (-0.0 pp vs a year ago)"
+        },
+        {
+          "type": "Cash conversion (3y)",
+          "severity": "green",
+          "value": 1.26,
+          "detail": "Operating cash flow is 126% of net profit over 3 years"
+        },
+        {
+          "type": "Interest coverage",
+          "severity": "green",
+          "value": 90.5,
+          "detail": "Operating profit covers interest 90.5x"
+        },
+        {
+          "type": "Other income reliance",
+          "severity": "green",
+          "value": 0.18,
+          "detail": "Other (non-core) income is 18% of pre-tax profit"
+        }
+      ],
+      "summary": "Over the last three years Hero MotoCorp's revenue grew steadily (~12% a year) and net profit rapidly (~27% a year). Profitability looks strong \u2014 a 25% return on equity and a 15% operating margin. On these fundamentals it ranks 13th of 50 overall, and 4th among its Auto peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Apollo Hospitals.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          28610.0,
+          32458.0,
+          33971.0,
+          29254.0,
+          30959.0,
+          29551.0,
+          34158.0,
+          37789.0,
+          40923.0,
+          47411.0
+        ],
+        "netProfit": [
+          3546.0,
+          3722.0,
+          3466.0,
+          3659.0,
+          2936.0,
+          2329.0,
+          2800.0,
+          3742.0,
+          4376.0,
+          5776.0
+        ],
+        "opm": [
+          16.0,
+          16.0,
+          15.0,
+          14.0,
+          13.0,
+          11.0,
+          12.0,
+          14.0,
+          14.0,
+          15.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026",
+          "Sep 2026"
+        ],
+        "revenue": [
+          10260.0,
+          9970.0,
+          9728.0,
+          12218.0,
+          12487.0,
+          12978.0,
+          13126.0,
+          14970.0
+        ],
+        "netProfit": [
+          1108.0,
+          1169.0,
+          1706.0,
+          1321.0,
+          1275.0,
+          1474.0,
+          1418.0,
+          1861.0
         ]
       }
     },
@@ -1724,6 +1724,116 @@
           583.0,
           751.0,
           902.0
+        ]
+      }
+    },
+    {
+      "symbol": "AXISBANK",
+      "name": "Axis Bank",
+      "sector": "Bank",
+      "consolidated": false,
+      "metrics": {
+        "roe": 11.559445278993316,
+        "salesGrowth": 14.867413970862774,
+        "operatingMargin": null,
+        "profitGrowth": 34.4671853351838
+      },
+      "composite": 57.7,
+      "overallRank": 14,
+      "sectorRank": 3,
+      "bestCompetitor": {
+        "symbol": "ULTRACEMCO",
+        "name": "UltraTech Cement"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "green",
+          "value": -0.3,
+          "detail": "Promoters hold 7.9% (-0.3 pp vs a year ago)"
+        }
+      ],
+      "summary": "Over the last three years Axis Bank's revenue grew steadily (~15% a year) and net profit rapidly (~34% a year). Profitability looks moderate \u2014 a 12% return on equity. On these fundamentals it ranks 14th of 50 overall, and 3rd among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is UltraTech Cement.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          45175.0,
+          46614.0,
+          56044.0,
+          63716.0,
+          64397.0,
+          68846.0,
+          87448.0,
+          112759.0,
+          127374.0,
+          132538.0
+        ],
+        "netProfit": [
+          3967.0,
+          464.0,
+          5047.0,
+          1879.0,
+          7252.0,
+          14207.0,
+          10919.0,
+          26492.0,
+          28191.0,
+          26548.0
+        ],
+        "opm": [
+          -13.0,
+          -23.0,
+          -10.0,
+          -16.0,
+          -4.0,
+          4.0,
+          15.0,
+          10.0,
+          8.0,
+          3.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026",
+          "Sep 2026"
+        ],
+        "revenue": [
+          32162.0,
+          32452.0,
+          32348.0,
+          32310.0,
+          33709.0,
+          34171.0,
+          35542.0,
+          38087.0
+        ],
+        "netProfit": [
+          6779.0,
+          7509.0,
+          6279.0,
+          5567.0,
+          7060.0,
+          7642.0,
+          7670.0,
+          7666.0
         ]
       }
     },
@@ -1861,13 +1971,13 @@
       "sector": "FMCG",
       "consolidated": false,
       "metrics": {
-        "roe": 30.89722809249266,
+        "roe": 30.839647757526112,
         "salesGrowth": 2.0951181546343456,
         "operatingMargin": 23.0,
         "profitGrowth": 14.080102469635403
       },
       "composite": 57.4,
-      "overallRank": 16,
+      "overallRank": 17,
       "sectorRank": 1,
       "bestCompetitor": {
         "symbol": "INFY",
@@ -1899,7 +2009,7 @@
           "detail": "Other (non-core) income is 27% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Hindustan Unilever's revenue grew slowly (~2% a year) and net profit steadily (~14% a year). Profitability looks strong \u2014 a 31% return on equity and a 23% operating margin. On these fundamentals it ranks 16th of 50 overall, and 1st among its FMCG peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Infosys.",
+      "summary": "Over the last three years Hindustan Unilever's revenue grew slowly (~2% a year) and net profit steadily (~14% a year). Profitability looks strong \u2014 a 31% return on equity and a 23% operating margin. On these fundamentals it ranks 17th of 50 overall, and 1st among its FMCG peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Infosys.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -1952,34 +2062,34 @@
       },
       "quarters": {
         "labels": [
-          "Sep 2024",
           "Dec 2024",
           "Mar 2025",
           "Jun 2025",
           "Sep 2025",
           "Dec 2025",
           "Mar 2026",
-          "Jun 2026"
+          "Jun 2026",
+          "Sep 2026"
         ],
         "revenue": [
-          15926.0,
           15556.0,
           15190.0,
           15757.0,
           15919.0,
           16441.0,
           16351.0,
-          17341.0
+          17341.0,
+          18226.0
         ],
         "netProfit": [
-          2595.0,
           2989.0,
           2475.0,
           2768.0,
           2694.0,
           6603.0,
           2994.0,
-          2680.0
+          2680.0,
+          2796.0
         ]
       }
     },
@@ -1995,7 +2105,7 @@
         "profitGrowth": 6.9282925849348365
       },
       "composite": 57.3,
-      "overallRank": 16,
+      "overallRank": 17,
       "sectorRank": 2,
       "bestCompetitor": {
         "symbol": "TCS",
@@ -2027,7 +2137,7 @@
           "detail": "Other (non-core) income is 8% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Infosys' revenue grew slowly (~7% a year) and net profit slowly (~7% a year). Profitability looks strong \u2014 a 30% return on equity and a 24% operating margin. On these fundamentals it ranks 16th of 50 overall, and 2nd among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Consultancy Services.",
+      "summary": "Over the last three years Infosys' revenue grew slowly (~7% a year) and net profit slowly (~7% a year). Profitability looks strong \u2014 a 30% return on equity and a 24% operating margin. On these fundamentals it ranks 17th of 50 overall, and 2nd among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Consultancy Services.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -2108,116 +2218,6 @@
           8509.0,
           7775.0,
           7838.0
-        ]
-      }
-    },
-    {
-      "symbol": "AXISBANK",
-      "name": "Axis Bank",
-      "sector": "Bank",
-      "consolidated": false,
-      "metrics": {
-        "roe": 11.559445278993316,
-        "salesGrowth": 14.867413970862774,
-        "operatingMargin": null,
-        "profitGrowth": 34.4671853351838
-      },
-      "composite": 57.2,
-      "overallRank": 16,
-      "sectorRank": 3,
-      "bestCompetitor": {
-        "symbol": "ULTRACEMCO",
-        "name": "UltraTech Cement"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "green",
-          "value": -0.3,
-          "detail": "Promoters hold 7.9% (-0.3 pp vs a year ago)"
-        }
-      ],
-      "summary": "Over the last three years Axis Bank's revenue grew steadily (~15% a year) and net profit rapidly (~34% a year). Profitability looks moderate \u2014 a 12% return on equity. On these fundamentals it ranks 16th of 50 overall, and 3rd among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is UltraTech Cement.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          45175.0,
-          46614.0,
-          56044.0,
-          63716.0,
-          64397.0,
-          68846.0,
-          87448.0,
-          112759.0,
-          127374.0,
-          132538.0
-        ],
-        "netProfit": [
-          3967.0,
-          464.0,
-          5047.0,
-          1879.0,
-          7252.0,
-          14207.0,
-          10919.0,
-          26492.0,
-          28191.0,
-          26548.0
-        ],
-        "opm": [
-          -13.0,
-          -23.0,
-          -10.0,
-          -16.0,
-          -4.0,
-          4.0,
-          15.0,
-          10.0,
-          8.0,
-          3.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026",
-          "Sep 2026"
-        ],
-        "revenue": [
-          32162.0,
-          32452.0,
-          32348.0,
-          32310.0,
-          33709.0,
-          34171.0,
-          35542.0,
-          38087.0
-        ],
-        "netProfit": [
-          6779.0,
-          7509.0,
-          6279.0,
-          5567.0,
-          7060.0,
-          7642.0,
-          7670.0,
-          7666.0
         ]
       }
     },
@@ -3369,12 +3369,12 @@
         "operatingMargin": 22.0,
         "profitGrowth": -0.6898449556087871
       },
-      "composite": 48.4,
-      "overallRank": 29,
+      "composite": 48.9,
+      "overallRank": 28,
       "sectorRank": 1,
       "bestCompetitor": {
-        "symbol": "HCLTECH",
-        "name": "HCL Technologies"
+        "symbol": "NESTLEIND",
+        "name": "Nestle India"
       },
       "redFlags": [
         {
@@ -3402,7 +3402,7 @@
           "detail": "Other (non-core) income is 38% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Coal India's revenue grew slowly (~7% a year) and net profit in decline, (~-1% a year). Profitability looks strong \u2014 a 26% return on equity and a 22% operating margin. On these fundamentals it ranks 29th of 50 overall, and 1st among its Energy peers. Worth a closer look: promoter holding trend, other income reliance. Its closest financial look-alike in the Nifty 50 is HCL Technologies.",
+      "summary": "Over the last three years Coal India's revenue grew slowly (~7% a year) and net profit in decline, (~-1% a year). Profitability looks strong \u2014 a 26% return on equity and a 22% operating margin. On these fundamentals it ranks 28th of 50 overall, and 1st among its Energy peers. Worth a closer look: promoter holding trend, other income reliance. Its closest financial look-alike in the Nifty 50 is Nestle India.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -3487,134 +3487,6 @@
       }
     },
     {
-      "symbol": "HCLTECH",
-      "name": "HCL Technologies",
-      "sector": "IT",
-      "consolidated": false,
-      "metrics": {
-        "roe": 21.884035115386638,
-        "salesGrowth": 8.654772035396308,
-        "operatingMargin": 21.0,
-        "profitGrowth": 3.903154616942639
-      },
-      "composite": 48.1,
-      "overallRank": 29,
-      "sectorRank": 3,
-      "bestCompetitor": {
-        "symbol": "COALINDIA",
-        "name": "Coal India"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "green",
-          "value": 0.06,
-          "detail": "Promoters hold 60.9% (+0.1 pp vs a year ago)"
-        },
-        {
-          "type": "Cash conversion (3y)",
-          "severity": "green",
-          "value": 1.3,
-          "detail": "Operating cash flow is 130% of net profit over 3 years"
-        },
-        {
-          "type": "Interest coverage",
-          "severity": "green",
-          "value": 30.8,
-          "detail": "Operating profit covers interest 30.8x"
-        },
-        {
-          "type": "Other income reliance",
-          "severity": "green",
-          "value": 0.03,
-          "detail": "Other (non-core) income is 3% of pre-tax profit"
-        }
-      ],
-      "summary": "Over the last three years HCL Technologies' revenue grew steadily (~9% a year) and net profit slowly (~4% a year). Profitability looks strong \u2014 a 22% return on equity and a 21% operating margin. On these fundamentals it ranks 29th of 50 overall, and 3rd among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Coal India.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          47568.0,
-          50569.0,
-          60427.0,
-          70676.0,
-          75379.0,
-          85651.0,
-          101456.0,
-          109913.0,
-          117055.0,
-          130144.0
-        ],
-        "netProfit": [
-          8606.0,
-          8722.0,
-          10120.0,
-          11057.0,
-          11169.0,
-          13523.0,
-          14845.0,
-          15710.0,
-          17399.0,
-          16652.0
-        ],
-        "opm": [
-          22.0,
-          22.0,
-          23.0,
-          24.0,
-          27.0,
-          24.0,
-          22.0,
-          22.0,
-          22.0,
-          21.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026",
-          "Sep 2026"
-        ],
-        "revenue": [
-          29890.0,
-          30246.0,
-          30349.0,
-          31942.0,
-          33872.0,
-          33981.0,
-          34579.0,
-          35620.0
-        ],
-        "netProfit": [
-          4594.0,
-          4309.0,
-          3844.0,
-          4236.0,
-          4082.0,
-          4490.0,
-          4626.0,
-          5132.0
-        ]
-      }
-    },
-    {
       "symbol": "ULTRACEMCO",
       "name": "UltraTech Cement",
       "sector": "Materials",
@@ -3625,8 +3497,8 @@
         "operatingMargin": 19.0,
         "profitGrowth": 17.301704780226657
       },
-      "composite": 47.9,
-      "overallRank": 29,
+      "composite": 48.4,
+      "overallRank": 30,
       "sectorRank": 2,
       "bestCompetitor": {
         "symbol": "SBIN",
@@ -3658,7 +3530,7 @@
           "detail": "Other (non-core) income is 4% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years UltraTech Cement's revenue grew steadily (~12% a year) and net profit rapidly (~17% a year). Profitability looks moderate \u2014 a 11% return on equity and a 19% operating margin. On these fundamentals it ranks 29th of 50 overall, and 2nd among its Materials peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is State Bank of India.",
+      "summary": "Over the last three years UltraTech Cement's revenue grew steadily (~12% a year) and net profit rapidly (~17% a year). Profitability looks moderate \u2014 a 11% return on equity and a 19% operating margin. On these fundamentals it ranks 30th of 50 overall, and 2nd among its Materials peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is State Bank of India.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -3743,6 +3615,134 @@
       }
     },
     {
+      "symbol": "HCLTECH",
+      "name": "HCL Technologies",
+      "sector": "IT",
+      "consolidated": false,
+      "metrics": {
+        "roe": 21.884035115386638,
+        "salesGrowth": 8.654772035396308,
+        "operatingMargin": 21.0,
+        "profitGrowth": 3.903154616942639
+      },
+      "composite": 48.1,
+      "overallRank": 30,
+      "sectorRank": 3,
+      "bestCompetitor": {
+        "symbol": "COALINDIA",
+        "name": "Coal India"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "green",
+          "value": 0.06,
+          "detail": "Promoters hold 60.9% (+0.1 pp vs a year ago)"
+        },
+        {
+          "type": "Cash conversion (3y)",
+          "severity": "green",
+          "value": 1.3,
+          "detail": "Operating cash flow is 130% of net profit over 3 years"
+        },
+        {
+          "type": "Interest coverage",
+          "severity": "green",
+          "value": 30.8,
+          "detail": "Operating profit covers interest 30.8x"
+        },
+        {
+          "type": "Other income reliance",
+          "severity": "green",
+          "value": 0.03,
+          "detail": "Other (non-core) income is 3% of pre-tax profit"
+        }
+      ],
+      "summary": "Over the last three years HCL Technologies' revenue grew steadily (~9% a year) and net profit slowly (~4% a year). Profitability looks strong \u2014 a 22% return on equity and a 21% operating margin. On these fundamentals it ranks 30th of 50 overall, and 3rd among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Coal India.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          47568.0,
+          50569.0,
+          60427.0,
+          70676.0,
+          75379.0,
+          85651.0,
+          101456.0,
+          109913.0,
+          117055.0,
+          130144.0
+        ],
+        "netProfit": [
+          8606.0,
+          8722.0,
+          10120.0,
+          11057.0,
+          11169.0,
+          13523.0,
+          14845.0,
+          15710.0,
+          17399.0,
+          16652.0
+        ],
+        "opm": [
+          22.0,
+          22.0,
+          23.0,
+          24.0,
+          27.0,
+          24.0,
+          22.0,
+          22.0,
+          22.0,
+          21.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026",
+          "Sep 2026"
+        ],
+        "revenue": [
+          29890.0,
+          30246.0,
+          30349.0,
+          31942.0,
+          33872.0,
+          33981.0,
+          34579.0,
+          35620.0
+        ],
+        "netProfit": [
+          4594.0,
+          4309.0,
+          3844.0,
+          4236.0,
+          4082.0,
+          4490.0,
+          4626.0,
+          5132.0
+        ]
+      }
+    },
+    {
       "symbol": "BPCL",
       "name": "Bharat Petroleum",
       "sector": "Energy",
@@ -3753,7 +3753,7 @@
         "operatingMargin": 9.0,
         "profitGrowth": 129.74875111203502
       },
-      "composite": 46.1,
+      "composite": 46.6,
       "overallRank": 32,
       "sectorRank": 2,
       "bestCompetitor": {
@@ -4247,7 +4247,7 @@
         "operatingMargin": 21.0,
         "profitGrowth": 10.880514292106014
       },
-      "composite": 42.0,
+      "composite": 42.5,
       "overallRank": 36,
       "sectorRank": 3,
       "bestCompetitor": {
@@ -4375,7 +4375,7 @@
         "operatingMargin": 21.0,
         "profitGrowth": 10.337998562010476
       },
-      "composite": 38.4,
+      "composite": 38.9,
       "overallRank": 37,
       "sectorRank": 3,
       "bestCompetitor": {
@@ -4749,134 +4749,6 @@
       }
     },
     {
-      "symbol": "ADANIENT",
-      "name": "Adani Enterprises",
-      "sector": "Diversified",
-      "consolidated": false,
-      "metrics": {
-        "roe": 12.296418950646268,
-        "salesGrowth": -7.6446860482450525,
-        "operatingMargin": 14.0,
-        "profitGrowth": 60.163737898574254
-      },
-      "composite": 34.1,
-      "overallRank": 40,
-      "sectorRank": 1,
-      "bestCompetitor": {
-        "symbol": "ONGC",
-        "name": "Oil & Natural Gas Corporation"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "amber",
-          "value": -2.0,
-          "detail": "Promoters hold 72.0% (-2.0 pp vs a year ago)"
-        },
-        {
-          "type": "Cash conversion (3y)",
-          "severity": "green",
-          "value": 0.81,
-          "detail": "Operating cash flow is 81% of net profit over 3 years"
-        },
-        {
-          "type": "Interest coverage",
-          "severity": "amber",
-          "value": 2.3,
-          "detail": "Operating profit covers interest 2.3x"
-        },
-        {
-          "type": "Other income reliance",
-          "severity": "red",
-          "value": 0.86,
-          "detail": "Other (non-core) income is 86% of pre-tax profit"
-        }
-      ],
-      "summary": "Over the last three years Adani Enterprises' revenue grew in decline, (~-8% a year) and net profit rapidly (~60% a year). Profitability looks moderate \u2014 a 12% return on equity and a 14% operating margin. On these fundamentals it ranks 40th of 50 overall, and 1st among its Diversified peers. Worth a closer look: promoter holding trend, interest coverage, other income reliance. Its closest financial look-alike in the Nifty 50 is Oil & Natural Gas Corporation.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          36533.0,
-          35924.0,
-          40379.0,
-          43403.0,
-          39537.0,
-          69420.0,
-          127540.0,
-          96421.0,
-          97895.0,
-          100469.0
-        ],
-        "netProfit": [
-          925.0,
-          594.0,
-          506.0,
-          1040.0,
-          1046.0,
-          788.0,
-          2422.0,
-          3335.0,
-          8005.0,
-          9951.0
-        ],
-        "opm": [
-          5.0,
-          6.0,
-          4.9,
-          5.0,
-          6.0,
-          5.0,
-          7.0,
-          12.0,
-          15.0,
-          14.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Sep 2024",
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026"
-        ],
-        "revenue": [
-          22608.0,
-          22848.0,
-          26966.0,
-          21961.0,
-          21249.0,
-          24820.0,
-          32439.0,
-          32924.0
-        ],
-        "netProfit": [
-          1989.0,
-          229.0,
-          4015.0,
-          976.0,
-          3414.0,
-          5727.0,
-          -167.0,
-          -1462.0
-        ]
-      }
-    },
-    {
       "symbol": "ASIANPAINT",
       "name": "Asian Paints",
       "sector": "Consumer Durables",
@@ -5016,7 +4888,7 @@
         "profitGrowth": 14.955198064445696
       },
       "composite": 33.1,
-      "overallRank": 42,
+      "overallRank": 41,
       "sectorRank": 3,
       "bestCompetitor": {
         "symbol": "TATASTEEL",
@@ -5048,7 +4920,7 @@
           "detail": "Other (non-core) income is 22% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Oil & Natural Gas Corporation's revenue grew in decline, (~-1% a year) and net profit steadily (~15% a year). Profitability looks moderate \u2014 a 13% return on equity and a 17% operating margin. On these fundamentals it ranks 42nd of 50 overall, and 3rd among its Energy peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Steel.",
+      "summary": "Over the last three years Oil & Natural Gas Corporation's revenue grew in decline, (~-1% a year) and net profit steadily (~15% a year). Profitability looks moderate \u2014 a 13% return on equity and a 17% operating margin. On these fundamentals it ranks 41st of 50 overall, and 3rd among its Energy peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Steel.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -5133,6 +5005,134 @@
       }
     },
     {
+      "symbol": "ADANIENT",
+      "name": "Adani Enterprises",
+      "sector": "Diversified",
+      "consolidated": false,
+      "metrics": {
+        "roe": 10.15905749754982,
+        "salesGrowth": -7.6446860482450525,
+        "operatingMargin": 14.0,
+        "profitGrowth": 60.163737898574254
+      },
+      "composite": 31.0,
+      "overallRank": 42,
+      "sectorRank": 1,
+      "bestCompetitor": {
+        "symbol": "ONGC",
+        "name": "Oil & Natural Gas Corporation"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "amber",
+          "value": -2.0,
+          "detail": "Promoters hold 72.0% (-2.0 pp vs a year ago)"
+        },
+        {
+          "type": "Cash conversion (3y)",
+          "severity": "green",
+          "value": 0.81,
+          "detail": "Operating cash flow is 81% of net profit over 3 years"
+        },
+        {
+          "type": "Interest coverage",
+          "severity": "amber",
+          "value": 2.3,
+          "detail": "Operating profit covers interest 2.3x"
+        },
+        {
+          "type": "Other income reliance",
+          "severity": "red",
+          "value": 0.86,
+          "detail": "Other (non-core) income is 86% of pre-tax profit"
+        }
+      ],
+      "summary": "Over the last three years Adani Enterprises' revenue grew in decline, (~-8% a year) and net profit rapidly (~60% a year). Profitability looks moderate \u2014 a 10% return on equity and a 14% operating margin. On these fundamentals it ranks 42nd of 50 overall, and 1st among its Diversified peers. Worth a closer look: promoter holding trend, interest coverage, other income reliance. Its closest financial look-alike in the Nifty 50 is Oil & Natural Gas Corporation.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          36533.0,
+          35924.0,
+          40379.0,
+          43403.0,
+          39537.0,
+          69420.0,
+          127540.0,
+          96421.0,
+          97895.0,
+          100469.0
+        ],
+        "netProfit": [
+          925.0,
+          594.0,
+          506.0,
+          1040.0,
+          1046.0,
+          788.0,
+          2422.0,
+          3335.0,
+          8005.0,
+          9951.0
+        ],
+        "opm": [
+          5.0,
+          6.0,
+          4.9,
+          5.0,
+          6.0,
+          5.0,
+          7.0,
+          12.0,
+          15.0,
+          14.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026",
+          "Sep 2026"
+        ],
+        "revenue": [
+          22848.0,
+          26966.0,
+          21961.0,
+          21249.0,
+          24820.0,
+          32439.0,
+          32924.0,
+          37216.0
+        ],
+        "netProfit": [
+          229.0,
+          4015.0,
+          976.0,
+          3414.0,
+          5727.0,
+          -167.0,
+          -1462.0,
+          1221.0
+        ]
+      }
+    },
+    {
       "symbol": "DRREDDY",
       "name": "Dr. Reddy's Laboratories",
       "sector": "Pharma",
@@ -5143,12 +5143,12 @@
         "operatingMargin": 19.0,
         "profitGrowth": -2.650817469278466
       },
-      "composite": 30.5,
-      "overallRank": 43,
+      "composite": 31.0,
+      "overallRank": 42,
       "sectorRank": 4,
       "bestCompetitor": {
-        "symbol": "INDUSINDBK",
-        "name": "IndusInd Bank"
+        "symbol": "GRASIM",
+        "name": "Grasim Industries"
       },
       "redFlags": [
         {
@@ -5176,7 +5176,7 @@
           "detail": "Other (non-core) income is 25% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Dr. Reddy's Laboratories' revenue grew steadily (~11% a year) and net profit in decline, (~-3% a year). Profitability looks moderate \u2014 a 11% return on equity and a 19% operating margin. On these fundamentals it ranks 43rd of 50 overall, and 4th among its Pharma peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is IndusInd Bank.",
+      "summary": "Over the last three years Dr. Reddy's Laboratories' revenue grew steadily (~11% a year) and net profit in decline, (~-3% a year). Profitability looks moderate \u2014 a 11% return on equity and a 19% operating margin. On these fundamentals it ranks 42nd of 50 overall, and 4th among its Pharma peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Grasim Industries.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -5271,7 +5271,7 @@
         "operatingMargin": 17.0,
         "profitGrowth": 8.927202802777634
       },
-      "composite": 29.1,
+      "composite": 29.6,
       "overallRank": 44,
       "sectorRank": 4,
       "bestCompetitor": {
@@ -5400,7 +5400,7 @@
         "profitGrowth": 11.806554326627161
       },
       "composite": 28.6,
-      "overallRank": 44,
+      "overallRank": 45,
       "sectorRank": 2,
       "bestCompetitor": {
         "symbol": "HINDALCO",
@@ -5414,7 +5414,7 @@
           "detail": "Promoters hold 50.5% (+0.3 pp vs a year ago)"
         }
       ],
-      "summary": "Over the last three years HDFC Life Insurance's revenue grew steadily (~12% a year) and net profit steadily (~12% a year). Profitability looks modest \u2014 a 10% return on equity and a 2% operating margin. On these fundamentals it ranks 44th of 50 overall, and 2nd among its Insurance peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Hindalco Industries.",
+      "summary": "Over the last three years HDFC Life Insurance's revenue grew steadily (~12% a year) and net profit steadily (~12% a year). Profitability looks modest \u2014 a 10% return on equity and a 2% operating margin. On these fundamentals it ranks 45th of 50 overall, and 2nd among its Insurance peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Hindalco Industries.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -5879,8 +5879,8 @@
       "overallRank": 48,
       "sectorRank": 4,
       "bestCompetitor": {
-        "symbol": "RELIANCE",
-        "name": "Reliance Industries"
+        "symbol": "TATACONSUM",
+        "name": "Tata Consumer Products"
       },
       "redFlags": [
         {
@@ -5908,7 +5908,7 @@
           "detail": "Other (non-core) income is -22% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Hindalco Industries' revenue grew slowly (~7% a year) and net profit steadily (~10% a year). Profitability looks modest \u2014 a 10% return on equity and a 13% operating margin. On these fundamentals it ranks 48th of 50 overall, and 4th among its Materials peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Reliance Industries.",
+      "summary": "Over the last three years Hindalco Industries' revenue grew slowly (~7% a year) and net profit steadily (~10% a year). Profitability looks modest \u2014 a 10% return on equity and a 13% operating margin. On these fundamentals it ranks 48th of 50 overall, and 4th among its Materials peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Consumer Products.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -6003,7 +6003,7 @@
         "operatingMargin": 15.0,
         "profitGrowth": 10.469384176207242
       },
-      "composite": 20.8,
+      "composite": 21.3,
       "overallRank": 50,
       "sectorRank": 5,
       "bestCompetitor": {
