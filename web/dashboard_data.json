@@ -1148,7 +1148,7 @@
         "operatingMargin": null,
         "profitGrowth": 19.735340539078106
       },
-      "composite": 62.8,
+      "composite": 63.3,
       "overallRank": 10,
       "sectorRank": 1,
       "bestCompetitor": {
@@ -2942,173 +2942,6 @@
       }
     },
     {
-      "symbol": "NTPC",
-      "name": "NTPC",
-      "sector": "Power",
-      "consolidated": false,
-      "metrics": {
-        "roe": 13.5577036657873,
-        "salesGrowth": 2.0713570070144183,
-        "operatingMargin": 30.0,
-        "profitGrowth": 17.17720606708715
-      },
-      "composite": 50.5,
-      "overallRank": 25,
-      "sectorRank": 1,
-      "bestCompetitor": {
-        "symbol": "TATAPOWER",
-        "name": "Tata Power"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "green",
-          "value": 0.0,
-          "detail": "Promoters hold 51.1% (+0.0 pp vs a year ago)"
-        },
-        {
-          "type": "Cash conversion (3y)",
-          "severity": "green",
-          "value": 1.94,
-          "detail": "Operating cash flow is 194% of net profit over 3 years"
-        },
-        {
-          "type": "Interest coverage",
-          "severity": "green",
-          "value": 4.0,
-          "detail": "Operating profit covers interest 4.0x"
-        },
-        {
-          "type": "Other income reliance",
-          "severity": "green",
-          "value": 0.11,
-          "detail": "Other (non-core) income is 11% of pre-tax profit"
-        }
-      ],
-      "summary": "Over the last three years NTPC's revenue grew slowly (~2% a year) and net profit rapidly (~17% a year). Profitability looks moderate \u2014 a 14% return on equity and a 30% operating margin. On these fundamentals it ranks 25th of 50 overall, and 1st among its Power peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Power.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          82042.0,
-          88083.0,
-          100287.0,
-          109464.0,
-          111531.0,
-          132669.0,
-          176207.0,
-          178525.0,
-          188138.0,
-          187385.0
-        ],
-        "netProfit": [
-          10714.0,
-          10502.0,
-          14034.0,
-          11902.0,
-          14969.0,
-          16960.0,
-          17121.0,
-          21332.0,
-          23953.0,
-          27546.0
-        ],
-        "opm": [
-          26.0,
-          26.0,
-          23.0,
-          29.0,
-          31.0,
-          30.0,
-          27.0,
-          29.0,
-          29.0,
-          30.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Sep 2024",
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026"
-        ],
-        "revenue": [
-          44706.0,
-          45069.0,
-          49834.0,
-          47064.0,
-          44786.0,
-          45846.0,
-          49686.0,
-          50741.0
-        ],
-        "netProfit": [
-          5380.0,
-          5170.0,
-          7897.0,
-          6108.0,
-          5225.0,
-          5597.0,
-          10615.0,
-          6896.0
-        ]
-      }
-    },
-    {
-      "symbol": "SBILIFE",
-      "name": "SBI Life Insurance",
-      "sector": "Insurance",
-      "consolidated": false,
-      "metrics": {
-        "roe": null,
-        "salesGrowth": null,
-        "operatingMargin": null,
-        "profitGrowth": null
-      },
-      "composite": 50.0,
-      "overallRank": 25,
-      "sectorRank": 1,
-      "bestCompetitor": {
-        "symbol": "SBIN",
-        "name": "State Bank of India"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "green",
-          "value": -0.05,
-          "detail": "Promoters hold 55.3% (-0.0 pp vs a year ago)"
-        }
-      ],
-      "summary": "On these fundamentals it ranks 25th of 50 overall, and 1st among its Insurance peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is State Bank of India.",
-      "annual": {
-        "labels": [],
-        "revenue": [],
-        "netProfit": [],
-        "opm": []
-      },
-      "quarters": {
-        "labels": [],
-        "revenue": [],
-        "netProfit": []
-      }
-    },
-    {
       "symbol": "MARUTI",
       "name": "Maruti Suzuki India",
       "sector": "Auto",
@@ -3119,7 +2952,7 @@
         "operatingMargin": 12.0,
         "profitGrowth": 21.109603516157893
       },
-      "composite": 49.9,
+      "composite": 50.4,
       "overallRank": 25,
       "sectorRank": 6,
       "bestCompetitor": {
@@ -3234,6 +3067,45 @@
           3447.0,
           2466.0
         ]
+      }
+    },
+    {
+      "symbol": "SBILIFE",
+      "name": "SBI Life Insurance",
+      "sector": "Insurance",
+      "consolidated": false,
+      "metrics": {
+        "roe": null,
+        "salesGrowth": null,
+        "operatingMargin": null,
+        "profitGrowth": null
+      },
+      "composite": 50.0,
+      "overallRank": 25,
+      "sectorRank": 1,
+      "bestCompetitor": {
+        "symbol": "SBIN",
+        "name": "State Bank of India"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "green",
+          "value": -0.05,
+          "detail": "Promoters hold 55.3% (-0.0 pp vs a year ago)"
+        }
+      ],
+      "summary": "On these fundamentals it ranks 25th of 50 overall, and 1st among its Insurance peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is State Bank of India.",
+      "annual": {
+        "labels": [],
+        "revenue": [],
+        "netProfit": [],
+        "opm": []
+      },
+      "quarters": {
+        "labels": [],
+        "revenue": [],
+        "netProfit": []
       }
     },
     {
@@ -3359,6 +3231,134 @@
       }
     },
     {
+      "symbol": "NTPC",
+      "name": "NTPC",
+      "sector": "Power",
+      "consolidated": false,
+      "metrics": {
+        "roe": 12.903800029980514,
+        "salesGrowth": 2.0713570070144183,
+        "operatingMargin": 30.0,
+        "profitGrowth": 17.17720606708715
+      },
+      "composite": 48.4,
+      "overallRank": 28,
+      "sectorRank": 1,
+      "bestCompetitor": {
+        "symbol": "TATAPOWER",
+        "name": "Tata Power"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "green",
+          "value": 0.0,
+          "detail": "Promoters hold 51.1% (+0.0 pp vs a year ago)"
+        },
+        {
+          "type": "Cash conversion (3y)",
+          "severity": "green",
+          "value": 1.94,
+          "detail": "Operating cash flow is 194% of net profit over 3 years"
+        },
+        {
+          "type": "Interest coverage",
+          "severity": "green",
+          "value": 4.0,
+          "detail": "Operating profit covers interest 4.0x"
+        },
+        {
+          "type": "Other income reliance",
+          "severity": "green",
+          "value": 0.11,
+          "detail": "Other (non-core) income is 11% of pre-tax profit"
+        }
+      ],
+      "summary": "Over the last three years NTPC's revenue grew slowly (~2% a year) and net profit rapidly (~17% a year). Profitability looks moderate \u2014 a 13% return on equity and a 30% operating margin. On these fundamentals it ranks 28th of 50 overall, and 1st among its Power peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Power.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          82042.0,
+          88083.0,
+          100287.0,
+          109464.0,
+          111531.0,
+          132669.0,
+          176207.0,
+          178525.0,
+          188138.0,
+          187385.0
+        ],
+        "netProfit": [
+          10714.0,
+          10502.0,
+          14034.0,
+          11902.0,
+          14969.0,
+          16960.0,
+          17121.0,
+          21332.0,
+          23953.0,
+          27546.0
+        ],
+        "opm": [
+          26.0,
+          26.0,
+          23.0,
+          29.0,
+          31.0,
+          30.0,
+          27.0,
+          29.0,
+          29.0,
+          30.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026",
+          "Sep 2026"
+        ],
+        "revenue": [
+          45069.0,
+          49834.0,
+          47064.0,
+          44784.0,
+          45846.0,
+          49686.0,
+          50741.0,
+          54270.0
+        ],
+        "netProfit": [
+          5170.0,
+          7897.0,
+          6108.0,
+          5225.0,
+          5597.0,
+          10615.0,
+          6896.0,
+          7351.0
+        ]
+      }
+    },
+    {
       "symbol": "ULTRACEMCO",
       "name": "UltraTech Cement",
       "sector": "Materials",
@@ -3370,7 +3370,7 @@
         "profitGrowth": 17.301704780226657
       },
       "composite": 48.4,
-      "overallRank": 29,
+      "overallRank": 28,
       "sectorRank": 2,
       "bestCompetitor": {
         "symbol": "SBIN",
@@ -3402,7 +3402,7 @@
           "detail": "Other (non-core) income is 4% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years UltraTech Cement's revenue grew steadily (~12% a year) and net profit rapidly (~17% a year). Profitability looks moderate \u2014 a 11% return on equity and a 19% operating margin. On these fundamentals it ranks 29th of 50 overall, and 2nd among its Materials peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is State Bank of India.",
+      "summary": "Over the last three years UltraTech Cement's revenue grew steadily (~12% a year) and net profit rapidly (~17% a year). Profitability looks moderate \u2014 a 11% return on equity and a 19% operating margin. On these fundamentals it ranks 28th of 50 overall, and 2nd among its Materials peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is State Bank of India.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -3498,7 +3498,7 @@
         "profitGrowth": 3.903154616942639
       },
       "composite": 48.1,
-      "overallRank": 29,
+      "overallRank": 28,
       "sectorRank": 3,
       "bestCompetitor": {
         "symbol": "COALINDIA",
@@ -3530,7 +3530,7 @@
           "detail": "Other (non-core) income is 3% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years HCL Technologies' revenue grew steadily (~9% a year) and net profit slowly (~4% a year). Profitability looks strong \u2014 a 22% return on equity and a 21% operating margin. On these fundamentals it ranks 29th of 50 overall, and 3rd among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Coal India.",
+      "summary": "Over the last three years HCL Technologies' revenue grew steadily (~9% a year) and net profit slowly (~4% a year). Profitability looks strong \u2014 a 22% return on equity and a 21% operating margin. On these fundamentals it ranks 28th of 50 overall, and 3rd among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Coal India.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -4375,7 +4375,7 @@
         "operatingMargin": 21.0,
         "profitGrowth": 10.337998562010476
       },
-      "composite": 39.4,
+      "composite": 40.0,
       "overallRank": 37,
       "sectorRank": 3,
       "bestCompetitor": {
@@ -4749,6 +4749,134 @@
       }
     },
     {
+      "symbol": "ONGC",
+      "name": "Oil & Natural Gas Corporation",
+      "sector": "Energy",
+      "consolidated": false,
+      "metrics": {
+        "roe": 13.393568031675668,
+        "salesGrowth": -1.261475275466073,
+        "operatingMargin": 17.0,
+        "profitGrowth": 14.955198064445696
+      },
+      "composite": 34.2,
+      "overallRank": 40,
+      "sectorRank": 3,
+      "bestCompetitor": {
+        "symbol": "TATASTEEL",
+        "name": "Tata Steel"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "green",
+          "value": 0.0,
+          "detail": "Promoters hold 58.9% (+0.0 pp vs a year ago)"
+        },
+        {
+          "type": "Cash conversion (3y)",
+          "severity": "green",
+          "value": 2.11,
+          "detail": "Operating cash flow is 211% of net profit over 3 years"
+        },
+        {
+          "type": "Interest coverage",
+          "severity": "green",
+          "value": 7.9,
+          "detail": "Operating profit covers interest 7.9x"
+        },
+        {
+          "type": "Other income reliance",
+          "severity": "green",
+          "value": 0.22,
+          "detail": "Other (non-core) income is 22% of pre-tax profit"
+        }
+      ],
+      "summary": "Over the last three years Oil & Natural Gas Corporation's revenue grew in decline, (~-1% a year) and net profit steadily (~15% a year). Profitability looks moderate \u2014 a 13% return on equity and a 17% operating margin. On these fundamentals it ranks 40th of 50 overall, and 3rd among its Energy peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Steel.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          282506.0,
+          322706.0,
+          421624.0,
+          396728.0,
+          303849.0,
+          491246.0,
+          632291.0,
+          601581.0,
+          612064.0,
+          608663.0
+        ],
+        "netProfit": [
+          29169.0,
+          26068.0,
+          33938.0,
+          11456.0,
+          21360.0,
+          49294.0,
+          32778.0,
+          55273.0,
+          38329.0,
+          49793.0
+        ],
+        "opm": [
+          19.0,
+          18.0,
+          18.0,
+          13.0,
+          16.0,
+          16.0,
+          12.0,
+          17.0,
+          15.0,
+          17.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Sep 2024",
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026"
+        ],
+        "revenue": [
+          159331.0,
+          167213.0,
+          167749.0,
+          163106.0,
+          157911.0,
+          167423.0,
+          173801.0,
+          204987.0
+        ],
+        "netProfit": [
+          9841.0,
+          9747.0,
+          8965.0,
+          11554.0,
+          12615.0,
+          11946.0,
+          13678.0,
+          6554.0
+        ]
+      }
+    },
+    {
       "symbol": "ASIANPAINT",
       "name": "Asian Paints",
       "sector": "Consumer Durables",
@@ -4873,134 +5001,6 @@
           1185.0,
           1559.0,
           1085.0
-        ]
-      }
-    },
-    {
-      "symbol": "ONGC",
-      "name": "Oil & Natural Gas Corporation",
-      "sector": "Energy",
-      "consolidated": false,
-      "metrics": {
-        "roe": 13.393568031675668,
-        "salesGrowth": -1.261475275466073,
-        "operatingMargin": 17.0,
-        "profitGrowth": 14.955198064445696
-      },
-      "composite": 33.6,
-      "overallRank": 40,
-      "sectorRank": 3,
-      "bestCompetitor": {
-        "symbol": "TATASTEEL",
-        "name": "Tata Steel"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "green",
-          "value": 0.0,
-          "detail": "Promoters hold 58.9% (+0.0 pp vs a year ago)"
-        },
-        {
-          "type": "Cash conversion (3y)",
-          "severity": "green",
-          "value": 2.11,
-          "detail": "Operating cash flow is 211% of net profit over 3 years"
-        },
-        {
-          "type": "Interest coverage",
-          "severity": "green",
-          "value": 7.9,
-          "detail": "Operating profit covers interest 7.9x"
-        },
-        {
-          "type": "Other income reliance",
-          "severity": "green",
-          "value": 0.22,
-          "detail": "Other (non-core) income is 22% of pre-tax profit"
-        }
-      ],
-      "summary": "Over the last three years Oil & Natural Gas Corporation's revenue grew in decline, (~-1% a year) and net profit steadily (~15% a year). Profitability looks moderate \u2014 a 13% return on equity and a 17% operating margin. On these fundamentals it ranks 40th of 50 overall, and 3rd among its Energy peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Steel.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          282506.0,
-          322706.0,
-          421624.0,
-          396728.0,
-          303849.0,
-          491246.0,
-          632291.0,
-          601581.0,
-          612064.0,
-          608663.0
-        ],
-        "netProfit": [
-          29169.0,
-          26068.0,
-          33938.0,
-          11456.0,
-          21360.0,
-          49294.0,
-          32778.0,
-          55273.0,
-          38329.0,
-          49793.0
-        ],
-        "opm": [
-          19.0,
-          18.0,
-          18.0,
-          13.0,
-          16.0,
-          16.0,
-          12.0,
-          17.0,
-          15.0,
-          17.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Sep 2024",
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026"
-        ],
-        "revenue": [
-          159331.0,
-          167213.0,
-          167749.0,
-          163106.0,
-          157911.0,
-          167423.0,
-          173801.0,
-          204987.0
-        ],
-        "netProfit": [
-          9841.0,
-          9747.0,
-          8965.0,
-          11554.0,
-          12615.0,
-          11946.0,
-          13678.0,
-          6554.0
         ]
       }
     },
