@@ -782,12 +782,12 @@
         "operatingMargin": null,
         "profitGrowth": 18.875487533572688
       },
-      "composite": 65.3,
+      "composite": 65.8,
       "overallRank": 7,
       "sectorRank": 2,
       "bestCompetitor": {
-        "symbol": "HDFCBANK",
-        "name": "HDFC Bank"
+        "symbol": "M&M",
+        "name": "Mahindra & Mahindra"
       },
       "redFlags": [
         {
@@ -797,7 +797,7 @@
           "detail": "Promoters hold 54.7% (+0.0 pp vs a year ago)"
         }
       ],
-      "summary": "Over the last three years Bajaj Finance's revenue grew rapidly (~26% a year) and net profit rapidly (~19% a year). Profitability looks healthy \u2014 a 16% return on equity. On these fundamentals it ranks 7th of 50 overall, and 2nd among its NBFC peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is HDFC Bank.",
+      "summary": "Over the last three years Bajaj Finance's revenue grew rapidly (~26% a year) and net profit rapidly (~19% a year). Profitability looks healthy \u2014 a 16% return on equity. On these fundamentals it ranks 7th of 50 overall, and 2nd among its NBFC peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Mahindra & Mahindra.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -896,8 +896,8 @@
       "overallRank": 8,
       "sectorRank": 3,
       "bestCompetitor": {
-        "symbol": "BAJFINANCE",
-        "name": "Bajaj Finance"
+        "symbol": "ICICIBANK",
+        "name": "ICICI Bank"
       },
       "redFlags": [
         {
@@ -925,7 +925,7 @@
           "detail": "Other (non-core) income is 20% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Mahindra & Mahindra's revenue grew rapidly (~18% a year) and net profit rapidly (~18% a year). Profitability looks strong \u2014 a 20% return on equity and a 19% operating margin. On these fundamentals it ranks 8th of 50 overall, and 3rd among its Auto peers. Worth a closer look: cash conversion (3y). Its closest financial look-alike in the Nifty 50 is Bajaj Finance.",
+      "summary": "Over the last three years Mahindra & Mahindra's revenue grew rapidly (~18% a year) and net profit rapidly (~18% a year). Profitability looks strong \u2014 a 20% return on equity and a 19% operating margin. On these fundamentals it ranks 8th of 50 overall, and 3rd among its Auto peers. Worth a closer look: cash conversion (3y). Its closest financial look-alike in the Nifty 50 is ICICI Bank.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -1379,7 +1379,7 @@
         "operatingMargin": null,
         "profitGrowth": 17.778452278902492
       },
-      "composite": 59.7,
+      "composite": 60.2,
       "overallRank": 12,
       "sectorRank": 2,
       "bestCompetitor": {
@@ -1610,7 +1610,7 @@
         "operatingMargin": 33.0,
         "profitGrowth": 12.09926977778888
       },
-      "composite": 58.2,
+      "composite": 58.7,
       "overallRank": 14,
       "sectorRank": 1,
       "bestCompetitor": {
@@ -1739,7 +1739,7 @@
         "profitGrowth": 34.4671853351838
       },
       "composite": 57.7,
-      "overallRank": 14,
+      "overallRank": 15,
       "sectorRank": 3,
       "bestCompetitor": {
         "symbol": "ULTRACEMCO",
@@ -1753,7 +1753,7 @@
           "detail": "Promoters hold 7.9% (-0.3 pp vs a year ago)"
         }
       ],
-      "summary": "Over the last three years Axis Bank's revenue grew steadily (~15% a year) and net profit rapidly (~34% a year). Profitability looks moderate \u2014 a 12% return on equity. On these fundamentals it ranks 14th of 50 overall, and 3rd among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is UltraTech Cement.",
+      "summary": "Over the last three years Axis Bank's revenue grew steadily (~15% a year) and net profit rapidly (~34% a year). Profitability looks moderate \u2014 a 12% return on equity. On these fundamentals it ranks 15th of 50 overall, and 3rd among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is UltraTech Cement.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -1849,7 +1849,7 @@
         "profitGrowth": 5.3440681288804415
       },
       "composite": 57.5,
-      "overallRank": 14,
+      "overallRank": 15,
       "sectorRank": 1,
       "bestCompetitor": {
         "symbol": "INFY",
@@ -1881,7 +1881,7 @@
           "detail": "Other (non-core) income is -0% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Tata Consultancy Services' revenue grew slowly (~6% a year) and net profit slowly (~5% a year). Profitability looks strong \u2014 a 42% return on equity and a 27% operating margin. On these fundamentals it ranks 14th of 50 overall, and 1st among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Infosys.",
+      "summary": "Over the last three years Tata Consultancy Services' revenue grew slowly (~6% a year) and net profit slowly (~5% a year). Profitability looks strong \u2014 a 42% return on equity and a 27% operating margin. On these fundamentals it ranks 15th of 50 overall, and 1st among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Infosys.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -2459,7 +2459,7 @@
       "sector": "FMCG",
       "consolidated": false,
       "metrics": {
-        "roe": 28.98754603003848,
+        "roe": 29.43615024789222,
         "salesGrowth": 3.6046882367709587,
         "operatingMargin": 35.0,
         "profitGrowth": 2.570650029244659
@@ -2544,34 +2544,34 @@
       },
       "quarters": {
         "labels": [
-          "Sep 2024",
           "Dec 2024",
           "Mar 2025",
           "Jun 2025",
           "Sep 2025",
           "Dec 2025",
           "Mar 2026",
-          "Jun 2026"
+          "Jun 2026",
+          "Sep 2026"
         ],
         "revenue": [
-          19990.0,
           18790.0,
           18765.0,
           21495.0,
           19502.0,
           20047.0,
           17825.0,
-          19114.0
+          19114.0,
+          20269.0
         ],
         "netProfit": [
-          5054.0,
           5013.0,
           19808.0,
           5343.0,
           5187.0,
           5018.0,
           5470.0,
-          4509.0
+          4509.0,
+          4229.0
         ]
       }
     },
@@ -4109,134 +4109,6 @@
       }
     },
     {
-      "symbol": "POWERGRID",
-      "name": "Power Grid Corporation",
-      "sector": "Power",
-      "consolidated": false,
-      "metrics": {
-        "roe": 15.849702469799192,
-        "salesGrowth": 0.835456965229131,
-        "operatingMargin": 70.0,
-        "profitGrowth": 1.0928541664935176
-      },
-      "composite": 43.3,
-      "overallRank": 35,
-      "sectorRank": 2,
-      "bestCompetitor": {
-        "symbol": "ITC",
-        "name": "ITC"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "green",
-          "value": 0.0,
-          "detail": "Promoters hold 51.3% (+0.0 pp vs a year ago)"
-        },
-        {
-          "type": "Cash conversion (3y)",
-          "severity": "green",
-          "value": 2.43,
-          "detail": "Operating cash flow is 243% of net profit over 3 years"
-        },
-        {
-          "type": "Interest coverage",
-          "severity": "green",
-          "value": 3.9,
-          "detail": "Operating profit covers interest 3.9x"
-        },
-        {
-          "type": "Other income reliance",
-          "severity": "green",
-          "value": 0.22,
-          "detail": "Other (non-core) income is 22% of pre-tax profit"
-        }
-      ],
-      "summary": "Over the last three years Power Grid Corporation's revenue grew slowly (~1% a year) and net profit slowly (~1% a year). Profitability looks healthy \u2014 a 16% return on equity and a 70% operating margin. On these fundamentals it ranks 35th of 50 overall, and 2nd among its Power peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is ITC.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          25697.0,
-          29954.0,
-          35059.0,
-          37744.0,
-          39640.0,
-          41622.0,
-          45581.0,
-          45843.0,
-          45792.0,
-          46733.0
-        ],
-        "netProfit": [
-          7451.0,
-          8204.0,
-          10034.0,
-          11059.0,
-          12036.0,
-          16824.0,
-          15417.0,
-          15573.0,
-          15521.0,
-          15928.0
-        ],
-        "opm": [
-          87.0,
-          87.0,
-          77.0,
-          87.0,
-          88.0,
-          86.0,
-          85.0,
-          86.0,
-          85.0,
-          70.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Sep 2024",
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026"
-        ],
-        "revenue": [
-          11278.0,
-          11233.0,
-          12275.0,
-          11196.0,
-          11476.0,
-          12395.0,
-          11666.0,
-          11497.0
-        ],
-        "netProfit": [
-          3793.0,
-          3862.0,
-          4143.0,
-          3631.0,
-          3566.0,
-          4185.0,
-          4546.0,
-          3598.0
-        ]
-      }
-    },
-    {
       "symbol": "CIPLA",
       "name": "Cipla",
       "sector": "Pharma",
@@ -4248,7 +4120,7 @@
         "profitGrowth": 10.880514292106014
       },
       "composite": 42.5,
-      "overallRank": 36,
+      "overallRank": 35,
       "sectorRank": 3,
       "bestCompetitor": {
         "symbol": "TATAPOWER",
@@ -4280,7 +4152,7 @@
           "detail": "Other (non-core) income is 12% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Cipla's revenue grew slowly (~7% a year) and net profit steadily (~11% a year). Profitability looks moderate \u2014 a 11% return on equity and a 21% operating margin. On these fundamentals it ranks 36th of 50 overall, and 3rd among its Pharma peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Power.",
+      "summary": "Over the last three years Cipla's revenue grew slowly (~7% a year) and net profit steadily (~11% a year). Profitability looks moderate \u2014 a 11% return on equity and a 21% operating margin. On these fundamentals it ranks 35th of 50 overall, and 3rd among its Pharma peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Power.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -4361,6 +4233,134 @@
           543.0,
           786.0,
           852.0
+        ]
+      }
+    },
+    {
+      "symbol": "POWERGRID",
+      "name": "Power Grid Corporation",
+      "sector": "Power",
+      "consolidated": false,
+      "metrics": {
+        "roe": 14.920982866350036,
+        "salesGrowth": 0.835456965229131,
+        "operatingMargin": 70.0,
+        "profitGrowth": 1.0928541664935176
+      },
+      "composite": 41.8,
+      "overallRank": 35,
+      "sectorRank": 2,
+      "bestCompetitor": {
+        "symbol": "ITC",
+        "name": "ITC"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "green",
+          "value": 0.0,
+          "detail": "Promoters hold 51.3% (+0.0 pp vs a year ago)"
+        },
+        {
+          "type": "Cash conversion (3y)",
+          "severity": "green",
+          "value": 2.43,
+          "detail": "Operating cash flow is 243% of net profit over 3 years"
+        },
+        {
+          "type": "Interest coverage",
+          "severity": "green",
+          "value": 3.9,
+          "detail": "Operating profit covers interest 3.9x"
+        },
+        {
+          "type": "Other income reliance",
+          "severity": "green",
+          "value": 0.22,
+          "detail": "Other (non-core) income is 22% of pre-tax profit"
+        }
+      ],
+      "summary": "Over the last three years Power Grid Corporation's revenue grew slowly (~1% a year) and net profit slowly (~1% a year). Profitability looks moderate \u2014 a 15% return on equity and a 70% operating margin. On these fundamentals it ranks 35th of 50 overall, and 2nd among its Power peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is ITC.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          25697.0,
+          29954.0,
+          35059.0,
+          37744.0,
+          39640.0,
+          41622.0,
+          45581.0,
+          45843.0,
+          45792.0,
+          46733.0
+        ],
+        "netProfit": [
+          7451.0,
+          8204.0,
+          10034.0,
+          11059.0,
+          12036.0,
+          16824.0,
+          15417.0,
+          15573.0,
+          15521.0,
+          15928.0
+        ],
+        "opm": [
+          87.0,
+          87.0,
+          77.0,
+          87.0,
+          88.0,
+          86.0,
+          85.0,
+          86.0,
+          85.0,
+          70.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026",
+          "Sep 2026"
+        ],
+        "revenue": [
+          11233.0,
+          12275.0,
+          11196.0,
+          11476.0,
+          12395.0,
+          11666.0,
+          11497.0,
+          11816.0
+        ],
+        "netProfit": [
+          3862.0,
+          4143.0,
+          3631.0,
+          3566.0,
+          4185.0,
+          4546.0,
+          3598.0,
+          3866.0
         ]
       }
     },
