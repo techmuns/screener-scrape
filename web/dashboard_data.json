@@ -892,12 +892,12 @@
         "operatingMargin": 19.0,
         "profitGrowth": 17.861247292135406
       },
-      "composite": 64.2,
+      "composite": 64.7,
       "overallRank": 8,
       "sectorRank": 3,
       "bestCompetitor": {
-        "symbol": "ICICIBANK",
-        "name": "ICICI Bank"
+        "symbol": "BAJFINANCE",
+        "name": "Bajaj Finance"
       },
       "redFlags": [
         {
@@ -925,7 +925,7 @@
           "detail": "Other (non-core) income is 20% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Mahindra & Mahindra's revenue grew rapidly (~18% a year) and net profit rapidly (~18% a year). Profitability looks strong \u2014 a 20% return on equity and a 19% operating margin. On these fundamentals it ranks 8th of 50 overall, and 3rd among its Auto peers. Worth a closer look: cash conversion (3y). Its closest financial look-alike in the Nifty 50 is ICICI Bank.",
+      "summary": "Over the last three years Mahindra & Mahindra's revenue grew rapidly (~18% a year) and net profit rapidly (~18% a year). Profitability looks strong \u2014 a 20% return on equity and a 19% operating margin. On these fundamentals it ranks 8th of 50 overall, and 3rd among its Auto peers. Worth a closer look: cash conversion (3y). Its closest financial look-alike in the Nifty 50 is Bajaj Finance.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -1021,14 +1021,14 @@
         "profitGrowth": 19.735340539078106
       },
       "composite": 63.8,
-      "overallRank": 8,
+      "overallRank": 9,
       "sectorRank": 1,
       "bestCompetitor": {
         "symbol": "BAJFINANCE",
         "name": "Bajaj Finance"
       },
       "redFlags": [],
-      "summary": "Over the last three years HDFC Bank's revenue grew rapidly (~27% a year) and net profit rapidly (~20% a year). Profitability looks moderate \u2014 a 13% return on equity. On these fundamentals it ranks 8th of 50 overall, and 1st among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Bajaj Finance.",
+      "summary": "Over the last three years HDFC Bank's revenue grew rapidly (~27% a year) and net profit rapidly (~20% a year). Profitability looks moderate \u2014 a 13% return on equity. On these fundamentals it ranks 9th of 50 overall, and 1st among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Bajaj Finance.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -1124,7 +1124,7 @@
         "profitGrowth": 15.716528347005987
       },
       "composite": 63.5,
-      "overallRank": 8,
+      "overallRank": 9,
       "sectorRank": 1,
       "bestCompetitor": {
         "symbol": "LT",
@@ -1156,7 +1156,7 @@
           "detail": "Other (non-core) income is 7% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Titan Company's revenue grew rapidly (~29% a year) and net profit rapidly (~16% a year). Profitability looks strong \u2014 a 32% return on equity and a 10% operating margin. On these fundamentals it ranks 8th of 50 overall, and 1st among its Consumer Durables peers. Worth a closer look: cash conversion (3y). Its closest financial look-alike in the Nifty 50 is Larsen & Toubro.",
+      "summary": "Over the last three years Titan Company's revenue grew rapidly (~29% a year) and net profit rapidly (~16% a year). Profitability looks strong \u2014 a 32% return on equity and a 10% operating margin. On these fundamentals it ranks 9th of 50 overall, and 1st among its Consumer Durables peers. Worth a closer look: cash conversion (3y). Its closest financial look-alike in the Nifty 50 is Larsen & Toubro.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -1241,134 +1241,6 @@
       }
     },
     {
-      "symbol": "APOLLOHOSP",
-      "name": "Apollo Hospitals",
-      "sector": "Healthcare",
-      "consolidated": false,
-      "metrics": {
-        "roe": 21.128691983122362,
-        "salesGrowth": 14.944174763984087,
-        "operatingMargin": 15.0,
-        "profitGrowth": 33.386793990994
-      },
-      "composite": 61.1,
-      "overallRank": 11,
-      "sectorRank": 1,
-      "bestCompetitor": {
-        "symbol": "HEROMOTOCO",
-        "name": "Hero MotoCorp"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "green",
-          "value": 0.0,
-          "detail": "Promoters hold 28.0% (+0.0 pp vs a year ago)"
-        },
-        {
-          "type": "Cash conversion (3y)",
-          "severity": "green",
-          "value": 1.56,
-          "detail": "Operating cash flow is 156% of net profit over 3 years"
-        },
-        {
-          "type": "Interest coverage",
-          "severity": "green",
-          "value": 8.4,
-          "detail": "Operating profit covers interest 8.4x"
-        },
-        {
-          "type": "Other income reliance",
-          "severity": "green",
-          "value": 0.08,
-          "detail": "Other (non-core) income is 8% of pre-tax profit"
-        }
-      ],
-      "summary": "Over the last three years Apollo Hospitals' revenue grew steadily (~15% a year) and net profit rapidly (~33% a year). Profitability looks strong \u2014 a 21% return on equity and a 15% operating margin. On these fundamentals it ranks 11th of 50 overall, and 1st among its Healthcare peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Hero MotoCorp.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          7256.0,
-          8243.0,
-          9617.0,
-          11247.0,
-          10560.0,
-          14663.0,
-          16612.0,
-          19059.0,
-          21794.0,
-          25228.0
-        ],
-        "netProfit": [
-          131.0,
-          60.0,
-          200.0,
-          432.0,
-          137.0,
-          1108.0,
-          844.0,
-          935.0,
-          1505.0,
-          2003.0
-        ],
-        "opm": [
-          10.0,
-          10.0,
-          11.0,
-          14.0,
-          11.0,
-          15.0,
-          12.0,
-          13.0,
-          14.0,
-          15.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Sep 2024",
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026"
-        ],
-        "revenue": [
-          5589.0,
-          5527.0,
-          5592.0,
-          5842.0,
-          6304.0,
-          6477.0,
-          6606.0,
-          7044.0
-        ],
-        "netProfit": [
-          396.0,
-          379.0,
-          414.0,
-          441.0,
-          494.0,
-          516.0,
-          551.0,
-          610.0
-        ]
-      }
-    },
-    {
       "symbol": "ICICIBANK",
       "name": "ICICI Bank",
       "sector": "Bank",
@@ -1380,14 +1252,14 @@
         "profitGrowth": 17.778452278902492
       },
       "composite": 60.2,
-      "overallRank": 12,
+      "overallRank": 11,
       "sectorRank": 2,
       "bestCompetitor": {
         "symbol": "M&M",
         "name": "Mahindra & Mahindra"
       },
       "redFlags": [],
-      "summary": "Over the last three years ICICI Bank's revenue grew rapidly (~17% a year) and net profit rapidly (~18% a year). Profitability looks moderate \u2014 a 15% return on equity. On these fundamentals it ranks 12th of 50 overall, and 2nd among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Mahindra & Mahindra.",
+      "summary": "Over the last three years ICICI Bank's revenue grew rapidly (~17% a year) and net profit rapidly (~18% a year). Profitability looks moderate \u2014 a 15% return on equity. On these fundamentals it ranks 11th of 50 overall, and 2nd among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Mahindra & Mahindra.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -1472,6 +1344,134 @@
       }
     },
     {
+      "symbol": "APOLLOHOSP",
+      "name": "Apollo Hospitals",
+      "sector": "Healthcare",
+      "consolidated": false,
+      "metrics": {
+        "roe": 18.889098453413805,
+        "salesGrowth": 14.944174763984087,
+        "operatingMargin": 15.0,
+        "profitGrowth": 33.386793990994
+      },
+      "composite": 60.1,
+      "overallRank": 11,
+      "sectorRank": 1,
+      "bestCompetitor": {
+        "symbol": "MARUTI",
+        "name": "Maruti Suzuki India"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "green",
+          "value": 0.0,
+          "detail": "Promoters hold 28.0% (+0.0 pp vs a year ago)"
+        },
+        {
+          "type": "Cash conversion (3y)",
+          "severity": "green",
+          "value": 1.56,
+          "detail": "Operating cash flow is 156% of net profit over 3 years"
+        },
+        {
+          "type": "Interest coverage",
+          "severity": "green",
+          "value": 8.4,
+          "detail": "Operating profit covers interest 8.4x"
+        },
+        {
+          "type": "Other income reliance",
+          "severity": "green",
+          "value": 0.08,
+          "detail": "Other (non-core) income is 8% of pre-tax profit"
+        }
+      ],
+      "summary": "Over the last three years Apollo Hospitals' revenue grew steadily (~15% a year) and net profit rapidly (~33% a year). Profitability looks healthy \u2014 a 19% return on equity and a 15% operating margin. On these fundamentals it ranks 11th of 50 overall, and 1st among its Healthcare peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Maruti Suzuki India.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          7256.0,
+          8243.0,
+          9617.0,
+          11247.0,
+          10560.0,
+          14663.0,
+          16612.0,
+          19059.0,
+          21794.0,
+          25228.0
+        ],
+        "netProfit": [
+          131.0,
+          60.0,
+          200.0,
+          432.0,
+          137.0,
+          1108.0,
+          844.0,
+          935.0,
+          1505.0,
+          2003.0
+        ],
+        "opm": [
+          10.0,
+          10.0,
+          11.0,
+          14.0,
+          11.0,
+          15.0,
+          12.0,
+          13.0,
+          14.0,
+          15.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026",
+          "Sep 2026"
+        ],
+        "revenue": [
+          5527.0,
+          5592.0,
+          5842.0,
+          6189.0,
+          6477.0,
+          6606.0,
+          6932.0,
+          7615.0
+        ],
+        "netProfit": [
+          379.0,
+          414.0,
+          441.0,
+          494.0,
+          516.0,
+          551.0,
+          610.0,
+          660.0
+        ]
+      }
+    },
+    {
       "symbol": "HEROMOTOCO",
       "name": "Hero MotoCorp",
       "sector": "Auto",
@@ -1483,7 +1483,7 @@
         "profitGrowth": 27.298431066174047
       },
       "composite": 60.1,
-      "overallRank": 12,
+      "overallRank": 11,
       "sectorRank": 4,
       "bestCompetitor": {
         "symbol": "APOLLOHOSP",
@@ -1515,7 +1515,7 @@
           "detail": "Other (non-core) income is 18% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Hero MotoCorp's revenue grew steadily (~12% a year) and net profit rapidly (~27% a year). Profitability looks strong \u2014 a 25% return on equity and a 15% operating margin. On these fundamentals it ranks 12th of 50 overall, and 4th among its Auto peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Apollo Hospitals.",
+      "summary": "Over the last three years Hero MotoCorp's revenue grew steadily (~12% a year) and net profit rapidly (~27% a year). Profitability looks strong \u2014 a 25% return on equity and a 15% operating margin. On these fundamentals it ranks 11th of 50 overall, and 4th among its Auto peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Apollo Hospitals.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -2846,8 +2846,8 @@
       "overallRank": 23,
       "sectorRank": 6,
       "bestCompetitor": {
-        "symbol": "LT",
-        "name": "Larsen & Toubro"
+        "symbol": "APOLLOHOSP",
+        "name": "Apollo Hospitals"
       },
       "redFlags": [
         {
@@ -2875,7 +2875,7 @@
           "detail": "Other (non-core) income is 24% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Maruti Suzuki India's revenue grew rapidly (~16% a year) and net profit rapidly (~21% a year). Profitability looks moderate \u2014 a 13% return on equity and a 12% operating margin. On these fundamentals it ranks 23rd of 50 overall, and 6th among its Auto peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Larsen & Toubro.",
+      "summary": "Over the last three years Maruti Suzuki India's revenue grew rapidly (~16% a year) and net profit rapidly (~21% a year). Profitability looks moderate \u2014 a 13% return on equity and a 12% operating margin. On these fundamentals it ranks 23rd of 50 overall, and 6th among its Auto peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Apollo Hospitals.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -4887,8 +4887,8 @@
         "operatingMargin": 19.0,
         "profitGrowth": 1.5645865082318133
       },
-      "composite": 34.1,
-      "overallRank": 41,
+      "composite": 34.6,
+      "overallRank": 39,
       "sectorRank": 2,
       "bestCompetitor": {
         "symbol": "WIPRO",
@@ -4920,7 +4920,7 @@
           "detail": "Other (non-core) income is 12% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Asian Paints' revenue grew slowly (~1% a year) and net profit slowly (~2% a year). Profitability looks strong \u2014 a 20% return on equity and a 19% operating margin. On these fundamentals it ranks 41st of 50 overall, and 2nd among its Consumer Durables peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Wipro.",
+      "summary": "Over the last three years Asian Paints' revenue grew slowly (~1% a year) and net profit slowly (~2% a year). Profitability looks strong \u2014 a 20% return on equity and a 19% operating margin. On these fundamentals it ranks 39th of 50 overall, and 2nd among its Consumer Durables peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Wipro.",
       "annual": {
         "labels": [
           "Mar 2017",
