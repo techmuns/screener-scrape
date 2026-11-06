@@ -3876,7 +3876,7 @@
       "sector": "FMCG",
       "consolidated": false,
       "metrics": {
-        "roe": 49.686643164904034,
+        "roe": 59.70816662744175,
         "salesGrowth": 5.5196386272794,
         "operatingMargin": 18.0,
         "profitGrowth": 3.0846428799226056
@@ -3914,7 +3914,7 @@
           "detail": "Other (non-core) income is 7% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Britannia Industries' revenue grew slowly (~6% a year) and net profit slowly (~3% a year). Profitability looks strong \u2014 a 50% return on equity and a 18% operating margin. On these fundamentals it ranks 33rd of 50 overall, and 4th among its FMCG peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Nestle India.",
+      "summary": "Over the last three years Britannia Industries' revenue grew slowly (~6% a year) and net profit slowly (~3% a year). Profitability looks strong \u2014 a 60% return on equity and a 18% operating margin. On these fundamentals it ranks 33rd of 50 overall, and 4th among its FMCG peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Nestle India.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -5870,7 +5870,7 @@
       "sector": "Materials",
       "consolidated": false,
       "metrics": {
-        "roe": 9.804294824392494,
+        "roe": 8.386882617463955,
         "salesGrowth": 7.19685771317724,
         "operatingMargin": 13.0,
         "profitGrowth": 9.86859005895193
@@ -5908,7 +5908,7 @@
           "detail": "Other (non-core) income is -22% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Hindalco Industries' revenue grew slowly (~7% a year) and net profit steadily (~10% a year). Profitability looks modest \u2014 a 10% return on equity and a 13% operating margin. On these fundamentals it ranks 48th of 50 overall, and 4th among its Materials peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Reliance Industries.",
+      "summary": "Over the last three years Hindalco Industries' revenue grew slowly (~7% a year) and net profit steadily (~10% a year). Profitability looks modest \u2014 a 8% return on equity and a 13% operating margin. On these fundamentals it ranks 48th of 50 overall, and 4th among its Materials peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Reliance Industries.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -5961,34 +5961,34 @@
       },
       "quarters": {
         "labels": [
-          "Sep 2024",
           "Dec 2024",
           "Mar 2025",
           "Jun 2025",
           "Sep 2025",
           "Dec 2025",
           "Mar 2026",
-          "Jun 2026"
+          "Jun 2026",
+          "Sep 2026"
         ],
         "revenue": [
-          58203.0,
           58390.0,
           64890.0,
           64232.0,
           66058.0,
           66521.0,
           78133.0,
-          84825.0
+          84825.0,
+          91708.0
         ],
         "netProfit": [
-          3909.0,
           3735.0,
           5284.0,
           4004.0,
           4741.0,
           2049.0,
           2597.0,
-          7013.0
+          7013.0,
+          7533.0
         ]
       }
     },
