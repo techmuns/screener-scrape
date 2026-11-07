@@ -896,8 +896,8 @@
       "overallRank": 8,
       "sectorRank": 3,
       "bestCompetitor": {
-        "symbol": "BAJFINANCE",
-        "name": "Bajaj Finance"
+        "symbol": "ICICIBANK",
+        "name": "ICICI Bank"
       },
       "redFlags": [
         {
@@ -925,7 +925,7 @@
           "detail": "Other (non-core) income is 20% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Mahindra & Mahindra's revenue grew rapidly (~18% a year) and net profit rapidly (~18% a year). Profitability looks healthy \u2014 a 19% return on equity and a 19% operating margin. On these fundamentals it ranks 8th of 50 overall, and 3rd among its Auto peers. Worth a closer look: cash conversion (3y). Its closest financial look-alike in the Nifty 50 is Bajaj Finance.",
+      "summary": "Over the last three years Mahindra & Mahindra's revenue grew rapidly (~18% a year) and net profit rapidly (~18% a year). Profitability looks healthy \u2014 a 19% return on equity and a 19% operating margin. On these fundamentals it ranks 8th of 50 overall, and 3rd among its Auto peers. Worth a closer look: cash conversion (3y). Its closest financial look-alike in the Nifty 50 is ICICI Bank.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -1251,7 +1251,7 @@
         "operatingMargin": null,
         "profitGrowth": 17.778452278902492
       },
-      "composite": 60.2,
+      "composite": 60.7,
       "overallRank": 11,
       "sectorRank": 2,
       "bestCompetitor": {
@@ -1355,7 +1355,7 @@
         "profitGrowth": 33.386793990994
       },
       "composite": 60.1,
-      "overallRank": 11,
+      "overallRank": 12,
       "sectorRank": 1,
       "bestCompetitor": {
         "symbol": "MARUTI",
@@ -1387,7 +1387,7 @@
           "detail": "Other (non-core) income is 8% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Apollo Hospitals' revenue grew steadily (~15% a year) and net profit rapidly (~33% a year). Profitability looks healthy \u2014 a 19% return on equity and a 15% operating margin. On these fundamentals it ranks 11th of 50 overall, and 1st among its Healthcare peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Maruti Suzuki India.",
+      "summary": "Over the last three years Apollo Hospitals' revenue grew steadily (~15% a year) and net profit rapidly (~33% a year). Profitability looks healthy \u2014 a 19% return on equity and a 15% operating margin. On these fundamentals it ranks 12th of 50 overall, and 1st among its Healthcare peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Maruti Suzuki India.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -1483,7 +1483,7 @@
         "profitGrowth": 27.298431066174047
       },
       "composite": 60.1,
-      "overallRank": 11,
+      "overallRank": 12,
       "sectorRank": 4,
       "bestCompetitor": {
         "symbol": "APOLLOHOSP",
@@ -1515,7 +1515,7 @@
           "detail": "Other (non-core) income is 18% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Hero MotoCorp's revenue grew steadily (~12% a year) and net profit rapidly (~27% a year). Profitability looks strong \u2014 a 25% return on equity and a 15% operating margin. On these fundamentals it ranks 11th of 50 overall, and 4th among its Auto peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Apollo Hospitals.",
+      "summary": "Over the last three years Hero MotoCorp's revenue grew steadily (~12% a year) and net profit rapidly (~27% a year). Profitability looks strong \u2014 a 25% return on equity and a 15% operating margin. On these fundamentals it ranks 12th of 50 overall, and 4th among its Auto peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Apollo Hospitals.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -1600,134 +1600,6 @@
       }
     },
     {
-      "symbol": "DIVISLAB",
-      "name": "Divi's Laboratories",
-      "sector": "Pharma",
-      "consolidated": false,
-      "metrics": {
-        "roe": 15.32128154644711,
-        "salesGrowth": 10.777501844579929,
-        "operatingMargin": 33.0,
-        "profitGrowth": 12.09926977778888
-      },
-      "composite": 58.7,
-      "overallRank": 14,
-      "sectorRank": 1,
-      "bestCompetitor": {
-        "symbol": "SUNPHARMA",
-        "name": "Sun Pharmaceutical"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "green",
-          "value": -0.01,
-          "detail": "Promoters hold 51.9% (-0.0 pp vs a year ago)"
-        },
-        {
-          "type": "Cash conversion (3y)",
-          "severity": "green",
-          "value": 0.89,
-          "detail": "Operating cash flow is 89% of net profit over 3 years"
-        },
-        {
-          "type": "Interest coverage",
-          "severity": "green",
-          "value": 143.4,
-          "detail": "Operating profit covers interest 143.4x"
-        },
-        {
-          "type": "Other income reliance",
-          "severity": "green",
-          "value": 0.13,
-          "detail": "Other (non-core) income is 13% of pre-tax profit"
-        }
-      ],
-      "summary": "Over the last three years Divi's Laboratories' revenue grew steadily (~11% a year) and net profit steadily (~12% a year). Profitability looks healthy \u2014 a 15% return on equity and a 33% operating margin. On these fundamentals it ranks 14th of 50 overall, and 1st among its Pharma peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Sun Pharmaceutical.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          4064.0,
-          3891.0,
-          4946.0,
-          5394.0,
-          6969.0,
-          8960.0,
-          7768.0,
-          7845.0,
-          9360.0,
-          10560.0
-        ],
-        "netProfit": [
-          1060.0,
-          877.0,
-          1353.0,
-          1377.0,
-          1984.0,
-          2960.0,
-          1823.0,
-          1600.0,
-          2191.0,
-          2568.0
-        ],
-        "opm": [
-          36.0,
-          33.0,
-          38.0,
-          34.0,
-          41.0,
-          43.0,
-          31.0,
-          28.0,
-          32.0,
-          33.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Sep 2024",
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026"
-        ],
-        "revenue": [
-          2338.0,
-          2319.0,
-          2585.0,
-          2410.0,
-          2715.0,
-          2604.0,
-          2831.0,
-          3080.0
-        ],
-        "netProfit": [
-          510.0,
-          589.0,
-          662.0,
-          545.0,
-          689.0,
-          583.0,
-          751.0,
-          902.0
-        ]
-      }
-    },
-    {
       "symbol": "HINDUNILVR",
       "name": "Hindustan Unilever",
       "sector": "FMCG",
@@ -1739,7 +1611,7 @@
         "profitGrowth": 14.080102469635403
       },
       "composite": 57.9,
-      "overallRank": 15,
+      "overallRank": 14,
       "sectorRank": 1,
       "bestCompetitor": {
         "symbol": "INFY",
@@ -1771,7 +1643,7 @@
           "detail": "Other (non-core) income is 27% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Hindustan Unilever's revenue grew slowly (~2% a year) and net profit steadily (~14% a year). Profitability looks strong \u2014 a 31% return on equity and a 23% operating margin. On these fundamentals it ranks 15th of 50 overall, and 1st among its FMCG peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Infosys.",
+      "summary": "Over the last three years Hindustan Unilever's revenue grew slowly (~2% a year) and net profit steadily (~14% a year). Profitability looks strong \u2014 a 31% return on equity and a 23% operating margin. On these fundamentals it ranks 14th of 50 overall, and 1st among its FMCG peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Infosys.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -1867,7 +1739,7 @@
         "profitGrowth": 6.9282925849348365
       },
       "composite": 57.8,
-      "overallRank": 15,
+      "overallRank": 14,
       "sectorRank": 1,
       "bestCompetitor": {
         "symbol": "TCS",
@@ -1899,7 +1771,7 @@
           "detail": "Other (non-core) income is 8% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Infosys' revenue grew slowly (~7% a year) and net profit slowly (~7% a year). Profitability looks strong \u2014 a 30% return on equity and a 24% operating margin. On these fundamentals it ranks 15th of 50 overall, and 1st among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Consultancy Services.",
+      "summary": "Over the last three years Infosys' revenue grew slowly (~7% a year) and net profit slowly (~7% a year). Profitability looks strong \u2014 a 30% return on equity and a 24% operating margin. On these fundamentals it ranks 14th of 50 overall, and 1st among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Tata Consultancy Services.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -1995,7 +1867,7 @@
         "profitGrowth": 34.4671853351838
       },
       "composite": 57.7,
-      "overallRank": 15,
+      "overallRank": 14,
       "sectorRank": 3,
       "bestCompetitor": {
         "symbol": "ULTRACEMCO",
@@ -2009,7 +1881,7 @@
           "detail": "Promoters hold 7.9% (-0.3 pp vs a year ago)"
         }
       ],
-      "summary": "Over the last three years Axis Bank's revenue grew steadily (~15% a year) and net profit rapidly (~34% a year). Profitability looks moderate \u2014 a 12% return on equity. On these fundamentals it ranks 15th of 50 overall, and 3rd among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is UltraTech Cement.",
+      "summary": "Over the last three years Axis Bank's revenue grew steadily (~15% a year) and net profit rapidly (~34% a year). Profitability looks moderate \u2014 a 12% return on equity. On these fundamentals it ranks 14th of 50 overall, and 3rd among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is UltraTech Cement.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -2094,6 +1966,134 @@
       }
     },
     {
+      "symbol": "DIVISLAB",
+      "name": "Divi's Laboratories",
+      "sector": "Pharma",
+      "consolidated": false,
+      "metrics": {
+        "roe": 14.269044840806803,
+        "salesGrowth": 10.777501844579929,
+        "operatingMargin": 33.0,
+        "profitGrowth": 12.09926977778888
+      },
+      "composite": 57.7,
+      "overallRank": 14,
+      "sectorRank": 1,
+      "bestCompetitor": {
+        "symbol": "SUNPHARMA",
+        "name": "Sun Pharmaceutical"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "green",
+          "value": -0.01,
+          "detail": "Promoters hold 51.9% (-0.0 pp vs a year ago)"
+        },
+        {
+          "type": "Cash conversion (3y)",
+          "severity": "green",
+          "value": 0.89,
+          "detail": "Operating cash flow is 89% of net profit over 3 years"
+        },
+        {
+          "type": "Interest coverage",
+          "severity": "green",
+          "value": 143.4,
+          "detail": "Operating profit covers interest 143.4x"
+        },
+        {
+          "type": "Other income reliance",
+          "severity": "green",
+          "value": 0.13,
+          "detail": "Other (non-core) income is 13% of pre-tax profit"
+        }
+      ],
+      "summary": "Over the last three years Divi's Laboratories' revenue grew steadily (~11% a year) and net profit steadily (~12% a year). Profitability looks moderate \u2014 a 14% return on equity and a 33% operating margin. On these fundamentals it ranks 14th of 50 overall, and 1st among its Pharma peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Sun Pharmaceutical.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          4064.0,
+          3891.0,
+          4946.0,
+          5394.0,
+          6969.0,
+          8960.0,
+          7768.0,
+          7845.0,
+          9360.0,
+          10560.0
+        ],
+        "netProfit": [
+          1060.0,
+          877.0,
+          1353.0,
+          1377.0,
+          1984.0,
+          2960.0,
+          1823.0,
+          1600.0,
+          2191.0,
+          2568.0
+        ],
+        "opm": [
+          36.0,
+          33.0,
+          38.0,
+          34.0,
+          41.0,
+          43.0,
+          31.0,
+          28.0,
+          32.0,
+          33.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026",
+          "Sep 2026"
+        ],
+        "revenue": [
+          2319.0,
+          2585.0,
+          2410.0,
+          2715.0,
+          2604.0,
+          2831.0,
+          3080.0,
+          3676.0
+        ],
+        "netProfit": [
+          589.0,
+          662.0,
+          545.0,
+          689.0,
+          583.0,
+          751.0,
+          902.0,
+          1127.0
+        ]
+      }
+    },
+    {
       "symbol": "TCS",
       "name": "Tata Consultancy Services",
       "sector": "IT",
@@ -2105,7 +2105,7 @@
         "profitGrowth": 5.3440681288804415
       },
       "composite": 57.5,
-      "overallRank": 15,
+      "overallRank": 14,
       "sectorRank": 1,
       "bestCompetitor": {
         "symbol": "INFY",
@@ -2137,7 +2137,7 @@
           "detail": "Other (non-core) income is -0% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Tata Consultancy Services' revenue grew slowly (~6% a year) and net profit slowly (~5% a year). Profitability looks strong \u2014 a 42% return on equity and a 27% operating margin. On these fundamentals it ranks 15th of 50 overall, and 1st among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Infosys.",
+      "summary": "Over the last three years Tata Consultancy Services' revenue grew slowly (~6% a year) and net profit slowly (~5% a year). Profitability looks strong \u2014 a 42% return on equity and a 27% operating margin. On these fundamentals it ranks 14th of 50 overall, and 1st among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Infosys.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -4247,7 +4247,7 @@
         "operatingMargin": 70.0,
         "profitGrowth": 1.0928541664935176
       },
-      "composite": 41.8,
+      "composite": 42.3,
       "overallRank": 35,
       "sectorRank": 2,
       "bestCompetitor": {
@@ -5998,7 +5998,7 @@
       "sector": "Materials",
       "consolidated": false,
       "metrics": {
-        "roe": 10.65510389851909,
+        "roe": 10.493946171049586,
         "salesGrowth": -1.560116316308291,
         "operatingMargin": 15.0,
         "profitGrowth": 10.469384176207242
@@ -6036,7 +6036,7 @@
           "detail": "Other (non-core) income is 5% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Tata Steel's revenue grew in decline, (~-2% a year) and net profit steadily (~10% a year). Profitability looks moderate \u2014 a 11% return on equity and a 15% operating margin. On these fundamentals it ranks 50th of 50 overall, and 5th among its Materials peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Oil & Natural Gas Corporation.",
+      "summary": "Over the last three years Tata Steel's revenue grew in decline, (~-2% a year) and net profit steadily (~10% a year). Profitability looks moderate \u2014 a 10% return on equity and a 15% operating margin. On these fundamentals it ranks 50th of 50 overall, and 5th among its Materials peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Oil & Natural Gas Corporation.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -6089,34 +6089,34 @@
       },
       "quarters": {
         "labels": [
-          "Sep 2024",
           "Dec 2024",
           "Mar 2025",
           "Jun 2025",
           "Sep 2025",
           "Dec 2025",
           "Mar 2026",
-          "Jun 2026"
+          "Jun 2026",
+          "Sep 2026"
         ],
         "revenue": [
-          53905.0,
           53648.0,
           56218.0,
           53178.0,
           58689.0,
           57002.0,
           63270.0,
-          60794.0
+          60794.0,
+          65436.0
         ],
         "netProfit": [
-          759.0,
           295.0,
           1201.0,
           2007.0,
           3183.0,
           2730.0,
           2965.0,
-          2385.0
+          2385.0,
+          3700.0
         ]
       }
     }
