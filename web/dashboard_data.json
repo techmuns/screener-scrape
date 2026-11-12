@@ -654,7 +654,7 @@
         "operatingMargin": 59.0,
         "profitGrowth": 33.3449257218295
       },
-      "composite": 74.9,
+      "composite": 75.4,
       "overallRank": 6,
       "sectorRank": 1,
       "bestCompetitor": {
@@ -2714,7 +2714,7 @@
         "operatingMargin": 28.0,
         "profitGrowth": 10.573651648766202
       },
-      "composite": 51.4,
+      "composite": 51.9,
       "overallRank": 23,
       "sectorRank": 2,
       "bestCompetitor": {
@@ -2843,7 +2843,7 @@
         "profitGrowth": 21.109603516157893
       },
       "composite": 50.9,
-      "overallRank": 23,
+      "overallRank": 24,
       "sectorRank": 6,
       "bestCompetitor": {
         "symbol": "APOLLOHOSP",
@@ -2875,7 +2875,7 @@
           "detail": "Other (non-core) income is 24% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Maruti Suzuki India's revenue grew rapidly (~16% a year) and net profit rapidly (~21% a year). Profitability looks moderate \u2014 a 13% return on equity and a 12% operating margin. On these fundamentals it ranks 23rd of 50 overall, and 6th among its Auto peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Apollo Hospitals.",
+      "summary": "Over the last three years Maruti Suzuki India's revenue grew rapidly (~16% a year) and net profit rapidly (~21% a year). Profitability looks moderate \u2014 a 13% return on equity and a 12% operating margin. On these fundamentals it ranks 24th of 50 overall, and 6th among its Auto peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Apollo Hospitals.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -2970,12 +2970,12 @@
         "operatingMargin": null,
         "profitGrowth": 14.489481352519661
       },
-      "composite": 50.0,
+      "composite": 50.5,
       "overallRank": 25,
       "sectorRank": 4,
       "bestCompetitor": {
-        "symbol": "ULTRACEMCO",
-        "name": "UltraTech Cement"
+        "symbol": "SBILIFE",
+        "name": "SBI Life Insurance"
       },
       "redFlags": [
         {
@@ -2985,7 +2985,7 @@
           "detail": "Promoters hold 55.5% (-0.0 pp vs a year ago)"
         }
       ],
-      "summary": "Over the last three years State Bank of India's revenue grew steadily (~14% a year) and net profit steadily (~14% a year). Profitability looks moderate \u2014 a 13% return on equity. On these fundamentals it ranks 25th of 50 overall, and 4th among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is UltraTech Cement.",
+      "summary": "Over the last three years State Bank of India's revenue grew steadily (~14% a year) and net profit steadily (~14% a year). Profitability looks moderate \u2014 a 13% return on equity. On these fundamentals it ranks 25th of 50 overall, and 4th among its Bank peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is SBI Life Insurance.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -3241,7 +3241,7 @@
         "operatingMargin": 30.0,
         "profitGrowth": 17.17720606708715
       },
-      "composite": 48.9,
+      "composite": 49.4,
       "overallRank": 28,
       "sectorRank": 1,
       "bestCompetitor": {
@@ -4370,12 +4370,12 @@
       "sector": "Power",
       "consolidated": false,
       "metrics": {
-        "roe": 12.967467315293401,
+        "roe": 12.347704407826486,
         "salesGrowth": 4.244851731472532,
         "operatingMargin": 21.0,
         "profitGrowth": 10.337998562010476
       },
-      "composite": 41.0,
+      "composite": 38.4,
       "overallRank": 37,
       "sectorRank": 3,
       "bestCompetitor": {
@@ -4408,7 +4408,7 @@
           "detail": "Other (non-core) income is 52% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Tata Power's revenue grew slowly (~4% a year) and net profit steadily (~10% a year). Profitability looks moderate \u2014 a 13% return on equity and a 21% operating margin. On these fundamentals it ranks 37th of 50 overall, and 3rd among its Power peers. Worth a closer look: interest coverage, other income reliance. Its closest financial look-alike in the Nifty 50 is Cipla.",
+      "summary": "Over the last three years Tata Power's revenue grew slowly (~4% a year) and net profit steadily (~10% a year). Profitability looks moderate \u2014 a 12% return on equity and a 21% operating margin. On these fundamentals it ranks 37th of 50 overall, and 3rd among its Power peers. Worth a closer look: interest coverage, other income reliance. Its closest financial look-alike in the Nifty 50 is Cipla.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -4887,7 +4887,7 @@
         "operatingMargin": 17.0,
         "profitGrowth": 14.955198064445696
       },
-      "composite": 31.6,
+      "composite": 32.1,
       "overallRank": 41,
       "sectorRank": 3,
       "bestCompetitor": {
