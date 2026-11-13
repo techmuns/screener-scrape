@@ -32,7 +32,7 @@
         "operatingMargin": 55.0,
         "profitGrowth": 40.148597418107656
       },
-      "composite": 79.4,
+      "composite": 79.9,
       "overallRank": 1,
       "sectorRank": 1,
       "bestCompetitor": {
@@ -161,7 +161,7 @@
         "profitGrowth": 17.225530138853618
       },
       "composite": 79.3,
-      "overallRank": 1,
+      "overallRank": 2,
       "sectorRank": 1,
       "bestCompetitor": {
         "symbol": "EICHERMOT",
@@ -175,7 +175,7 @@
           "detail": "Promoters hold 58.6% (-0.2 pp vs a year ago)"
         }
       ],
-      "summary": "Over the last three years Bajaj Finserv's revenue grew rapidly (~22% a year) and net profit rapidly (~17% a year). Profitability looks strong \u2014 a 23% return on equity and a 38% operating margin. On these fundamentals it ranks 1st of 50 overall, and 1st among its NBFC peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Eicher Motors.",
+      "summary": "Over the last three years Bajaj Finserv's revenue grew rapidly (~22% a year) and net profit rapidly (~17% a year). Profitability looks strong \u2014 a 23% return on equity and a 38% operating margin. On these fundamentals it ranks 2nd of 50 overall, and 1st among its NBFC peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Eicher Motors.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -516,134 +516,6 @@
       }
     },
     {
-      "symbol": "EICHERMOT",
-      "name": "Eicher Motors",
-      "sector": "Auto",
-      "consolidated": false,
-      "metrics": {
-        "roe": 21.97211155378486,
-        "salesGrowth": 17.466038536149764,
-        "operatingMargin": 25.0,
-        "profitGrowth": 23.694955810702155
-      },
-      "composite": 76.2,
-      "overallRank": 5,
-      "sectorRank": 2,
-      "bestCompetitor": {
-        "symbol": "BHARTIARTL",
-        "name": "Bharti Airtel"
-      },
-      "redFlags": [
-        {
-          "type": "Promoter holding trend",
-          "severity": "green",
-          "value": -0.04,
-          "detail": "Promoters hold 49.0% (-0.0 pp vs a year ago)"
-        },
-        {
-          "type": "Cash conversion (3y)",
-          "severity": "green",
-          "value": 0.88,
-          "detail": "Operating cash flow is 88% of net profit over 3 years"
-        },
-        {
-          "type": "Interest coverage",
-          "severity": "green",
-          "value": 80.4,
-          "detail": "Operating profit covers interest 80.4x"
-        },
-        {
-          "type": "Other income reliance",
-          "severity": "amber",
-          "value": 0.31,
-          "detail": "Other (non-core) income is 31% of pre-tax profit"
-        }
-      ],
-      "summary": "Over the last three years Eicher Motors' revenue grew rapidly (~17% a year) and net profit rapidly (~24% a year). Profitability looks strong \u2014 a 22% return on equity and a 25% operating margin. On these fundamentals it ranks 5th of 50 overall, and 2nd among its Auto peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Bharti Airtel.",
-      "annual": {
-        "labels": [
-          "Mar 2017",
-          "Mar 2018",
-          "Mar 2019",
-          "Mar 2020",
-          "Mar 2021",
-          "Mar 2022",
-          "Mar 2023",
-          "Mar 2024",
-          "Mar 2025",
-          "Mar 2026"
-        ],
-        "revenue": [
-          7033.0,
-          8965.0,
-          9797.0,
-          9154.0,
-          8720.0,
-          10298.0,
-          14442.0,
-          16536.0,
-          18870.0,
-          23408.0
-        ],
-        "netProfit": [
-          1667.0,
-          1960.0,
-          2203.0,
-          1827.0,
-          1347.0,
-          1677.0,
-          2914.0,
-          4001.0,
-          4734.0,
-          5515.0
-        ],
-        "opm": [
-          31.0,
-          31.0,
-          30.0,
-          24.0,
-          20.0,
-          21.0,
-          24.0,
-          26.0,
-          25.0,
-          25.0
-        ]
-      },
-      "quarters": {
-        "labels": [
-          "Sep 2024",
-          "Dec 2024",
-          "Mar 2025",
-          "Jun 2025",
-          "Sep 2025",
-          "Dec 2025",
-          "Mar 2026",
-          "Jun 2026"
-        ],
-        "revenue": [
-          4263.0,
-          4973.0,
-          5241.0,
-          5042.0,
-          6172.0,
-          6114.0,
-          6080.0,
-          6632.0
-        ],
-        "netProfit": [
-          1100.0,
-          1170.0,
-          1362.0,
-          1205.0,
-          1369.0,
-          1421.0,
-          1520.0,
-          1463.0
-        ]
-      }
-    },
-    {
       "symbol": "ADANIPORTS",
       "name": "Adani Ports & SEZ",
       "sector": "Infrastructure",
@@ -655,11 +527,11 @@
         "profitGrowth": 33.3449257218295
       },
       "composite": 75.4,
-      "overallRank": 6,
+      "overallRank": 5,
       "sectorRank": 1,
       "bestCompetitor": {
-        "symbol": "BHARTIARTL",
-        "name": "Bharti Airtel"
+        "symbol": "EICHERMOT",
+        "name": "Eicher Motors"
       },
       "redFlags": [
         {
@@ -687,7 +559,7 @@
           "detail": "Other (non-core) income is 14% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Adani Ports & SEZ's revenue grew rapidly (~23% a year) and net profit rapidly (~33% a year). Profitability looks moderate \u2014 a 13% return on equity and a 59% operating margin. On these fundamentals it ranks 6th of 50 overall, and 1st among its Infrastructure peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Bharti Airtel.",
+      "summary": "Over the last three years Adani Ports & SEZ's revenue grew rapidly (~23% a year) and net profit rapidly (~33% a year). Profitability looks moderate \u2014 a 13% return on equity and a 59% operating margin. On these fundamentals it ranks 5th of 50 overall, and 1st among its Infrastructure peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Eicher Motors.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -768,6 +640,134 @@
           3308.0,
           3650.0,
           3682.0
+        ]
+      }
+    },
+    {
+      "symbol": "EICHERMOT",
+      "name": "Eicher Motors",
+      "sector": "Auto",
+      "consolidated": false,
+      "metrics": {
+        "roe": 21.259781812574687,
+        "salesGrowth": 17.466038536149764,
+        "operatingMargin": 25.0,
+        "profitGrowth": 23.694955810702155
+      },
+      "composite": 75.2,
+      "overallRank": 5,
+      "sectorRank": 2,
+      "bestCompetitor": {
+        "symbol": "BHARTIARTL",
+        "name": "Bharti Airtel"
+      },
+      "redFlags": [
+        {
+          "type": "Promoter holding trend",
+          "severity": "green",
+          "value": -0.04,
+          "detail": "Promoters hold 49.0% (-0.0 pp vs a year ago)"
+        },
+        {
+          "type": "Cash conversion (3y)",
+          "severity": "green",
+          "value": 0.88,
+          "detail": "Operating cash flow is 88% of net profit over 3 years"
+        },
+        {
+          "type": "Interest coverage",
+          "severity": "green",
+          "value": 80.4,
+          "detail": "Operating profit covers interest 80.4x"
+        },
+        {
+          "type": "Other income reliance",
+          "severity": "amber",
+          "value": 0.31,
+          "detail": "Other (non-core) income is 31% of pre-tax profit"
+        }
+      ],
+      "summary": "Over the last three years Eicher Motors' revenue grew rapidly (~17% a year) and net profit rapidly (~24% a year). Profitability looks strong \u2014 a 21% return on equity and a 25% operating margin. On these fundamentals it ranks 5th of 50 overall, and 2nd among its Auto peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Bharti Airtel.",
+      "annual": {
+        "labels": [
+          "Mar 2017",
+          "Mar 2018",
+          "Mar 2019",
+          "Mar 2020",
+          "Mar 2021",
+          "Mar 2022",
+          "Mar 2023",
+          "Mar 2024",
+          "Mar 2025",
+          "Mar 2026"
+        ],
+        "revenue": [
+          7033.0,
+          8965.0,
+          9797.0,
+          9154.0,
+          8720.0,
+          10298.0,
+          14442.0,
+          16536.0,
+          18870.0,
+          23408.0
+        ],
+        "netProfit": [
+          1667.0,
+          1960.0,
+          2203.0,
+          1827.0,
+          1347.0,
+          1677.0,
+          2914.0,
+          4001.0,
+          4734.0,
+          5515.0
+        ],
+        "opm": [
+          31.0,
+          31.0,
+          30.0,
+          24.0,
+          20.0,
+          21.0,
+          24.0,
+          26.0,
+          25.0,
+          25.0
+        ]
+      },
+      "quarters": {
+        "labels": [
+          "Dec 2024",
+          "Mar 2025",
+          "Jun 2025",
+          "Sep 2025",
+          "Dec 2025",
+          "Mar 2026",
+          "Jun 2026",
+          "Sep 2026"
+        ],
+        "revenue": [
+          4973.0,
+          5241.0,
+          5042.0,
+          6172.0,
+          6114.0,
+          6080.0,
+          6632.0,
+          7422.0
+        ],
+        "netProfit": [
+          1170.0,
+          1362.0,
+          1205.0,
+          1369.0,
+          1421.0,
+          1520.0,
+          1463.0,
+          1573.0
         ]
       }
     },
@@ -2581,7 +2581,7 @@
       "sector": "Auto",
       "consolidated": false,
       "metrics": {
-        "roe": 73.74540457579327,
+        "roe": 78.61518558681962,
         "salesGrowth": -1.0107590439286773,
         "operatingMargin": 6.0,
         "profitGrowth": 213.19977014990178
@@ -2619,7 +2619,7 @@
           "detail": "Other (non-core) income is 105% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Tata Motors Passenger Vehicles' revenue grew in decline, (~-1% a year) and net profit rapidly (~213% a year). Profitability looks strong \u2014 a 74% return on equity and a 6% operating margin. On these fundamentals it ranks 22nd of 50 overall, and 5th among its Auto peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Bharat Petroleum.",
+      "summary": "Over the last three years Tata Motors Passenger Vehicles' revenue grew in decline, (~-1% a year) and net profit rapidly (~213% a year). Profitability looks strong \u2014 a 79% return on equity and a 6% operating margin. On these fundamentals it ranks 22nd of 50 overall, and 5th among its Auto peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Bharat Petroleum.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -2672,34 +2672,34 @@
       },
       "quarters": {
         "labels": [
-          "Sep 2024",
           "Dec 2024",
           "Mar 2025",
           "Jun 2025",
           "Sep 2025",
           "Dec 2025",
           "Mar 2026",
-          "Jun 2026"
+          "Jun 2026",
+          "Sep 2026"
         ],
         "revenue": [
-          83656.0,
           94472.0,
           98377.0,
           87677.0,
           72349.0,
           70108.0,
           105447.0,
-          95799.0
+          95799.0,
+          96920.0
         ],
         "netProfit": [
-          3521.0,
           5484.0,
           8556.0,
           4003.0,
           76248.0,
           -3483.0,
           5878.0,
-          859.0
+          859.0,
+          -5451.0
         ]
       }
     },
@@ -3369,7 +3369,7 @@
         "operatingMargin": 21.0,
         "profitGrowth": 3.903154616942639
       },
-      "composite": 48.6,
+      "composite": 49.1,
       "overallRank": 28,
       "sectorRank": 3,
       "bestCompetitor": {
@@ -4009,7 +4009,7 @@
         "operatingMargin": null,
         "profitGrowth": 8.924176659150152
       },
-      "composite": 43.9,
+      "composite": 44.4,
       "overallRank": 34,
       "sectorRank": 5,
       "bestCompetitor": {
@@ -4498,12 +4498,12 @@
       "sector": "Materials",
       "consolidated": false,
       "metrics": {
-        "roe": 9.954576205663477,
+        "roe": 9.62257100149477,
         "salesGrowth": 14.252691415005359,
         "operatingMargin": 21.0,
         "profitGrowth": -2.3980215195521293
       },
-      "composite": 35.8,
+      "composite": 34.8,
       "overallRank": 38,
       "sectorRank": 3,
       "bestCompetitor": {
@@ -4589,34 +4589,34 @@
       },
       "quarters": {
         "labels": [
-          "Sep 2024",
           "Dec 2024",
           "Mar 2025",
           "Jun 2025",
           "Sep 2025",
           "Dec 2025",
           "Mar 2026",
-          "Jun 2026"
+          "Jun 2026",
+          "Sep 2026"
         ],
         "revenue": [
-          34223.0,
           35378.0,
           44267.0,
           40118.0,
           39900.0,
           44312.0,
           51101.0,
-          48716.0
+          48716.0,
+          50105.0
         ],
         "netProfit": [
-          983.0,
           1734.0,
           2973.0,
           2771.0,
           1498.0,
           2233.0,
           3684.0,
-          3846.0
+          3846.0,
+          1029.0
         ]
       }
     },
@@ -4632,7 +4632,7 @@
         "profitGrowth": 5.2876535537977
       },
       "composite": 34.6,
-      "overallRank": 39,
+      "overallRank": 38,
       "sectorRank": 4,
       "bestCompetitor": {
         "symbol": "ASIANPAINT",
@@ -4664,7 +4664,7 @@
           "detail": "Other (non-core) income is 22% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Wipro's revenue grew slowly (~1% a year) and net profit slowly (~5% a year). Profitability looks healthy \u2014 a 17% return on equity and a 19% operating margin. On these fundamentals it ranks 39th of 50 overall, and 4th among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Asian Paints.",
+      "summary": "Over the last three years Wipro's revenue grew slowly (~1% a year) and net profit slowly (~5% a year). Profitability looks healthy \u2014 a 17% return on equity and a 19% operating margin. On these fundamentals it ranks 38th of 50 overall, and 4th among its IT peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Asian Paints.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -4760,7 +4760,7 @@
         "profitGrowth": 1.5645865082318133
       },
       "composite": 34.6,
-      "overallRank": 39,
+      "overallRank": 38,
       "sectorRank": 2,
       "bestCompetitor": {
         "symbol": "WIPRO",
@@ -4792,7 +4792,7 @@
           "detail": "Other (non-core) income is 12% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Asian Paints' revenue grew slowly (~1% a year) and net profit slowly (~2% a year). Profitability looks strong \u2014 a 20% return on equity and a 19% operating margin. On these fundamentals it ranks 39th of 50 overall, and 2nd among its Consumer Durables peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Wipro.",
+      "summary": "Over the last three years Asian Paints' revenue grew slowly (~1% a year) and net profit slowly (~2% a year). Profitability looks strong \u2014 a 20% return on equity and a 19% operating margin. On these fundamentals it ranks 38th of 50 overall, and 2nd among its Consumer Durables peers. No major accounting red flags stand out in the reported data. Its closest financial look-alike in the Nifty 50 is Wipro.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -5147,8 +5147,8 @@
       "overallRank": 43,
       "sectorRank": 4,
       "bestCompetitor": {
-        "symbol": "GRASIM",
-        "name": "Grasim Industries"
+        "symbol": "INDUSINDBK",
+        "name": "IndusInd Bank"
       },
       "redFlags": [
         {
@@ -5176,7 +5176,7 @@
           "detail": "Other (non-core) income is 25% of pre-tax profit"
         }
       ],
-      "summary": "Over the last three years Dr. Reddy's Laboratories' revenue grew steadily (~11% a year) and net profit in decline, (~-3% a year). Profitability looks moderate \u2014 a 11% return on equity and a 19% operating margin. On these fundamentals it ranks 43rd of 50 overall, and 4th among its Pharma peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is Grasim Industries.",
+      "summary": "Over the last three years Dr. Reddy's Laboratories' revenue grew steadily (~11% a year) and net profit in decline, (~-3% a year). Profitability looks moderate \u2014 a 11% return on equity and a 19% operating margin. On these fundamentals it ranks 43rd of 50 overall, and 4th among its Pharma peers. Worth a closer look: other income reliance. Its closest financial look-alike in the Nifty 50 is IndusInd Bank.",
       "annual": {
         "labels": [
           "Mar 2017",
@@ -5399,7 +5399,7 @@
         "operatingMargin": 1.8,
         "profitGrowth": 11.806554326627161
       },
-      "composite": 28.6,
+      "composite": 29.1,
       "overallRank": 44,
       "sectorRank": 2,
       "bestCompetitor": {
